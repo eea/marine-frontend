@@ -2,7 +2,7 @@ version: '3'
 
 services:
   frontend:
-    image: eeacms/volto-frontend-template
+    image: eeacms/marine-frontend
     ports:
     - "${FRONTEND:-4000}:4000"
     depends_on:
@@ -27,3 +27,4 @@ services:
 volumes:
   data:
     driver: local
+: local
