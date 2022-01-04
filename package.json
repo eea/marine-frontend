@@ -47,7 +47,7 @@
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "4.1.7",
     "@eeacms/volto-marine-theme": "*",
-    "@plone/volto": "14.1.0"
+    "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
