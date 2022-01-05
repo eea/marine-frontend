@@ -45,7 +45,7 @@
     "@eeacms/volto-marine-theme"
   ],
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "5.1.1",
+    "@eeacms/volto-eea-kitkat": "5.1.2",
     "@eeacms/volto-marine-theme": "*",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
   },
