@@ -1,6 +1,10 @@
 {
     "compilerOptions": {
-        "paths": {},
+        "paths": {
+            "@eeacms/volto-marine-theme": [
+                "addons/volto-marine-theme/src"
+            ]
+        },
         "baseUrl": "src"
     }
 }

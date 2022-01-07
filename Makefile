@@ -13,7 +13,7 @@ MAKEFLAGS+=--no-builtin-rules
 # Project settings
 
 DIR=$(shell basename $$(pwd))
-ADDON ?= "<%= addonName %>"
+ADDON ?= "marine-frontend"
 
 # Recipe snippets for reuse
 
