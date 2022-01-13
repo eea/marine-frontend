@@ -44,7 +44,7 @@
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-marine-theme",
     "@eeacms/volto-searchlib",
-    "@eeacms/volto-measurescatalog"
+    "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.1.2",
