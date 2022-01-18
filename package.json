@@ -42,10 +42,12 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
+    "@eeacms/volto-tableau",
     "@eeacms/volto-marine-theme"
   ],
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.1.3",
+    "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@eeacms/volto-marine-theme": "^0.1.1",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
   },
