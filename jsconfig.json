@@ -3,6 +3,21 @@
         "paths": {
             "@eeacms/volto-marine-theme": [
                 "addons/volto-marine-theme/src"
+            ],
+            "@eeacms/volto-measurescatalog": [
+                "addons/volto-measurescatalog/src"
+            ],
+            "@eeacms/volto-searchlib": [
+                "addons/volto-searchlib/src"
+            ],
+            "@eeacms/search": [
+                "addons/searchlib/packages/searchlib/src"
+            ],
+            "@eeacms/globalsearch": [
+                "addons/searchlib/packages/searchlib-globalsearch/src"
+            ],
+            "@eeacms/search-less": [
+                "addons/searchlib/packages/searchlib-less"
             ]
         },
         "baseUrl": "src"
