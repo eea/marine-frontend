@@ -48,7 +48,7 @@
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "5.1.5",
+    "@eeacms/volto-eea-kitkat": "5.1.6",
     "@eeacms/volto-marine-theme": "^0.1.1",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
