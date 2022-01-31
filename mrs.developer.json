@@ -228,14 +228,16 @@
     "https": "https://github.com/eea/volto-measurescatalog.git",
     "package": "@eeacms/volto-measurescatalog",
     "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": true
   },
   "volto-searchlib": {
     "url": "git@github.com:eea/volto-searchlib.git",
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": true
   },
   "volto-tableau": {
     "url": "git@github.com:eea/volto-tableau.git",
@@ -248,6 +250,7 @@
     "https": "https://github.com/eea/searchlib.git",
     "url": "git@github.com:eea/searchlib.git",
     "branch": "standalone-split",
+    "develop": true,
     "packages": {
       "@eeacms/search": "packages/searchlib/src",
       "@eeacms/globalsearch": "packages/searchlib-globalsearch/src",
