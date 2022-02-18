@@ -1463,7 +1463,7 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-3.0.3.tgz#1d12a769c3f0d9a1448f857e60be4dd6771a647b"
   integrity sha512-AZiWLwS4kXRN696BzJfSncfvbnHsnF11m7iCF+W38ROGIUau3fmiLV9KnXxgDJZg/AV/wI3AcdSXr2fnH3uOAA==
 
-"@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.8", "@eeacms/volto-resize-helper@^0.2.2", "@eeacms/volto-resize-helper@^0.2.4":
+"@eeacms/volto-resize-helper@*", "@eeacms/volto-resize-helper@0.2.8", "@eeacms/volto-resize-helper@^0.2.4":
   version "0.2.8"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.8.tgz#bedb2d2b4e4da6c8e1263f1b618204fe9def3b53"
   integrity sha512-BYYixVorYtYOh5nktMRFL4ODVDyPt0GOcffMsy3uhZdT5EVsknZGc+0c642YJ+K8xPWy8mb048wfo/U525+L6g==
@@ -1524,13 +1524,6 @@
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
-
-"@eeacms/volto-tableau@github:eea/volto-tableau#renderprop":
-  version "1.2.3"
-  resolved "https://codeload.github.com/eea/volto-tableau/tar.gz/abafb2094494a063f5e3da781a74e9b66ba730b9"
-  dependencies:
-    "@eeacms/volto-resize-helper" "^0.2.2"
-    tableau-api-js "github:eea/tableau-api-js#1.1.0"
 
 "@eeacms/volto-tabs-block@1.2.11":
   version "1.2.11"
@@ -20524,10 +20517,6 @@ table@^6.7.2:
     slice-ansi "^4.0.0"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
-
-"tableau-api-js@github:eea/tableau-api-js#1.1.0":
-  version "1.1.0"
-  resolved "https://codeload.github.com/eea/tableau-api-js/tar.gz/ee6167de3663de7f6d2c010dd3208e8d5ed381ed"
 
 "tableau-api-js@github:eea/tableau-api-js#1.1.1":
   version "1.1.1"
