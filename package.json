@@ -51,7 +51,7 @@
     "@eeacms/volto-eea-kitkat": "5.2.0",
     "@eeacms/volto-marine-theme": "0.1.5",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#v0.1.6",
-    "@eeacms/volto-tableau": "github:eea/volto-tableau#renderprop",
+    "@eeacms/volto-tableau": "1.2.4",
     "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
   },
   "devDependencies": {
