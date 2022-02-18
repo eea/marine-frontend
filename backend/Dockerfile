@@ -1,4 +1,8 @@
-FROM eeacms/plonesaas:5.2.4-63
+FROM eeacms/plone:5.2.4-78
 
-COPY site.cfg /plone/instance/
-RUN gosu plone buildout -c site.cfg
+RUN mv /plone/instance/versions.cfg /plone/instance/eea-versions.cfg
+
+COPY src/docker/* /
+COPY src/plone/* /plone/instance/
+
+RUN /docker-setup.sh
