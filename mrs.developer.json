@@ -243,8 +243,9 @@
     "url": "git@github.com:eea/volto-tableau.git",
     "https": "https://github.com/eea/volto-tableau.git",
     "package": "@eeacms/volto-tableau",
-    "path": "src",
-    "branch": "develop"
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   },
   "searchlib": {
     "https": "https://github.com/eea/searchlib.git",

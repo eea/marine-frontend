@@ -10,9 +10,6 @@
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
             ],
-            "@eeacms/volto-tableau": [
-                "addons/volto-tableau/src"
-            ],
             "@eeacms/search": [
                 "addons/searchlib/packages/searchlib/src"
             ],
