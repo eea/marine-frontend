@@ -40,6 +40,9 @@
   "workspaces": [
     "src/addons/*"
   ],
+  "resolutions": {
+    "d3-array": "2.12.1"
+  },
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-tableau",
@@ -50,11 +53,13 @@
   ],
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.2.0",
-    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.8.alpha.1",
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.8.alpha.2",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#v0.1.6",
     "@eeacms/volto-tableau": "1.2.4",
     "@eeacms/volto-embed": "3.0.1",
-    "@plone/volto": "plone/volto#slots_quanta_split_relative_path"
+    "@plone/volto": "plone/volto#slots_quanta_split_relative_path",
+    "react-compound-slider": "3.3.1",
+    "react-motion": "0.5.2"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
