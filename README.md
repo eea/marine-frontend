@@ -1,7 +1,11 @@
 # marine-frontend
 
-[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2Fmaster&subject=pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/master/display/redirect)
+
 [![Release](https://img.shields.io/github/v/release/eea/marine-frontend?sort=semver)](https://github.com/eea/marine-frontend/releases)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/master/lastBuild/display/redirect)
+[![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/develop/lastBuild/display/redirect)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2F0.3.0&build=last&subject=release%20.3.0.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/0.3.0/lastBuild/display/redirect/)
+
 
 ## Documentation
 
@@ -68,14 +72,25 @@ A training on how to create your own website using Volto is available as part of
 
 1. See application at http://localhost:4000
 
+
+
+## Automated @eeacms dependencies upgrades
+
+All the addon dependencies that are located in the dependencies section of `package.json` file that belong to @eeacms and have a `MAJOR.MINOR.PATCH` version are automatically upgraded on the release of a new version of the addon. This upgrade is done directly on the `develop` branch.
+
+Exceptions from automated upgrades ( see https://docs.npmjs.com/cli/v8/configuring-npm/package-json#dependencies for dependency configuration examples ) :
+* All github or local paths
+* Any version intervals ( `^version` or `>version` or `MAJOR.MINOR.x` etc )
+
+## Release
+
+See [release](https://github.com/eea/ims-frontend/tree/master/RELEASE.md)
+
+
 ## Production
 
 We use [Docker](https://www.docker.com/), [Rancher](https://rancher.com/) and [Jenkins](https://jenkins.io/) to deploy this application in production.
 
-### Release
-
-* Create a new release of this code via `git tag` command or [Draft new release](https://github.com/eea/marine-frontend/releases/new) on Github.
-  * A new Docker image is built and released automatically on [DockerHub](https://hub.docker.com/r/eeacms/marine-frontend) based on this tag.
 
 ### Upgrade
 
