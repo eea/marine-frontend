@@ -25,4 +25,4 @@ USER root
 EXPOSE 3000 3001 4000 4001
 
 ENTRYPOINT ["/opt/frontend/entrypoint.sh"]
-CMD ["yarn", "start:prod"]
+CMD ["yarn", "RAZZLE_PREFIX_PATH=/marine-new/", "start:prod"]
