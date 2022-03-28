@@ -17,12 +17,12 @@ RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
 
 USER node
 RUN cd /opt/frontend \
- && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
- && RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
+ && RAZZLE_PREFIX_PATH=/marine-new RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
+ && RAZZLE_PREFIX_PATH=/marine-new RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
  && rm -rf /home/node/.cache
 USER root
 
 EXPOSE 3000 3001 4000 4001
 
 ENTRYPOINT ["/opt/frontend/entrypoint.sh"]
-CMD ["RAZZLE_PREFIX_PATH=/marine-new/", "yarn", "start:prod"]
+CMD ["yarn", "start:prod"]
