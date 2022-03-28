@@ -58,8 +58,7 @@
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#v0.1.7.aplha",
     "@eeacms/volto-tableau": "1.2.4",
-    "@plone/volto": "github:laszlocseh/volto#slots_quanta_split_relative_path",
-    "razzle": "github:laszlocseh/razzle#marine-new",
+    "@plone/volto": "github:eea/volto#relative_path_redo",
     "react-compound-slider": "3.3.1",
     "react-motion": "0.5.2"
   },
