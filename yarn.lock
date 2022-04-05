@@ -1182,14 +1182,7 @@
     core-js-pure "^3.19.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.16.7.tgz#03ff99f64106588c9c403c6ecb8c3bafbbdff1fa"
-  integrity sha512-9E9FJowqAsytyOY6LG+1KuueckRL+aQW+mKvXRXnuFGyRAyepJPmEo9vgMfXUA6O9u3IeEdv9MAkppFcaQwogQ==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.2.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.10.5", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.14.0", "@babel/runtime@^7.14.8", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.0", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.7.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.17.8"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
   integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
@@ -1455,10 +1448,10 @@
     "@eeacms/volto-widgets-view" "3.0.4"
     volto-slate "5.4.1"
 
-"@eeacms/volto-embed@*", "@eeacms/volto-embed@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-3.0.1.tgz#263633210d8e7807822330eda7d09f408aff40dc"
-  integrity sha512-F/iNAZHwNdKijZOnfbMIIcdYav+HTd3Ytf+4I/se9rDakdjW0BSi6gztkH38Jm/gH4AzLh8qjN0solDE2bRmMg==
+"@eeacms/volto-embed@*", "@eeacms/volto-embed@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-embed/-/volto-embed-4.0.0.tgz#0475149ec1a5a19ef914f076cdf0ae03868c1679"
+  integrity sha512-rUfRNvoBLRZxINQ++eu+jyux0d94N7kXcFSO9qckUg53ttg8uJ8UNx1OtDLHYJpGr9U1YX7Pb/7T56jwu8aJ2w==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     "@eeacms/volto-datablocks" "*"
@@ -1513,8 +1506,9 @@
   version "0.1.0"
   resolved "https://codeload.github.com/eea/volto-searchlib/tar.gz/437e813820451c742bceabc705a3a466f61986fd"
   dependencies:
-    "@elastic/react-search-ui" "1.7.0"
-    "@elastic/search-ui" "1.7.0"
+    "@elastic/react-search-ui" "1.9.0"
+    "@elastic/react-search-ui-views" "1.9.0"
+    "@elastic/search-ui" "1.9.0"
     "@visx/group" "2.1.0"
     "@visx/responsive" "2.1.1"
     "@visx/scale" "2.1.0"
@@ -1522,12 +1516,14 @@
     "@visx/tooltip" "2.1.0"
     csv-stringify "5.6.5"
     elasticsearch "16.7.2"
-    jotai "1.3.4"
+    jotai "1.6.0"
     lodash.clonedeep "4.5.0"
     lodash.isfunction "3.0.9"
     lodash.uniq "4.5.0"
     re-resizable "6.9.1"
+    react-compound-slider "3.3.1"
     react-masonry-component "6.3.0"
+    react-motion "0.5.2"
     react-speech-recognition "3.8.2"
 
 "@eeacms/volto-sentry-rancher-config@2.1.5":
@@ -1612,27 +1608,27 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-3.0.4.tgz#e42c50cd9d3f86caec0e166f8204d5be6c24f318"
   integrity sha512-lzZRE0iDHd7JMFjAm4xIss21UOA4RNzu/wvcAQ622rdgi+IKtHreLwHcd/XteJCeMeust8Ri1kecURUz4qeMdQ==
 
-"@elastic/react-search-ui-views@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui-views/-/react-search-ui-views-1.9.0.tgz#fa10f4f598828a3dae726e34213e937b80a72aca"
-  integrity sha512-QvQKNfEktfRRsyE167A9bzOGqN23qNIKwudpNQzpDdoIh4oQl21sMyfwHMatyCw2Xk4hBkam2xtoSiiN9/unRg==
+"@elastic/react-search-ui-views@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui-views/-/react-search-ui-views-1.7.0.tgz#b3939c370038fd537ce1086729e8e90a06baae8a"
+  integrity sha512-+gHdrnOxs+k5tgAoTHeoIefJQ9yvSWTJ9VdvT0Zs3x/I61dRrjhmkPefhlwIwkB9FBw2fXPI5N1Z38YdHH+VSg==
   dependencies:
     downshift "^3.2.10"
     rc-pagination "^1.20.1"
     react-select "^2.4.4"
 
-"@elastic/react-search-ui@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui/-/react-search-ui-1.9.0.tgz#772e16724e2575a34f3cd28f188090ccf29dc2dd"
-  integrity sha512-OBk5j3uWDwA1XTb6TcG0e91sCWh5OMTF3MHCBgOtCL7VEfkmiLH+uYtecWUL+tBwn6SgHektD5xANdiGBKVT+A==
+"@elastic/react-search-ui@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui/-/react-search-ui-1.7.0.tgz#c725b578041a0a0c397393f1d374ba432d3c5dda"
+  integrity sha512-3oAOuHFQPQV3fkZkKL6WJB9AMZJAUVwGBMXaBrRU8Ors9h/xutM+XWFMOSEE/S4e5fkm7hh4fexEBs9p4f2kFQ==
   dependencies:
-    "@elastic/react-search-ui-views" "1.9.0"
-    "@elastic/search-ui" "1.9.0"
+    "@elastic/react-search-ui-views" "1.7.0"
+    "@elastic/search-ui" "1.7.0"
 
-"@elastic/search-ui@1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@elastic/search-ui/-/search-ui-1.9.0.tgz#ec4c5e0ccfd36ddb10330cb837a8607ac9d9bbfa"
-  integrity sha512-Ha7Y0cjduEcGOxCFkXVJRzdh3kEWNfIyT4vy+mPponR3my0JaHivJj16wg4H3MFbZuBY9Mstqp00zOwQrsCwhQ==
+"@elastic/search-ui@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@elastic/search-ui/-/search-ui-1.7.0.tgz#2308c3f6d723387d148430dd3fd75ff52ceb1d50"
+  integrity sha512-ZuaSFgKkPuvdq+d6sIhUk14tlOAy4MgbVgCKc0CbpPBGVHJ2v0HJwi+vF4rN0VbLlaX/xdkG8E8KhHqpkmXt4A==
   dependencies:
     date-fns "^1.30.1"
     deep-equal "^1.0.1"
@@ -2539,9 +2535,9 @@
     pofile "1.0.10"
     razzle "3.4.5"
 
-"@plone/volto@github:plone/volto#relative_path_redo":
+"@plone/volto@plone/volto#slots_quanta_split_form_undo_prefix_path":
   version "15.2.2"
-  resolved "https://codeload.github.com/plone/volto/tar.gz/6ead860e3e936c567d604bc546350db529862747"
+  resolved "https://codeload.github.com/plone/volto/tar.gz/3b9ebdfa9ca6d6c18f844b496fee2011e6d43463"
   dependencies:
     "@babel/plugin-proposal-export-default-from" "7.10.4"
     "@babel/plugin-proposal-export-namespace-from" "7.10.4"
@@ -2698,7 +2694,7 @@
     tlds "1.203.1"
     undoo "0.5.0"
     universal-cookie-express "4.0.3"
-    use-deep-compare-effect "1.6.1"
+    use-deep-compare-effect "1.8.1"
     xmlrpc "1.3.2"
     yarn-deduplicate "3.1.0"
     yarnhook "0.5.1"
@@ -4390,7 +4386,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.0":
+"@types/react@*":
   version "17.0.38"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.38.tgz#f24249fefd89357d5fa71f739a686b8d7c7202bd"
   integrity sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==
@@ -13521,10 +13517,10 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-jotai@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.0.tgz#81412756dab42fcb712530fba512e5e43bd0de15"
-  integrity sha512-J/+aD9R1XDcNeY8drg/y/I47eUivQ13HGmLmA33w95SvJJLBStSF5WxYrmLgbuWcDC6MpRecF3g/GBchPJNcZg==
+jotai@1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.3.4.tgz#7bcc95416ba1b6b6dfd758bb24500f21b9f65d39"
+  integrity sha512-6gXlhMSira/hsI5pUBK50cwGkuLmUX049BqQTNwEb2oYznv8s64XL0U5FEYrz/6ye96sM2PEvPwNs1ydOQtdQQ==
 
 jquery@3.6.0, jquery@x.*:
   version "3.6.0"
@@ -17287,15 +17283,10 @@ print-message@^3.0.1:
   dependencies:
     kleur "3.0.3"
 
-prismjs@1.27.0:
+prismjs@1.27.0, prismjs@^1.21.0:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.27.0.tgz#bb6ee3138a0b438a3653dd4d6ce0cc6510a45057"
   integrity sha512-t13BGPUlFDR7wRB5kQDG4jjl7XeuH6jbJGt11JHPL96qwsEHNX2+68tFXqc1/k+/jALsbSWJKUOT/hcYAZ5LkA==
-
-prismjs@^1.21.0:
-  version "1.26.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.26.0.tgz#16881b594828bb6b45296083a8cbab46b0accd47"
-  integrity sha512-HUoH9C5Z3jKkl3UunCyiD5jwk0+Hz0fIgQ2nbwU2Oo/ceuTAQAg+pPVnfdt2TJWRVLcxKh9iuoYDUSc8clb5UQ==
 
 prismjs@~1.25.0:
   version "1.25.0"
@@ -17708,6 +17699,57 @@ razzle-plugin-bundle-analyzer@1.2.0:
     print-message "^3.0.1"
     webpack "~4.0.0"
     webpack-bundle-analyzer ">=3.6.0"
+
+razzle@3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/razzle/-/razzle-3.4.5.tgz#c8c6e2d37623aa40990de90ff6af9aeea3c60a3e"
+  integrity sha512-SKZJjLJXTaVT9USiBlZAppU94/Jr8yJWL+9UDigGqLgxembKnoWqS9+deCJM25RrL+FMFRdxCXwi/4wOmp5Ivw==
+  dependencies:
+    "@babel/core" "7.11.1"
+    "@pmmmwh/react-refresh-webpack-plugin" "0.3.0"
+    assets-webpack-plugin "3.9.12"
+    babel-core "^7.0.0-bridge.0"
+    babel-jest "^24.9.0"
+    babel-loader "^8.0.6"
+    babel-plugin-syntax-jsx "6.18.0"
+    babel-plugin-transform-define "2.0.0"
+    babel-preset-razzle "3.4.5"
+    chalk "^3.0.0"
+    copy-webpack-plugin "5.1.2"
+    css-loader "3.5.3"
+    deepmerge "4.2.2"
+    dotenv "8.2.0"
+    dotenv-expand "5.1.0"
+    file-loader "^4.3.0"
+    fs-extra "8.1.0"
+    html-webpack-plugin "^4.0.4"
+    jest "^24.9.0"
+    mini-css-extract-plugin "^0.9.0"
+    mri "^1.1.4"
+    optimize-css-assets-webpack-plugin "^5.0.3"
+    pnp-webpack-plugin "^1.6.4"
+    postcss-flexbugs-fixes "^4.2.0"
+    postcss-loader "^3.0.0"
+    postcss-preset-env "^6.7.0"
+    postcss-safe-parser "^4.0.2"
+    razzle-dev-utils "3.4.5"
+    react-dev-utils "10.2.0"
+    react-error-overlay "^6.0.6"
+    react-refresh "^0.8.1"
+    resolve "1.17.0"
+    sade "^1.4.2"
+    source-map-support "^0.5.16"
+    start-server-webpack-plugin "^2.2.5"
+    string-hash "1.1.3"
+    style-loader "^1.1.3"
+    terser-webpack-plugin "^2.3.5"
+    tiny-async-pool "^1.1.0"
+    url-loader "^2.3.0"
+    webpack "^4.42.0"
+    webpack-dev-server "~3.10.3"
+    webpack-manifest-plugin "^2.2.0"
+    webpack-node-externals "^1.7.2"
+    webpackbar "^4.0.0"
 
 rc-align@^2.4.0:
   version "2.4.5"
@@ -21800,13 +21842,12 @@ use-composed-ref@^1.0.0:
   resolved "https://registry.yarnpkg.com/use-composed-ref/-/use-composed-ref-1.2.1.tgz#9bdcb5ccd894289105da2325e1210079f56bf849"
   integrity sha512-6+X1FLlIcjvFMAeAD/hcxDT8tmyrWnbSPMU0EnxQuDLIxokuFzWliXBiYZuGIx+mrAMLBw0WFfCkaPw8ebzAhw==
 
-use-deep-compare-effect@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.6.1.tgz#061a0ac5400aa0461e33dddfaa2a98bca873182a"
-  integrity sha512-VB3b+7tFI81dHm8buGyrpxi8yBhzYZdyMX9iBJra7SMFMZ4ci4FJ1vFc1nvChiB1iLv4GfjqaYfvbNEpTT1rFQ==
+use-deep-compare-effect@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/use-deep-compare-effect/-/use-deep-compare-effect-1.8.1.tgz#ef0ce3b3271edb801da1ec23bf0754ef4189d0c6"
+  integrity sha512-kbeNVZ9Zkc0RFGpfMN3MNfaKNvcLNyxOAAd9O4CBZ+kCBXXscn9s/4I+8ytUER4RDpEYs5+O6Rs4PqiZ+rHr5Q==
   dependencies:
     "@babel/runtime" "^7.12.5"
-    "@types/react" "^17.0.0"
     dequal "^2.0.2"
 
 use-isomorphic-layout-effect@^1.0.0:
