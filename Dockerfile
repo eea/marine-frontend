@@ -17,8 +17,8 @@ RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
 
 USER node
 RUN cd /opt/frontend \
- && RAZZLE_PREFIX_PATH=/marine-new RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
- && RAZZLE_PREFIX_PATH=/marine-new RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
+ && PUBLIC_PATH=https://water.europa.eu/marine-new/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
+ && PUBLIC_PATH=https://water.europa.eu/marine-new/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
  && rm -rf /home/node/.cache
 USER root
 
