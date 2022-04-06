@@ -54,7 +54,7 @@
   "dependencies": {
     "@eeacms/volto-eea-kitkat": "5.2.9",
     "@eeacms/volto-embed": "4.0.0",
-    "@eeacms/volto-marine-theme": "0.1.8",
+    "@eeacms/volto-marine-theme": "0.1.9",
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#v0.1.7.aplha",
     "@eeacms/volto-tableau": "1.2.4",
