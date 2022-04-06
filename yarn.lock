@@ -1360,10 +1360,10 @@
   dependencies:
     react-color "~2.18.1"
 
-"@eeacms/volto-block-image-cards@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.2.0.tgz#84cc86984ff8545e5a2af384e3130e9d8ec6fc59"
-  integrity sha512-hBtGsswI3jS8kAC6VrgGCIEMPez6gu+oftbBqxk1HcMifopvDjGbRF/idYv//LlaTDGX1/9vUGXC3lf7/Ow9xQ==
+"@eeacms/volto-block-image-cards@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-block-image-cards/-/volto-block-image-cards-0.3.0.tgz#b3c7378888745b39ec9f7d9484b25dd47cf47958"
+  integrity sha512-t9VRAxbjRAHlcjIwv7gEmfk8dga7w+kuzlxPYw/NwtftwSeYPc03xnuRAH9lDhRmA/cR/+95bFgERWct11cgGQ==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-lazy-load-image-component "^1.4.0"
@@ -1416,15 +1416,15 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@5.2.8":
-  version "5.2.8"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.8.tgz#e5156d5346e39b886cdb72a15a5a65caa449c0a1"
-  integrity sha512-2792Uw+UypOxX8xZZkC+JlWXsF4Zlc49s084oytj2PeacRPiNeXK5kkoUYIs/ZkDx+Gyo752GyvzO0wtQOysRg==
+"@eeacms/volto-eea-kitkat@5.2.9":
+  version "5.2.9"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-5.2.9.tgz#6f4a823195777143a32b75835904e643b7837f30"
+  integrity sha512-1/DJfPRsJsteYmS1IKlyjEeQnRU3YTm1c98MwFQcIBHViySkylX156TpoyQGMlDMOXyjGoIUDizRDl0SFX921A==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.14"
     "@eeacms/volto-banner" "2.1.0"
     "@eeacms/volto-block-divider" "2.1.6"
-    "@eeacms/volto-block-image-cards" "0.2.0"
+    "@eeacms/volto-block-image-cards" "0.3.0"
     "@eeacms/volto-block-style" "3.5.18"
     "@eeacms/volto-block-toc" "2.3.0"
     "@eeacms/volto-columns-block" "4.4.14"
@@ -1608,27 +1608,27 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-3.0.4.tgz#e42c50cd9d3f86caec0e166f8204d5be6c24f318"
   integrity sha512-lzZRE0iDHd7JMFjAm4xIss21UOA4RNzu/wvcAQ622rdgi+IKtHreLwHcd/XteJCeMeust8Ri1kecURUz4qeMdQ==
 
-"@elastic/react-search-ui-views@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui-views/-/react-search-ui-views-1.7.0.tgz#b3939c370038fd537ce1086729e8e90a06baae8a"
-  integrity sha512-+gHdrnOxs+k5tgAoTHeoIefJQ9yvSWTJ9VdvT0Zs3x/I61dRrjhmkPefhlwIwkB9FBw2fXPI5N1Z38YdHH+VSg==
+"@elastic/react-search-ui-views@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui-views/-/react-search-ui-views-1.9.0.tgz#fa10f4f598828a3dae726e34213e937b80a72aca"
+  integrity sha512-QvQKNfEktfRRsyE167A9bzOGqN23qNIKwudpNQzpDdoIh4oQl21sMyfwHMatyCw2Xk4hBkam2xtoSiiN9/unRg==
   dependencies:
     downshift "^3.2.10"
     rc-pagination "^1.20.1"
     react-select "^2.4.4"
 
-"@elastic/react-search-ui@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui/-/react-search-ui-1.7.0.tgz#c725b578041a0a0c397393f1d374ba432d3c5dda"
-  integrity sha512-3oAOuHFQPQV3fkZkKL6WJB9AMZJAUVwGBMXaBrRU8Ors9h/xutM+XWFMOSEE/S4e5fkm7hh4fexEBs9p4f2kFQ==
+"@elastic/react-search-ui@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@elastic/react-search-ui/-/react-search-ui-1.9.0.tgz#772e16724e2575a34f3cd28f188090ccf29dc2dd"
+  integrity sha512-OBk5j3uWDwA1XTb6TcG0e91sCWh5OMTF3MHCBgOtCL7VEfkmiLH+uYtecWUL+tBwn6SgHektD5xANdiGBKVT+A==
   dependencies:
-    "@elastic/react-search-ui-views" "1.7.0"
-    "@elastic/search-ui" "1.7.0"
+    "@elastic/react-search-ui-views" "1.9.0"
+    "@elastic/search-ui" "1.9.0"
 
-"@elastic/search-ui@1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@elastic/search-ui/-/search-ui-1.7.0.tgz#2308c3f6d723387d148430dd3fd75ff52ceb1d50"
-  integrity sha512-ZuaSFgKkPuvdq+d6sIhUk14tlOAy4MgbVgCKc0CbpPBGVHJ2v0HJwi+vF4rN0VbLlaX/xdkG8E8KhHqpkmXt4A==
+"@elastic/search-ui@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@elastic/search-ui/-/search-ui-1.9.0.tgz#ec4c5e0ccfd36ddb10330cb837a8607ac9d9bbfa"
+  integrity sha512-Ha7Y0cjduEcGOxCFkXVJRzdh3kEWNfIyT4vy+mPponR3my0JaHivJj16wg4H3MFbZuBY9Mstqp00zOwQrsCwhQ==
   dependencies:
     date-fns "^1.30.1"
     deep-equal "^1.0.1"
@@ -13517,10 +13517,10 @@ jest@^24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-jotai@1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.3.4.tgz#7bcc95416ba1b6b6dfd758bb24500f21b9f65d39"
-  integrity sha512-6gXlhMSira/hsI5pUBK50cwGkuLmUX049BqQTNwEb2oYznv8s64XL0U5FEYrz/6ye96sM2PEvPwNs1ydOQtdQQ==
+jotai@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/jotai/-/jotai-1.6.0.tgz#81412756dab42fcb712530fba512e5e43bd0de15"
+  integrity sha512-J/+aD9R1XDcNeY8drg/y/I47eUivQ13HGmLmA33w95SvJJLBStSF5WxYrmLgbuWcDC6MpRecF3g/GBchPJNcZg==
 
 jquery@3.6.0, jquery@x.*:
   version "3.6.0"
