@@ -237,7 +237,7 @@
     "package": "@eeacms/volto-searchlib",
     "path": "src",
     "branch": "develop",
-    "develop": true
+    "develop": false
   },
   "volto-tableau": {
     "url": "git@github.com:eea/volto-tableau.git",
