@@ -16,6 +16,9 @@
             "@eeacms/globalsearch": [
                 "addons/searchlib/packages/searchlib-globalsearch/src"
             ],
+            "@eeacms/datahub": [
+                "addons/searchlib/packages/searchlib-datahub/src"
+            ],
             "@eeacms/search-less": [
                 "addons/searchlib/packages/searchlib-less"
             ]

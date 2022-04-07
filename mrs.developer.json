@@ -237,7 +237,7 @@
     "package": "@eeacms/volto-searchlib",
     "path": "src",
     "branch": "develop",
-    "develop": false
+    "develop": true
   },
   "volto-tableau": {
     "url": "git@github.com:eea/volto-tableau.git",
@@ -255,6 +255,7 @@
     "packages": {
       "@eeacms/search": "packages/searchlib/src",
       "@eeacms/globalsearch": "packages/searchlib-globalsearch/src",
+      "@eeacms/datahub": "packages/searchlib-datahub/src",
       "@eeacms/search-less": "packages/searchlib-less"
     }
   }
