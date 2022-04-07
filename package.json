@@ -41,7 +41,8 @@
     "src/addons/*"
   ],
   "resolutions": {
-    "d3-array": "2.12.1"
+    "d3-array": "2.12.1",
+    "volto-slate": "5.3.3"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
@@ -58,7 +59,7 @@
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
     "@eeacms/volto-searchlib": "eea/volto-searchlib#v0.1.7.aplha",
     "@eeacms/volto-tableau": "1.2.4",
-    "@plone/volto": "plone/volto#slots_quanta_split_relative_path",
+    "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
     "react-compound-slider": "3.3.1",
     "react-motion": "0.5.2"
   },
