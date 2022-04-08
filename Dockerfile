@@ -12,8 +12,16 @@ RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
  && npm install -g mrs-developer \
  && cp jsconfig.json.prod jsconfig.json \
  && mkdir -p /opt/frontend/src/addons \
- && rm -rf /opt/frontend/src/addons/* \
- && find /opt/frontend -not -user node -exec chown node {} \+
+ && rm -rf /opt/frontend/src/addons/*
+
+# https://github.com/eea/semanticsearch-frontend/blob/master/Dockerfile
+WORKDIR /opt/frontend/src/addons
+RUN git clone https://github.com/eea/searchlib.git
+WORKDIR /opt/frontend/src/addons/searchlib
+RUN git checkout standalone-split 
+# end semanticsearch
+
+RUN find /opt/frontend -not -user node -exec chown node {} \+
 
 USER node
 RUN cd /opt/frontend \
