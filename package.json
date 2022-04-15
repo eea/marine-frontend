@@ -47,6 +47,9 @@
   "workspaces": [
     "src/addons/*"
   ],
+  "resolutions": {
+    "d3-array": "2.12.1"
+  },
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-tableau",
