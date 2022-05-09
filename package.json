@@ -65,7 +65,7 @@
   "dependencies": {
     "@eeacms/volto-banner": "2.2.0",
     "@eeacms/volto-eea-kitkat": "5.4.0",
-    "@eeacms/volto-embed": "4.0.0",
+    "@eeacms/volto-embed": "4.0.1",
     "@eeacms/volto-datablocks": "3.0.11",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-marine-theme": "eea/volto-marine-theme#0.2.0.alpha.4",
