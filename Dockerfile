@@ -28,8 +28,8 @@ USER node
 WORKDIR /opt/frontend/
 
 RUN cd /opt/frontend \
- && PUBLIC_PATH=https://water.europa.eu/marine-new/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
- && PUBLIC_PATH=https://water.europa.eu/marine-new/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
+ && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
+ && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
  && rm -rf /home/node/.cache
 USER root
 
