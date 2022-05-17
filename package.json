@@ -69,7 +69,7 @@
     "@eeacms/volto-embed": "4.0.1",
     "@eeacms/volto-marine-theme": "eea/volto-marine-theme#0.2.0.alpha.5",
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
-    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#0.1.7.alpha.2",
+    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "1.2.4",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
