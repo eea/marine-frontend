@@ -67,14 +67,15 @@
     "@eeacms/volto-datablocks": "3.0.12",
     "@eeacms/volto-eea-kitkat": "6.1.1",
     "@eeacms/volto-embed": "4.0.1",
-    "@eeacms/volto-marine-theme": "0.1.11",
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.2.0.alpha.6",
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "1.2.4",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
     "react-compound-slider": "3.3.1",
-    "react-motion": "0.5.2"
+    "react-motion": "0.5.2",
+    "react-select": "*"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
