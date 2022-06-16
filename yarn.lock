@@ -1239,10 +1239,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.5.tgz#758467102fe8635601e32923244ea3a9c6279643"
   integrity sha512-wp5QMxwOp+xkcXNB3WiMkY3WkaeMuhIxYYz5fWhSWz8aZQdfANI6MKxOohuTjuVk+82Cm80qZnpzYhuwjCwGgg==
 
-"@eeacms/volto-eea-kitkat@6.1.1":
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.1.tgz#7d6b94d79435722d498f3be86b03a8ff20ae9a92"
-  integrity sha512-GJF7Dm5tcw1fBgTiN+R/0P/cuVEEb5YbTcz5mO2ANnEQubNlOryfwGNVhxG9KGdz4loPYvrFiyd9oOeFVfmW6Q==
+"@eeacms/volto-eea-kitkat@6.1.2":
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-6.1.2.tgz#7b6eebdf927ab5f97c8a719401f0e9ce237dac85"
+  integrity sha512-4JdulYU2kJPmekxpQpwUswmMsrxWGq9QwPDPuk2g9jKf230ZtJ3QR/HFpncrTaVmvbXNtQVIj/K5+5ROxzQ3jA==
   dependencies:
     "@eeacms/volto-accordion-block" "3.4.16"
     "@eeacms/volto-banner" "2.2.0"
@@ -1263,7 +1263,7 @@
     "@eeacms/volto-slate-footnote" "5.0.0"
     "@eeacms/volto-slate-metadata-mentions" "5.0.0"
     "@eeacms/volto-slate-zotero" "4.0.4"
-    "@eeacms/volto-tabs-block" "2.0.1"
+    "@eeacms/volto-tabs-block" "2.0.2"
     "@eeacms/volto-taxonomy" "2.0.5"
     "@eeacms/volto-widget-dataprovenance" "0.1.1"
     "@eeacms/volto-widget-geolocation" "4.0.4"
@@ -1305,10 +1305,9 @@
     react-slick "0.29.0"
     slick-carousel "1.8.1"
 
-"@eeacms/volto-marine-theme@0.1.11":
+"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.2.0.alpha.6":
   version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.11.tgz#69180ba33ae6b9fa1b44191eef3abf5b80963d37"
-  integrity sha512-dNgtrPnsfL0l9lGfWzEkOeqHEt14pjhgPsJuIMuwh73IsG+WZKWv+dWVvaI5+vg4FKDFM6D9WBtLNFo2E8Fo+w==
+  resolved "https://codeload.github.com/eea/volto-marine-theme/tar.gz/849c3a504ce5e68e9d5725a447f0584411ee3751"
   dependencies:
     "@eeacms/volto-embed" "4.0.0"
     "@eeacms/volto-tableau" "1.2.4"
@@ -1432,10 +1431,10 @@
     react-slick "^0.24.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-tabs-block@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.1.tgz#f292afd3ec04566e4899963e6dae9759429130eb"
-  integrity sha512-StrZJjyS/B5bhA87mci+cKkYNJzTvIb9AYacZZCuyneskwVFs8vQGniQx1/VxOBS55TC3T+3r8p67f1DY62c3w==
+"@eeacms/volto-tabs-block@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tabs-block/-/volto-tabs-block-2.0.2.tgz#aab6f33e9b10b1084d99b1dc4607771f3eb04560"
+  integrity sha512-foQIl7H7NyRHPbTvuR8fTbETzIsvJvlVaJIOXffXA0DPhpTFOx/wg1Zt1f3CjBBXAAAwCtTqpIT9p2O5H9hirA==
   dependencies:
     "@eeacms/volto-block-style" "*"
     react-responsive-tabs "4.4.3"
@@ -1534,13 +1533,13 @@
     find-root "^1.1.0"
     source-map "^0.7.2"
 
-"@emotion/cache@^11.4.0", "@emotion/cache@^11.7.1":
-  version "11.7.1"
-  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.7.1.tgz#08d080e396a42e0037848214e8aa7bf879065539"
-  integrity sha512-r65Zy4Iljb8oyjtLeCuBH8Qjiy107dOYC6SJq7g7GV5UCQWMObY4SJDPGFjiiVpPrOJ2hmJOoBiYTC7hwx9E2A==
+"@emotion/cache@^11.4.0", "@emotion/cache@^11.7.1", "@emotion/cache@^11.9.3":
+  version "11.9.3"
+  resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-11.9.3.tgz#96638449f6929fd18062cfe04d79b29b44c0d6cb"
+  integrity sha512-0dgkI/JKlCXa+lEXviaMtGBL0ynpx4osh7rjOXE71q9bIF8G+XhJgvi+wDu0B0IdCVx37BffiwXlN9I3UuzFvg==
   dependencies:
     "@emotion/memoize" "^0.7.4"
-    "@emotion/sheet" "^1.1.0"
+    "@emotion/sheet" "^1.1.1"
     "@emotion/utils" "^1.0.0"
     "@emotion/weak-memoize" "^0.2.5"
     stylis "4.0.13"
@@ -1565,15 +1564,15 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
-"@emotion/react@^11.1.1":
-  version "11.9.0"
-  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.9.0.tgz#b6d42b1db3bd7511e7a7c4151dc8bc82e14593b8"
-  integrity sha512-lBVSF5d0ceKtfKCDQJveNAtkC7ayxpVlgOohLgXqRwqWr9bOf4TZAFFyIcNngnV6xK6X4x2ZeXq7vliHkoVkxQ==
+"@emotion/react@^11.1.1", "@emotion/react@^11.8.1":
+  version "11.9.3"
+  resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.9.3.tgz#f4f4f34444f6654a2e550f5dab4f2d360c101df9"
+  integrity sha512-g9Q1GcTOlzOEjqwuLF/Zd9LC+4FljjPjDfxSM7KmEakm+hsHXk+bYZ2q+/hTJzr0OUNkujo72pXLQvXj6H+GJQ==
   dependencies:
     "@babel/runtime" "^7.13.10"
     "@emotion/babel-plugin" "^11.7.1"
-    "@emotion/cache" "^11.7.1"
-    "@emotion/serialize" "^1.0.3"
+    "@emotion/cache" "^11.9.3"
+    "@emotion/serialize" "^1.0.4"
     "@emotion/utils" "^1.1.0"
     "@emotion/weak-memoize" "^0.2.5"
     hoist-non-react-statics "^3.3.1"
@@ -1588,10 +1587,10 @@
     "@emotion/unitless" "^0.6.7"
     "@emotion/utils" "^0.8.2"
 
-"@emotion/serialize@^1.0.2", "@emotion/serialize@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-1.0.3.tgz#99e2060c26c6292469fb30db41f4690e1c8fea63"
-  integrity sha512-2mSSvgLfyV3q+iVh3YWgNlUc2a9ZlDU7DjuP5MjK3AXRR0dYigCrP99aeFtaB2L/hjfEZdSThn5dsZ0ufqbvsA==
+"@emotion/serialize@^1.0.2", "@emotion/serialize@^1.0.3", "@emotion/serialize@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-1.0.4.tgz#ff31fd11bb07999611199c2229e152faadc21a3c"
+  integrity sha512-1JHamSpH8PIfFwAMryO2bNka+y8+KA5yga5Ocf2d7ZEiJjb7xlLW7aknBGZqJLajuLOvJ+72vN+IBSwPlXD1Pg==
   dependencies:
     "@emotion/hash" "^0.8.0"
     "@emotion/memoize" "^0.7.4"
@@ -1599,10 +1598,10 @@
     "@emotion/utils" "^1.0.0"
     csstype "^3.0.2"
 
-"@emotion/sheet@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.0.tgz#56d99c41f0a1cda2726a05aa6a20afd4c63e58d2"
-  integrity sha512-u0AX4aSo25sMAygCuQTzS+HsImZFuS8llY8O7b9MDRzbJM0kVJlAz6KNDqcG7pOuQZJmj/8X/rAW+66kMnMW+g==
+"@emotion/sheet@^1.1.0", "@emotion/sheet@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-1.1.1.tgz#015756e2a9a3c7c5f11d8ec22966a8dbfbfac787"
+  integrity sha512-J3YPccVRMiTZxYAY0IOq3kd+hUP8idY8Kz6B/Cyo+JuXq52Ek+zbPbSQUrVQp95aJ+lsAW7DPL1P2Z+U1jGkKA==
 
 "@emotion/stylis@^0.7.0":
   version "0.7.1"
@@ -2969,6 +2968,13 @@
     "@types/react" "*"
     hoist-non-react-statics "^3.3.0"
     redux "^4.0.0"
+
+"@types/react-transition-group@^4.4.0":
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/@types/react-transition-group/-/react-transition-group-4.4.4.tgz#acd4cceaa2be6b757db61ed7b432e103242d163e"
+  integrity sha512-7gAPz7anVK5xzbeQW9wFBDg7G++aPLAFY0QaSMOou9rJZpbuI58WAuJrgu+qR92l61grlnCUe7AFX8KGahAgug==
+  dependencies:
+    "@types/react" "*"
 
 "@types/react@*":
   version "17.0.43"
@@ -15113,6 +15119,19 @@ react-select-async-paginate@0.5.3:
     "@seznam/compose-react-refs" "^1.0.5"
     react-is-mounted-hook "^1.0.3"
     sleep-promise "^9.1.0"
+
+react-select@*:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-5.3.2.tgz#ecee0d5c59ed4acb7f567f7de3c75a488d93dacb"
+  integrity sha512-W6Irh7U6Ha7p5uQQ2ZnemoCQ8mcfgOtHfw3wuMzG6FAu0P+CYicgofSLOq97BhjMx8jS+h+wwWdCBeVVZ9VqlQ==
+  dependencies:
+    "@babel/runtime" "^7.12.0"
+    "@emotion/cache" "^11.4.0"
+    "@emotion/react" "^11.8.1"
+    "@types/react-transition-group" "^4.4.0"
+    memoize-one "^5.0.0"
+    prop-types "^15.6.0"
+    react-transition-group "^4.3.0"
 
 react-select@4.3.1:
   version "4.3.1"
