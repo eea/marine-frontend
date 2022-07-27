@@ -72,6 +72,8 @@
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop",
     "@eeacms/volto-slate-dataentity": "1.0.5",
     "@eeacms/volto-tableau": "1.2.4",
+    "@eeacms/volto-widget-geolocation": "4.0.6",
+    "@eeacms/volto-widget-dataprovenance": "0.1.4",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
     "react-compound-slider": "3.3.1",
     "react-motion": "0.5.2",
