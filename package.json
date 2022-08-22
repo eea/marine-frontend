@@ -64,7 +64,7 @@
   ],
   "dependencies": {
     "@eeacms/volto-banner": "2.2.1",
-    "@eeacms/volto-datablocks": "3.0.15",
+    "@eeacms/volto-datablocks": "3.0.16",
     "@eeacms/volto-eea-kitkat": "6.2.3",
     "@eeacms/volto-embed": "4.0.2",
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.2.0.alpha.6",
