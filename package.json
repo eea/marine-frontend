@@ -71,7 +71,7 @@
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
     "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop",
     "@eeacms/volto-slate-dataentity": "1.0.6",
-    "@eeacms/volto-tableau": "1.2.4",
+    "@eeacms/volto-tableau": "1.2.5",
     "@eeacms/volto-widget-dataprovenance": "0.1.4",
     "@eeacms/volto-widget-geolocation": "4.0.6",
     "@plone/volto": "plone/volto#slots_quanta_split_form_undo_prefix_path",
