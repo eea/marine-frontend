@@ -56,20 +56,23 @@
     "@eeacms/volto-datablocks",
     "@eeacms/volto-embed",
     "@eeacms/volto-slate-dataentity",
-    "@eeacms/volto-marine-theme",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-datahub",
-    "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
+    "@eeacms/volto-measurescatalog:installMeasuresCatalogue",
+    "@eeacms/volto-marine-theme"
   ],
   "dependencies": {
+    "@eeacms/search": "0.2.23",
+    "@eeacms/volto-datahub": "0.1.8",
     "@eeacms/volto-banner": "2.2.1",
     "@eeacms/volto-datablocks": "3.0.16",
     "@eeacms/volto-eea-kitkat": "7.1.3",
     "@eeacms/volto-embed": "4.0.2",
+    "@eeacms/volto-globalsearch": "0.1.5",
+    "@eeacms/volto-searchlib": "0.3.12",
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.2.0.alpha.6",
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.2",
-    "@eeacms/volto-searchlib": "github:eea/volto-searchlib#develop",
     "@eeacms/volto-slate-dataentity": "1.0.6",
     "@eeacms/volto-tableau": "1.2.5",
     "@eeacms/volto-widget-dataprovenance": "0.1.6",
@@ -175,23 +178,23 @@
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ],
-  "bundlesize": [
+   "not dead",
+   "not op_mini all"
+ ],
+ "bundlesize": [
+  {
+    "path": "build/public/static/js/*.js",
+    "maxSize": "680kB"
+  }
+],
+"bundlewatch": {
+  "files": [
     {
       "path": "build/public/static/js/*.js",
       "maxSize": "680kB"
     }
-  ],
-  "bundlewatch": {
-    "files": [
-      {
-        "path": "build/public/static/js/*.js",
-        "maxSize": "680kB"
-      }
-    ]
-  },
+  ]
+},
   "engines": {
     "node": "^12 || ^14 || ^16"
   }

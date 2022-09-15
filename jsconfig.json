@@ -4,23 +4,14 @@
             "@eeacms/volto-marine-theme": [
                 "addons/volto-marine-theme/src"
             ],
-            "@eeacms/volto-measurescatalog": [
-                "addons/volto-measurescatalog/src"
-            ],
             "@eeacms/volto-searchlib": [
                 "addons/volto-searchlib/src"
             ],
+            "@eeacms/volto-measurescatalog": [
+                "addons/volto-measurescatalog/src"
+            ],
             "@eeacms/search": [
-                "addons/searchlib/packages/searchlib/src"
-            ],
-            "@eeacms/volto-datahub": [
-                "addons/volto-datahub/src"
-            ],
-            "@eeacms/search-less": [
-                "addons/searchlib/packages/searchlib-less"
-            ],
-            "@eeacms/volto-globalsearch": [
-                "addons/volto-globalsearch/src"
+                "addons/eeacms-searchlib/src"
             ]
         },
         "baseUrl": "src"
