@@ -9,9 +9,6 @@
             ],
             "@eeacms/volto-measurescatalog": [
                 "addons/volto-measurescatalog/src"
-            ],
-            "@eeacms/search": [
-                "addons/eeacms-searchlib/src"
             ]
         },
         "baseUrl": "src"
