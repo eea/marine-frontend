@@ -61,7 +61,7 @@
     "@eeacms/volto-marine-theme"
   ],
   "dependencies": {
-    "@eeacms/search": "file:.yalc/@eeacms/search",
+    "@eeacms/search": "0.2.24",
     "@eeacms/volto-banner": "2.2.1",
     "@eeacms/volto-datablocks": "3.0.17",
     "@eeacms/volto-eea-kitkat": "7.1.3",
