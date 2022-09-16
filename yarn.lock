@@ -1165,7 +1165,7 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/search@0.2.24":
+"@eeacms/search@*", "@eeacms/search@0.2.24":
   version "0.2.24"
   resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.24.tgz#34cad78e295f15ae1e8d438187569ffe22c3c29b"
   integrity sha512-rIU883gUUKI5mm+UxoFtjsRPjZqeHDuw8E9rr0unXj5mZM4KHtc8UwRQXdAGIh6wYjqkHLfZ90TEebG3TFzesw==
@@ -1286,6 +1286,16 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-depiction/-/volto-depiction-0.1.6.tgz#20431aaa211186eb5ac77e2fdc176bdbe1a9c9e6"
   integrity sha512-Rcrem8q1eIgY349n9TMTtZo7Tg3vKjUv65uuy1my4XKeTSv84CzHMCFOM+15WtJhvuMfxbwjYPy3xmiAqy4IGg==
 
+"@eeacms/volto-eea-design-system@*":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.8.1.tgz#65b3f747d161cc3cce9a0915da0993dc4dd4b554"
+  integrity sha512-aMkjsZ3XOVjF5R5kBzCsL59CoBgZzRbNw79tnjsIc60VUIOlKaqjNc8PwMeCL8zReevuxRdUHH+7MEWbQzkEIA==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    react-countup "^6.3.0"
+    react-slick "^0.28.1"
+    remixicon "2.5.0"
+
 "@eeacms/volto-eea-kitkat@7.1.3":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-7.1.3.tgz#89d8db0954aecbd00d58dabb1963b25a6f8a1f2d"
@@ -1400,6 +1410,14 @@
   version "0.2.10"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-0.2.10.tgz#f58ecd866988444f3b0b855e30dde17431a25edf"
   integrity sha512-kbCIIzvDeqO5otAJfIgzJkJzkZFUudoG49/e320QxQzZQFrGF/jUUk54J1qgl5RJpgIcJFvchTZMFLKx5KUJ+A==
+
+"@eeacms/volto-searchlib@0.3.14":
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.14.tgz#526aa1fc319f690359589c657c45ba277c3d2091"
+  integrity sha512-y76XFDV+7t3sCg2UUpaE1RxEdeEsmO514yp1WW4cWiLudLDI0pu7oN942OJy/lWCSXcb97TH2VQkMMys16FNJw==
+  dependencies:
+    "@eeacms/search" "*"
+    "@eeacms/volto-eea-design-system" "*"
 
 "@eeacms/volto-sentry-rancher-config@2.1.6":
   version "2.1.6"
@@ -5557,7 +5575,7 @@ cosmiconfig@^7.0.1:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-countup.js@^2.0.8:
+countup.js@^2.0.8, countup.js@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/countup.js/-/countup.js-2.3.2.tgz#9a91d95780be1c908d1e6feb548625f353f57988"
   integrity sha512-dQ7F/CmKGjaO6cDfhtEXwsKVlXIpJ89dFs8PvkaZH9jBVJ2Z8GU4iwG/qP7MgY8qwr+1skbwR6qecWWQLUzB8Q==
@@ -14785,6 +14803,13 @@ react-countup@6.1.1:
   dependencies:
     countup.js "^2.0.8"
 
+react-countup@^6.3.0:
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/react-countup/-/react-countup-6.3.1.tgz#ae4e8d33a7ed86c2cfc27e20b1fe76704f61d9fb"
+  integrity sha512-+Bf1caAZHtmVQ5Jmhe2MZuN1cw1CEP5OdeMph9CBwM5K8DEDGmg00AzcN6fO9XolUhqUfiR0pOEiSyngSrHwig==
+  dependencies:
+    countup.js "^2.2.0"
+
 react-dates@21.5.1:
   version "21.5.1"
   resolved "https://registry.yarnpkg.com/react-dates/-/react-dates-21.5.1.tgz#de8d7ff862f08bdf96cc9045721149b7199c21b4"
@@ -15219,6 +15244,17 @@ react-slick@^0.24.0:
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.24.0.tgz#1a4e078a82de4e9458255d9ce26aa6f3b17b168b"
   integrity sha512-Pvo0B74ohumQdYOf0qP+pdQpj9iUbAav7+2qiF3uTc5XeQp/Y/cnIeDBM2tB3txthfSe05jKIqLMJTS6qVvt5g==
+  dependencies:
+    classnames "^2.2.5"
+    enquire.js "^2.1.6"
+    json2mq "^0.2.0"
+    lodash.debounce "^4.0.8"
+    resize-observer-polyfill "^1.5.0"
+
+react-slick@^0.28.1:
+  version "0.28.1"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.28.1.tgz#12c18d991b59432df9c3757ba540a227b3fb85b9"
+  integrity sha512-JwRQXoWGJRbUTE7eZI1rGIHaXX/4YuwX6gn7ulfvUZ4vFDVQAA25HcsHSYaUiRCduTr6rskyIuyPMpuG6bbluw==
   dependencies:
     classnames "^2.2.5"
     enquire.js "^2.1.6"
@@ -15724,6 +15760,11 @@ remark@^13.0.0:
     remark-parse "^9.0.0"
     remark-stringify "^9.0.0"
     unified "^9.1.0"
+
+remixicon@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/remixicon/-/remixicon-2.5.0.tgz#b5e245894a1550aa23793f95daceadbf96ad1a41"
+  integrity sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
