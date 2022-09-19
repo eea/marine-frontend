@@ -1264,10 +1264,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-corsproxy/-/volto-corsproxy-2.1.6.tgz#af110351370553c4bd51f404e0aca8e5593ec863"
   integrity sha512-ScJuVsF51efiiHfv3nPuVoocHN9YpTUA2Jjsb193NFjtxMY1WH9fcAVlZt12Nau/5dqQRLPCl5VtVyxWvOwxsg==
 
-"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.17":
-  version "3.0.17"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.17.tgz#29166c64efc878d41bb09ebcb19d00f37f46c8df"
-  integrity sha512-z09BnLZx134WUVm06ODvyGaPxreVp2xD5lMBD9++ouu958LiDEgJ82Ip3kpmAZkGXIu6XfvXk6F1AxnHDXIAZg==
+"@eeacms/volto-datablocks@*", "@eeacms/volto-datablocks@3.0.18":
+  version "3.0.18"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datablocks/-/volto-datablocks-3.0.18.tgz#c323518b33996237d27cef053f7fd19021a09e46"
+  integrity sha512-AyjiQxv2c/FdKh0yrwuzJ/l83nYuUDOh6oqz4pZWn+nFUC0qPM5bqSINQa5ajCBNnZw/gXDZ4GqMUByuEQ5MNg==
   dependencies:
     "@eeacms/volto-embed" "*"
     "@eeacms/volto-group-block" "*"
@@ -1362,9 +1362,10 @@
     react-slick "0.29.0"
     slick-carousel "1.8.1"
 
-"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.2.0.alpha.6":
-  version "0.1.11"
-  resolved "https://codeload.github.com/eea/volto-marine-theme/tar.gz/849c3a504ce5e68e9d5725a447f0584411ee3751"
+"@eeacms/volto-marine-theme@0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.12.tgz#d0812624b0a53728b00ee05d0ba152d0333228e1"
+  integrity sha512-/hvoulZknIH4yTcppgp/l0YzrMKNFPlGfeInPTKz5aJrI5qz7SRKzzjj4oID6goXv8DktChYLqN0A5BiaLbyyA==
   dependencies:
     "@eeacms/volto-embed" "4.0.0"
     "@eeacms/volto-tableau" "1.2.4"
@@ -1384,10 +1385,12 @@
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
-"@eeacms/volto-measurescatalog@github:eea/volto-measurescatalog#0.1.0.alpha.2":
+"@eeacms/volto-measurescatalog@github:eea/volto-measurescatalog#0.1.0.alpha.3":
   version "0.1.0"
-  resolved "https://codeload.github.com/eea/volto-measurescatalog/tar.gz/89996e8f9f52efdf6a618ec44af6ccfa64eb3a39"
+  resolved "https://codeload.github.com/eea/volto-measurescatalog/tar.gz/31a1cd10344690369fd878bee316d8a15169f26b"
   dependencies:
+    "@eeacms/search" "*"
+    "@eeacms/volto-searchlib" "0.3.14"
     "@nivo/bar" "^0.79.1"
     "@nivo/core" "^0.79.0"
     "@nivo/pie" "^0.79.1"
