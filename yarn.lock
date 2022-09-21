@@ -1424,6 +1424,14 @@
     "@eeacms/search" "*"
     "@eeacms/volto-eea-design-system" "*"
 
+"@eeacms/volto-searchlib@0.3.15":
+  version "0.3.15"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.15.tgz#64e484e4371623d24be24d90eca98938b486895f"
+  integrity sha512-S1Xh5KZk5wPa67G/00t7DCFRVmjfLReoOjVFD/PFOlTXUhnYoXCkHuqh5bSiMwfBFT9ujovexQrRa74B8waTkg==
+  dependencies:
+    "@eeacms/search" "*"
+    "@eeacms/volto-eea-design-system" "*"
+
 "@eeacms/volto-sentry-rancher-config@2.1.6":
   version "2.1.6"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-sentry-rancher-config/-/volto-sentry-rancher-config-2.1.6.tgz#1b924382914df02752d3fbe874ef2d5d637b4421"
