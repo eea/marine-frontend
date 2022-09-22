@@ -64,7 +64,7 @@
     "@eeacms/search": "0.2.24",
     "@eeacms/volto-banner": "2.2.1",
     "@eeacms/volto-datablocks": "3.0.18",
-    "@eeacms/volto-eea-kitkat": "8.0.0",
+    "@eeacms/volto-eea-kitkat": "8.1.0",
     "@eeacms/volto-embed": "4.0.2",
     "@eeacms/volto-marine-theme": "0.1.12",
     "@eeacms/volto-measurescatalog": "github:eea/volto-measurescatalog#0.1.0.alpha.3",
