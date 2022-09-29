@@ -7,7 +7,7 @@ pipeline {
     template = "templates/marine-frontend"
     dockerImage = ""
     tagName = ""
-    SONARQUBE_TAG = ""
+    SONARQUBE_TAG = "water.europa.eu-marine"
   }
 
   agent any
