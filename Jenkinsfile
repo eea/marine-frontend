@@ -4,7 +4,7 @@ pipeline {
     RANCHER_ENVID = ""
     GIT_NAME = "marine-frontend"
     registry = "eeacms/marine-frontend"
-    template = "templates/marine-frontend"
+    template = ""
     dockerImage = ""
     tagName = ""
     SONARQUBE_TAG = "water.europa.eu-marine"
