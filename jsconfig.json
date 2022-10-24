@@ -1,16 +1,10 @@
 {
-    "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-marine-theme": [
-                "addons/volto-marine-theme/src"
-            ],
-            "@eeacms/volto-searchlib": [
-                "addons/volto-searchlib/src"
-            ],
-            "@eeacms/volto-measurescatalog": [
-                "addons/volto-measurescatalog/src"
-            ]
-        },
-        "baseUrl": "src"
-    }
+  "compilerOptions": {
+    "paths": {
+      "@eeacms/volto-marine-theme": ["addons/volto-marine-theme/src"],
+      "@eeacms/volto-searchlib": ["addons/volto-searchlib/src"],
+      "@eeacms/volto-measurescatalog": ["addons/volto-measurescatalog/src"]
+    },
+    "baseUrl": "src"
+  }
 }
