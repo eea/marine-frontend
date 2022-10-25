@@ -1364,10 +1364,10 @@
     slick-carousel "1.8.1"
     volto-slate "*"
 
-"@eeacms/volto-marine-theme@0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.12.tgz#d0812624b0a53728b00ee05d0ba152d0333228e1"
-  integrity sha512-/hvoulZknIH4yTcppgp/l0YzrMKNFPlGfeInPTKz5aJrI5qz7SRKzzjj4oID6goXv8DktChYLqN0A5BiaLbyyA==
+"@eeacms/volto-marine-theme@0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.13.tgz#d60cff687ceed1facaa1aca7156572be211f27dc"
+  integrity sha512-wwck+NyVEOQ6bp22uDzxiwp9yAVv4cKItvY+LImMk/ndSeBc7EPjgv4Wn+PySL8VlRtFvmpXLJY2uoVBmZYwrA==
   dependencies:
     "@eeacms/volto-embed" "4.0.0"
     "@eeacms/volto-tableau" "1.2.4"
