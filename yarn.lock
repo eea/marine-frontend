@@ -1219,6 +1219,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-2.2.1.tgz#559d31aba65b0cc87d693f5a7c0e8370f68754a1"
   integrity sha512-oFCombGDx9XwuqRqxGGTdF3w8QPXvUzpa9MBqaGeg7GCxuT8GFuLFMXI3Jq4Y5Q06Pr6LTNqF/+V2Yz5rKhICw==
 
+"@eeacms/volto-banner@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-banner/-/volto-banner-3.0.0.tgz#65b22458ead140e282f93115c17dbee863d4b9bd"
+  integrity sha512-VRhVjgHYAWWv2I8w/JYdpuk8bX0rmXxxGNjSmj4wEWQr3uctULL7GuwpBCHZxiAWXz/fhA+AZLPkEL+rKi2GNA==
+
 "@eeacms/volto-block-divider@3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-divider/-/volto-block-divider-3.0.2.tgz#f70d0cc321032d270f09c1859773f3006cee0328"
@@ -2815,11 +2820,6 @@
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/d3-time/-/d3-time-2.1.1.tgz#743fdc821c81f86537cbfece07093ac39b4bc342"
   integrity sha512-9MVYlmIgmRR31C5b4FVSWtuMmBHh2mOWQYfl7XAYOa8dsnb7iEmUmRSWSFgXFtkjxO65d7hTUHQC+RhR/9IWFg==
-
-"@types/esrever@^0.2.0":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@types/esrever/-/esrever-0.2.1.tgz#9ff5155ef412848270ead4aaa611a8cdadcb9ab0"
-  integrity sha512-vRLFhQxGVkyUF7opxv66MQHoRSOBkbbitj1OGd6My4XR6HwCorUZxSiJejF3s4OxmEFTjfRRGwm6GUhuQETP6Q==
 
 "@types/glob@^7.1.1":
   version "7.2.0"
@@ -7563,11 +7563,6 @@ esrecurse@^4.1.0, esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-esrever@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/esrever/-/esrever-0.2.0.tgz#96e9d28f4f1b1a76784cd5d490eaae010e7407b8"
-  integrity sha1-lunSj08bGnZ4TNXUkOquAQ50B7g=
-
 estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
@@ -9443,11 +9438,6 @@ immer@1.10.0:
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
   integrity sha512-O3sR1/opvCDGLEVcvrGTMtLac8GJ5IwZC4puPrLuRj3l7ICKvkmA0vGuU9OW8mV9WIBRnaxp5GJh9IEAaNOoYg==
 
-immer@^7.0.0:
-  version "7.0.15"
-  resolved "https://registry.yarnpkg.com/immer/-/immer-7.0.15.tgz#dc3bc6db87401659d2e737c67a21b227c484a4ad"
-  integrity sha512-yM7jo9+hvYgvdCQdqvhCNRRio0SCXc8xDPzA25SvKWa7b1WVPjLwQs1VYU5JPXjcJPTqAa5NP5dqpORGYBQ2AA==
-
 immer@^9.0.6:
   version "9.0.12"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.12.tgz#2d33ddf3ee1d247deab9d707ca472c8c942a0f20"
@@ -10107,11 +10097,6 @@ is-plain-object@^2.0.3, is-plain-object@^2.0.4:
   integrity sha512-h5PpgXkWitc38BBMYawTYMWJHFZJVnBquFE57xFpjB8pJFiF6gZ+bU+WyI/yqXiFR5mdLsgYNaPe8uao6Uv9Og==
   dependencies:
     isobject "^3.0.1"
-
-is-plain-object@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/is-plain-object/-/is-plain-object-3.0.1.tgz#662d92d24c0aa4302407b0d45d21f2251c85f85b"
-  integrity sha512-Xnpx182SBMrr/aBik8y+GuR4U1L9FqMSojwDQwPMmxyC6bvEqly9UBCxhauBF5vNh2gwWJNX6oDV7O+OM4z34g==
 
 is-plain-object@^5.0.0:
   version "5.0.0"
@@ -16545,18 +16530,6 @@ slate-react@^0.71.0:
     lodash "^4.17.4"
     scroll-into-view-if-needed "^2.2.20"
     tiny-invariant "1.0.6"
-
-slate@^0.62.0:
-  version "0.62.1"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.62.1.tgz#d17b174e9967f920dda23f77982b30582d9c68a7"
-  integrity sha512-zRY23L945B2gyxo7WvsZ4atbyBTTV4Ce1Ius3ZFyjUr13l3MjxSKHILS3UPqN17MnD/k5Zj87s1n7mdZSbAi0w==
-  dependencies:
-    "@types/esrever" "^0.2.0"
-    esrever "^0.2.0"
-    immer "^7.0.0"
-    is-plain-object "^3.0.0"
-    lodash "^4.17.4"
-    tiny-warning "^1.0.3"
 
 slate@^0.71.0:
   version "0.71.0"
