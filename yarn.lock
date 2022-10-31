@@ -1376,10 +1376,10 @@
   dependencies:
     "@datapunt/matomo-tracker-react" "0.3.1"
 
-"@eeacms/volto-measurescatalog@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-measurescatalog/-/volto-measurescatalog-0.1.0.tgz#b9cedddf7772c61bf546b44b08d37e8faae35a17"
-  integrity sha512-NobthL4Z176wdIo4nTcR1BJwYOzX70U/uy32SLVfQPOlaY7yidHW6hjL1wSrjc9uZ/zXr6bAnmoEu9UUVSFxRA==
+"@eeacms/volto-measurescatalog@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-measurescatalog/-/volto-measurescatalog-0.1.1.tgz#b02c767fa4f6d92a070ff66fe80a5874932351e0"
+  integrity sha512-ukuFNaWTHI5m/UCQiIukXyn3syvJ8F2s9uzkONsm4/5zWvh2l2LbBwMUUw+dEQm2K6ed/JZQjqF8oSosqbs0PA==
   dependencies:
     "@eeacms/search" "*"
     "@eeacms/volto-searchlib" "*"
@@ -1387,7 +1387,6 @@
     "@nivo/core" "^0.79.0"
     "@nivo/pie" "^0.79.1"
     "@nivo/tooltip" "^0.79.0"
-    "@plone/scripts" "*"
 
 "@eeacms/volto-metadata-block@5.0.0":
   version "5.0.0"
