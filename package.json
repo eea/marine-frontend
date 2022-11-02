@@ -62,7 +62,7 @@
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
-    "@eeacms/search": "0.2.30",
+    "@eeacms/search": "0.2.31",
     "@eeacms/volto-banner": "3.0.0",
     "@eeacms/volto-datablocks": "4.0.0",
     "@eeacms/volto-eea-kitkat": "9.0.0",

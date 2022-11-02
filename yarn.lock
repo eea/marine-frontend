@@ -1165,10 +1165,10 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/search@*", "@eeacms/search@0.2.30":
-  version "0.2.30"
-  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.30.tgz#c419adeb12da8431dd6a61d5d28e7492cecc4509"
-  integrity sha512-BlGMO1ZjB/IPaQamQ1tBezyAI6cnaz6lMbNy0YuaoavB2h9xR+XBBgIrrs715pM0VWN7xiusGPAC0ZIqGpkbgw==
+"@eeacms/search@*", "@eeacms/search@0.2.31":
+  version "0.2.31"
+  resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.31.tgz#f4ebb65e5910b59278a8b9d052a330882ae21ecd"
+  integrity sha512-9AmBcooy1wDDq/Wly/U3rCETa9vDvo402X+3oRbi9jgJOwPf7/mIr+v7GXU+Q2HzkQ3c+EIDe/16YfecD06Gdg==
   dependencies:
     "@elastic/react-search-ui" "^1.9.0"
     "@elastic/react-search-ui-views" "^1.9.0"
