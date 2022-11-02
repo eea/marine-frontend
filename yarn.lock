@@ -1353,10 +1353,10 @@
     react-slick "0.29.0"
     slick-carousel "1.8.1"
 
-"@eeacms/volto-marine-theme@0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.13.tgz#d60cff687ceed1facaa1aca7156572be211f27dc"
-  integrity sha512-wwck+NyVEOQ6bp22uDzxiwp9yAVv4cKItvY+LImMk/ndSeBc7EPjgv4Wn+PySL8VlRtFvmpXLJY2uoVBmZYwrA==
+"@eeacms/volto-marine-theme@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.14.tgz#8d4bc16a571cd6e52e8a70808b665e63532abde7"
+  integrity sha512-6Di6nEgUGEkDn5+Ba9j2UJUz0SCDRSKtXvP1bLX/QXt6y7Y2/mcji4G2WVYk8OCF91ODKj8E1e21QYT1XZigvQ==
   dependencies:
     "@eeacms/volto-embed" "4.0.0"
     "@eeacms/volto-tableau" "1.2.4"
