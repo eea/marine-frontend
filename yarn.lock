@@ -1497,22 +1497,6 @@
     react-slick "0.29.0"
     slick-carousel "1.8.1"
 
-"@eeacms/volto-marine-theme@0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-marine-theme/-/volto-marine-theme-0.1.12.tgz#d0812624b0a53728b00ee05d0ba152d0333228e1"
-  integrity sha512-/hvoulZknIH4yTcppgp/l0YzrMKNFPlGfeInPTKz5aJrI5qz7SRKzzjj4oID6goXv8DktChYLqN0A5BiaLbyyA==
-  dependencies:
-    "@eeacms/volto-embed" "4.0.0"
-    "@eeacms/volto-tableau" "1.2.4"
-    "@eeacms/volto-tabs-block" "1.2.11"
-    "@plone/scripts" "*"
-    axios "0.25.0"
-    jquery "3.6.0"
-    react-lazy-load-image-component "^1.4.0"
-    react-slick "^0.24.0"
-    slick-carousel "^1.8.1"
-    volto-slate "5.3.3"
-
 "@eeacms/volto-matomo@*":
   version "2.0.9"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-matomo/-/volto-matomo-2.0.9.tgz#b5d4811f54df5fe731244ced5b49666550cddbf6"
@@ -1566,18 +1550,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-resize-helper/-/volto-resize-helper-1.0.0.tgz#bb18e7a862dbed0ef2b6ad15c221b7d86f59bfa0"
   integrity sha512-wIrbH0ELOUKYsa+efwlCJzeX9UWrcY1OQCT9OhR9eb5Auba1w3JQazaqLt+Uu61nlpxk5OwjIRxtqFjHmUzAaw==
 
-"@eeacms/volto-searchlib@*":
+"@eeacms/volto-searchlib@*", "@eeacms/volto-searchlib@0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.4.0.tgz#7a8bf548de087809c97ede514f71fce95075ddca"
   integrity sha512-ofu+Uvd9xANns2DTQ5WT96oCx9NVRC7EVED9pXDE/xwtwQcgp4J8ly809nDjrmgeV7uRZyJwvMadXCbcclJjtg==
-  dependencies:
-    "@eeacms/search" "*"
-    "@eeacms/volto-eea-design-system" "*"
-
-"@eeacms/volto-searchlib@0.3.19":
-  version "0.3.19"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-searchlib/-/volto-searchlib-0.3.19.tgz#c6b8ae8cf28a1ac7d99465a10feb57f0aef9b32a"
-  integrity sha512-59Sa4NejKqsbv4d9CRvHNkpVucQrm7pqriuOjNHpA+lky3T/hdMzwpxexaKStYIIIqZR82p9CXcE6WHPeNMqAg==
   dependencies:
     "@eeacms/search" "*"
     "@eeacms/volto-eea-design-system" "*"
@@ -1621,10 +1597,10 @@
     "@eeacms/volto-resize-helper" "^0.2.4"
     tableau-api-js "github:eea/tableau-api-js#1.1.1"
 
-"@eeacms/volto-tableau@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-1.3.0.tgz#19e1ed0e3143bc83ffb3bf4299508f08f575b937"
-  integrity sha512-rVvyrJlN5Mdhf99/AyZdTXXgxY0x8Hjch4xsMKE/4wT3SLauuL25eNotSUmY5Wl8glYyTfGv7JW/Y752K+fGgA==
+"@eeacms/volto-tableau@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tableau/-/volto-tableau-2.0.0.tgz#5005fd7483b0d7491edd8c501fde3057a29ccfd9"
+  integrity sha512-x6MBCWoYUiNMtNDIzdrYGDbM5bT/UCjKgydm//rVge3ioRmBUUPR1OCgwKfml4PhQIeSrNgSgXmodKy/s5BTuA==
   dependencies:
     "@eeacms/volto-resize-helper" "^0.2.4"
 
@@ -2398,21 +2374,6 @@
   dependencies:
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
-
-"@plone/scripts@*":
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-2.1.2.tgz#e0b6b67eab72a133683af91ace98f7e5e93ea899"
-  integrity sha512-nSzcFcnaHLzeU1c7UYW1AJQGni11w/itUgewURo4OMufL7vKAXy+IDQvshAoNTzBFwScLijfR8OddHNkcjbEVQ==
-  dependencies:
-    babel-plugin-react-intl "5.1.17"
-    babel-preset-razzle "4.2.17"
-    chalk "4"
-    commander "8.2.0"
-    fs-extra "10.1.0"
-    git-url-parse "^11.6.0"
-    mrs-developer "*"
-    pofile "1.0.10"
-    simple-git "3.5.0"
 
 "@plone/scripts@2.0.0":
   version "2.0.0"
@@ -4967,7 +4928,7 @@ chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@4, chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0:
+chalk@4.1.2, chalk@^4.0.0, chalk@^4.1.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
@@ -17093,24 +17054,6 @@ volto-slate@*:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-6.4.0.tgz#10a42ab901965025ee6dc10edadedafceb5c4ca9"
   integrity sha512-+ThIsM2eGc4HbA6EHnDEoz1Bykb6ADRzdoDM4expVYEtnd1a0fVMkA2W2zGEqvXSd/uYc4UqdqQk0cq+6jHCjg==
-  dependencies:
-    "@eeacms/volto-object-widget" "*"
-    classnames "2.2.6"
-    image-extensions "1.1.0"
-    is-url "1.2.4"
-    jsdom "^16.6.0"
-    react-intersection-observer "^8.32.0"
-    react-visibility-sensor "5.1.1"
-    slate "^0.71.0"
-    slate-history "^0.66.0"
-    slate-hyperscript "^0.67.0"
-    slate-react "^0.71.0"
-    weak-key "^1.0.2"
-
-volto-slate@5.3.3:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/volto-slate/-/volto-slate-5.3.3.tgz#4af806ec9e84f141da3e38e9f98852679aed4fdd"
-  integrity sha512-D9HDlCJAt6FCAL1EQY9PdnLSp7aqdJqEoeI4Gl+omNvR+JtefkE6ilkFL6s+pITAyK3He5t704ujGgT7Wf8+HA==
   dependencies:
     "@eeacms/volto-object-widget" "*"
     classnames "2.2.6"
