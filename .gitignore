@@ -79,10 +79,15 @@ cypress/screenshots
 # generic
 data
 omelette
+*.old
+*~
+src/addons
+src/develop
+npm-cache
+backend
 
 # build
 public/critical.css
-src/addons/*
 /cache
 
 # yarn 3
