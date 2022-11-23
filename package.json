@@ -47,7 +47,8 @@
   ],
   "resolutions": {
     "d3-array": "2.12.1",
-    "classnames": "2.2.6"
+    "classnames": "2.2.6",
+    "@plone-collective/volto-sentry": "0.2.1"
   },
   "addons": [
     "@eeacms/volto-searchlib",
@@ -61,21 +62,22 @@
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
-    "@eeacms/volto-eea-kitkat": "10.1.0",
-    "@eeacms/volto-embed": "5.0.0",
-    "@eeacms/volto-measurescatalog": "0.1.1",
-    "@eeacms/volto-slate-dataentity": "2.0.0",
-    "@eeacms/volto-slots": "*",
-    "@eeacms/volto-tableau": "2.0.0",
-    "@plone/volto": "16.0.0",
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/search": "0.2.31",
     "@eeacms/volto-banner": "3.0.1",
     "@eeacms/volto-datablocks": "4.0.0",
+    "@eeacms/volto-eea-kitkat": "10.1.0",
+    "@eeacms/volto-embed": "5.0.0",
     "@eeacms/volto-marine-theme": "0.1.14",
+    "@eeacms/volto-measurescatalog": "0.1.1",
     "@eeacms/volto-searchlib": "0.4.2",
+    "@eeacms/volto-slate-dataentity": "2.0.0",
+    "@eeacms/volto-slots": "*",
+    "@eeacms/volto-tableau": "2.0.0",
     "@eeacms/volto-widget-dataprovenance": "0.2.1",
     "@eeacms/volto-widget-geolocation": "5.0.1",
+    "@plone-collective/volto-sentry": "0.2.1",
+    "@plone/volto": "16.0.0",
     "react-compound-slider": "3.3.1",
     "react-motion": "0.5.2",
     "react-select": "*"
