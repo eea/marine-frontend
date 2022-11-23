@@ -70,7 +70,7 @@
     "@eeacms/volto-embed": "<=4.0.2",
     "@eeacms/volto-marine-theme": "0.1.14",
     "@eeacms/volto-measurescatalog": "0.1.1",
-    "@eeacms/volto-searchlib": "0.4.2",
+    "@eeacms/volto-searchlib": "0.4.3",
     "@eeacms/volto-slate-dataentity": "<=1.0.6",
     "@eeacms/volto-tableau": "<=1.2.5",
     "@eeacms/volto-widget-dataprovenance": "0.2.1",
