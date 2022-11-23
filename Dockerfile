@@ -4,7 +4,7 @@ COPY . /opt/frontend/
 WORKDIR /opt/frontend/
 
 # Update apt packages
-RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
+RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
     && apt-get update \
     && apt-get install -y --no-install-recommends $runDeps \
     && apt-get clean \
@@ -13,7 +13,8 @@ RUN runDeps="openssl ca-certificates patch gosu git tmux locales-all" \
     && cp jsconfig.json.prod jsconfig.json \
     && mkdir -p /opt/frontend/src/addons \
     && rm -rf /opt/frontend/src/addons/* \
-    && find /opt/frontend -not -user node -exec chown node {} \+
+    && find /app/ -not -user node -exec chown node {} \+ \
+    && corepack enable
 
 USER node
 
@@ -22,10 +23,14 @@ WORKDIR /opt/frontend/
 RUN cd /opt/frontend \
     && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
     && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
-    && rm -rf /home/node/.cache
+    && rm -rf /home/node/.cache \
+    && rm -rf /home/node/.yarn \
+    && rm -rf /home/node/.npm \
+    && rm -rf /app/.yarn/cache
+
 USER root
 
-EXPOSE 3000 3001 4000 4001
+EXPOSE 3000 3001
 
 ENTRYPOINT ["/opt/frontend/entrypoint.sh"]
 CMD ["yarn", "start:prod"]
