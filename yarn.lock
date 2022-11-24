@@ -1918,9 +1918,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:10.1.0":
-  version: 10.1.0
-  resolution: "@eeacms/volto-eea-kitkat@npm:10.1.0"
+"@eeacms/volto-eea-kitkat@npm:10.1.1":
+  version: 10.1.1
+  resolution: "@eeacms/volto-eea-kitkat@npm:10.1.1"
   dependencies:
     "@eeacms/volto-accordion-block": 6.0.0
     "@eeacms/volto-banner": 3.0.1
@@ -1956,8 +1956,8 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.0.1
     "@eeacms/volto-widgets-view": 4.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
-    "@plone-collective/volto-sentry": 0.2.0
-  checksum: 262b90f2864cf89ca28735b5aebe607c55bffb6a4409183be061b511a572f9708272f4529afb189086c4fa04905b565434c13e672aa282e9d1f1677c91af4743
+    "@plone-collective/volto-sentry": 0.3.0
+  checksum: 11bbc47c7c7664bd00d7cf1505a0debdd554350bb65e0cf5270dde220bdbe861787ffb46091f5ea5f5febb6505ff5e8eff377bc8beb34ee12ebdfd31cbf73f92
   languageName: node
   linkType: hard
 
@@ -1969,18 +1969,6 @@ __metadata:
     "@eeacms/volto-datablocks": "*"
     react-visibility-sensor: 5.1.1
   checksum: aa0c9b44944662fe76273c516cf1a51a61b6ab02b5f0b49c9c08ccb6d8a8812ccfddec53bc587ce06df0331594e4ca8d64afeef2d4dd708cd4a1607b7ca7bed1
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-embed@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-embed@npm:4.0.0"
-  dependencies:
-    "@eeacms/volto-corsproxy": "*"
-    "@eeacms/volto-datablocks": "*"
-    react-visibility-sensor: 5.1.1
-    volto-slate: "*"
-  checksum: a408bca4ef2a5ba0167989213c8d2a17794a209006a74ff8025f36d1840de437762c5e7ede98d3c2102e32fcdc395ca625ac750d3944857894bd9ca00ffab721
   languageName: node
   linkType: hard
 
@@ -2017,17 +2005,18 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator": 7.18.6
     "@cypress/code-coverage": ^3.9.5
-    "@eeacms/volto-embed": 4.0.0
-    "@eeacms/volto-tableau": 1.2.4
-    "@eeacms/volto-tabs-block": 1.2.11
-    "@plone/scripts": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-slots": "*"
+    "@eeacms/volto-tableau": "*"
+    "@eeacms/volto-tabs-block": "*"
+    "@plone/scripts": 2.1.1
     axios: 0.25.0
     babel-plugin-transform-class-properties: ^6.24.1
     jquery: 3.6.0
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-    volto-slate: 5.3.3
+    tableau-api-js: "github:eea/tableau-api-js#1.1.1"
   languageName: unknown
   linkType: soft
 
@@ -2210,17 +2199,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@eeacms/volto-tableau@npm:1.2.4"
-  dependencies:
-    "@eeacms/volto-resize-helper": ^0.2.4
-    tableau-api-js: "github:eea/tableau-api-js#1.1.1"
-  checksum: 634a20394f04d3d8c4bc76ca74c6240996b7b5419c9342f10bc633e3f87cfd37df1d6969361c44c41bdd29f165b1c755dbcaab9f17543a3ac755006a6f2be7bf
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-tableau@npm:2.0.0":
+"@eeacms/volto-tableau@npm:*, @eeacms/volto-tableau@npm:2.0.0":
   version: 2.0.0
   resolution: "@eeacms/volto-tableau@npm:2.0.0"
   dependencies:
@@ -2229,18 +2208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@npm:1.2.11":
-  version: 1.2.11
-  resolution: "@eeacms/volto-tabs-block@npm:1.2.11"
-  dependencies:
-    "@eeacms/volto-block-style": "*"
-    react-slick: ^0.24.0
-    slick-carousel: ^1.8.1
-  checksum: 437130dbca5d8264841a00433dd98dc6c083652a67d7d0bc5be1af8d121517a04e7a081c9b17b7bea786033229ac5f0771dd4f302268ab3dbfa36cbb3f55968d
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-tabs-block@npm:3.0.1":
+"@eeacms/volto-tabs-block@npm:*, @eeacms/volto-tabs-block@npm:3.0.1":
   version: 3.0.1
   resolution: "@eeacms/volto-tabs-block@npm:3.0.1"
   dependencies:
@@ -2561,11 +2529,11 @@ __metadata:
   linkType: hard
 
 "@floating-ui/dom@npm:^1.0.1":
-  version: 1.0.6
-  resolution: "@floating-ui/dom@npm:1.0.6"
+  version: 1.0.7
+  resolution: "@floating-ui/dom@npm:1.0.7"
   dependencies:
     "@floating-ui/core": ^1.0.2
-  checksum: 72536ec07901b3e899510e7a206373fe380a971dd03305436ef248b59585a4da595cb27d525a44d3eba8cc965b1b8903a6e93e3b2333b3426da03b25ede48caa
+  checksum: 4bcdeab82b7239fdf32289a297b1e8743656375daeffc4a7b685d934c9ad356b1b77683032fcff527249bc48d9e6a00bff65e5a6119f06f19c6bb9f026efcf30
   languageName: node
   linkType: hard
 
@@ -3296,36 +3264,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@plone-collective/volto-sentry@npm:0.2.1":
-  version: 0.2.1
-  resolution: "@plone-collective/volto-sentry@npm:0.2.1"
+"@plone-collective/volto-sentry@npm:0.3.0":
+  version: 0.3.0
+  resolution: "@plone-collective/volto-sentry@npm:0.3.0"
   dependencies:
     "@sentry/browser": 7.15.0
     "@sentry/integrations": 7.15.0
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
-  checksum: 6967542f4035275e73a40f4c35c4773e219dfedb3ad851346b16c5fa3ac7a45e51eea60218418bbebaa114304f9310ca9e3db6df68909e2f6eeef6935a410f42
-  languageName: node
-  linkType: hard
-
-"@plone/scripts@npm:*, @plone/scripts@npm:2.1.2, @plone/scripts@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "@plone/scripts@npm:2.1.2"
-  dependencies:
-    babel-plugin-react-intl: 5.1.17
-    babel-preset-razzle: 4.2.17
-    chalk: 4
-    commander: 8.2.0
-    fs-extra: 10.1.0
-    git-url-parse: ^11.6.0
-    mrs-developer: "*"
-    pofile: 1.0.10
-    simple-git: 3.5.0
-  bin:
-    addon: addon/index.js
-    changelogupdater: changelogupdater.cjs
-    i18n: i18n.cjs
-  checksum: 8afc64bd7cd2a60e5c9cdd552e54fe8aef48e91f57824ce4a03158c3ecde2fd40a2b7c66f0a9df90c60caf7e037edf670a1361b36667b6603da1c2e3244c1654
+  checksum: 99e5493e46fdc93d69dcdacfdbd7a4ca746952edca805ff095a5fd6789a41820510e4e73d0a4d218f9fbb9b65f80641ac4f2a0c65753a20f193f88e92a04ee1d
   languageName: node
   linkType: hard
 
@@ -3345,6 +3292,47 @@ __metadata:
     changelogupdater: changelogupdater.js
     i18n: i18n.js
   checksum: 443bef9e54bb7c67e4b710d82c913f2f373907a0962f8178e234abf31ec4388649915a98167a52c3c70e372081fa0c41497e1f84282bf63dc67e7521a677a7d1
+  languageName: node
+  linkType: hard
+
+"@plone/scripts@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@plone/scripts@npm:2.1.1"
+  dependencies:
+    babel-plugin-react-intl: 5.1.17
+    babel-preset-razzle: 4.2.17
+    commander: 8.2.0
+    fs-extra: 10.1.0
+    git-url-parse: ^11.6.0
+    mrs-developer: "*"
+    pofile: 1.0.10
+    simple-git: 3.5.0
+  bin:
+    addon: addon/index.js
+    changelogupdater: changelogupdater.cjs
+    i18n: i18n.cjs
+  checksum: 7e639051710c915ecc885d3c9b117548cadcc4da40458d0d7c5f9db537b14a9ba7700a07bdd71231407171ad786f29f2f329df5d25952c974ffa5288fdd46938
+  languageName: node
+  linkType: hard
+
+"@plone/scripts@npm:2.1.2, @plone/scripts@npm:^2.1.2":
+  version: 2.1.2
+  resolution: "@plone/scripts@npm:2.1.2"
+  dependencies:
+    babel-plugin-react-intl: 5.1.17
+    babel-preset-razzle: 4.2.17
+    chalk: 4
+    commander: 8.2.0
+    fs-extra: 10.1.0
+    git-url-parse: ^11.6.0
+    mrs-developer: "*"
+    pofile: 1.0.10
+    simple-git: 3.5.0
+  bin:
+    addon: addon/index.js
+    changelogupdater: changelogupdater.cjs
+    i18n: i18n.cjs
+  checksum: 8afc64bd7cd2a60e5c9cdd552e54fe8aef48e91f57824ce4a03158c3ecde2fd40a2b7c66f0a9df90c60caf7e037edf670a1361b36667b6603da1c2e3244c1654
   languageName: node
   linkType: hard
 
@@ -4139,9 +4127,9 @@ __metadata:
   linkType: hard
 
 "@types/lodash@npm:^4.14.146":
-  version: 4.14.189
-  resolution: "@types/lodash@npm:4.14.189"
-  checksum: 096d1e0954794fb76bd6a0ea443067f02004b53e3c59ac6e3fed88817a1468fc2e6614abdf44341f5e0fdff5f9a3c94a934cc9ff7126e07efbcd94355a21fe45
+  version: 4.14.190
+  resolution: "@types/lodash@npm:4.14.190"
+  checksum: 353a55a1222a57224ead8bd3379fabb2e3e3f6685f599c48b1b66f099d8e9e015e6c6352c6e2275954004c3bb510377804c63117233c6f187700b6ab78adfa02
   languageName: node
   linkType: hard
 
@@ -11031,7 +11019,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=d11327"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
@@ -11041,7 +11029,7 @@ __metadata:
 
 "fsevents@patch:fsevents@^2.1.2#~builtin<compat/fsevents>, fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -13983,7 +13971,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsdom@npm:^16.4.0, jsdom@npm:^16.6.0":
+"jsdom@npm:^16.4.0":
   version: 16.7.0
   resolution: "jsdom@npm:16.7.0"
   dependencies:
@@ -15014,7 +15002,7 @@ __metadata:
     "@eeacms/search": 0.2.31
     "@eeacms/volto-banner": 3.0.1
     "@eeacms/volto-datablocks": 4.0.0
-    "@eeacms/volto-eea-kitkat": 10.1.0
+    "@eeacms/volto-eea-kitkat": 10.1.1
     "@eeacms/volto-embed": 5.0.0
     "@eeacms/volto-marine-theme": 0.1.14
     "@eeacms/volto-measurescatalog": 0.1.1
@@ -15024,7 +15012,6 @@ __metadata:
     "@eeacms/volto-tableau": 2.0.0
     "@eeacms/volto-widget-dataprovenance": 0.2.1
     "@eeacms/volto-widget-geolocation": 5.0.1
-    "@plone-collective/volto-sentry": 0.2.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.0.0
     eslint-plugin-prettier: 3.1.3
@@ -18588,15 +18575,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intersection-observer@npm:^8.32.0":
-  version: 8.34.0
-  resolution: "react-intersection-observer@npm:8.34.0"
-  peerDependencies:
-    react: ^15.0.0 || ^16.0.0 || ^17.0.0|| ^18.0.0
-  checksum: 7713fecfd1512c7f5a60f9f0bf15403b8f8bbd4110bcafaeaea6de36a0e0eb60368c3638f99e9c97b75ad8fc787ea48c241dcb5c694f821d7f2976f709082cc5
-  languageName: node
-  linkType: hard
-
 "react-intl-redux@npm:2.2.0":
   version: 2.2.0
   resolution: "react-intl-redux@npm:2.2.0"
@@ -19824,7 +19802,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.1.6#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.15.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.18.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -20545,17 +20523,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-history@npm:^0.66.0":
-  version: 0.66.0
-  resolution: "slate-history@npm:0.66.0"
-  dependencies:
-    is-plain-object: ^5.0.0
-  peerDependencies:
-    slate: ">=0.65.3"
-  checksum: e83d4fbf5d4097a5b434df4846420e593598a9a3f90d3e0638f16915b1014bc8a7dc5cd87e3bc0a31a8ad5eae582a18f96bdc04f4b0b0a5a82cf05bd0377601e
-  languageName: node
-  linkType: hard
-
 "slate-hyperscript@npm:0.81.3":
   version: 0.81.3
   resolution: "slate-hyperscript@npm:0.81.3"
@@ -20564,17 +20531,6 @@ __metadata:
   peerDependencies:
     slate: ">=0.65.3"
   checksum: cc3ba04d14e20c66eee5e5b0ca2d60fe92c0d38caf9b412153453d42f32d90bce61d57e3a00b2a4c30a7b15408bf8b14132871fd3c00f75de6ca4b49387637fe
-  languageName: node
-  linkType: hard
-
-"slate-hyperscript@npm:^0.67.0":
-  version: 0.67.0
-  resolution: "slate-hyperscript@npm:0.67.0"
-  dependencies:
-    is-plain-object: ^5.0.0
-  peerDependencies:
-    slate: ">=0.65.3"
-  checksum: 17ca7a30be4fd025ec46d960fade60743f68f11c6c4e7865b1b45972eaf7b26e1949d8246f4768de83a5a577ab119f1af3eac8db168eef98589cb09ef7148d90
   languageName: node
   linkType: hard
 
@@ -20598,26 +20554,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"slate-react@npm:^0.71.0":
-  version: 0.71.0
-  resolution: "slate-react@npm:0.71.0"
-  dependencies:
-    "@types/is-hotkey": ^0.1.1
-    "@types/lodash": ^4.14.149
-    direction: ^1.0.3
-    is-hotkey: ^0.1.6
-    is-plain-object: ^5.0.0
-    lodash: ^4.17.4
-    scroll-into-view-if-needed: ^2.2.20
-    tiny-invariant: 1.0.6
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-    slate: ">=0.65.3"
-  checksum: 5b256f3ebc3d2da40015744e4eab9a1016e0fa785c922a90ca34338b60838b1cf1a367797ce5234a78f1212c6e3a9ef6d2f8d952a0dd26d928b4e16c96ce07f3
-  languageName: node
-  linkType: hard
-
 "slate@npm:0.84.0":
   version: 0.84.0
   resolution: "slate@npm:0.84.0"
@@ -20626,17 +20562,6 @@ __metadata:
     is-plain-object: ^5.0.0
     tiny-warning: ^1.0.3
   checksum: d74de16a40571b2513dbd96efee8fe891909357a7011131f8fae738a0eace5b3c7c2da1c0ebfb1ffe66c8c933507ca618772fb607fbc9e44aa5158d3d874c5a2
-  languageName: node
-  linkType: hard
-
-"slate@npm:^0.71.0":
-  version: 0.71.0
-  resolution: "slate@npm:0.71.0"
-  dependencies:
-    immer: ^9.0.6
-    is-plain-object: ^5.0.0
-    tiny-warning: ^1.0.3
-  checksum: 9c3d3b8464acf8e67eb49c8242aa6435f7e7f4fca36ba794c671a9979b9180635cc392caf569404a5fb269f8ec3797a3cf8e32d9d1f150198c170cbf9fa2ac1d
   languageName: node
   linkType: hard
 
@@ -22862,50 +22787,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-slate@npm:*":
-  version: 6.4.0
-  resolution: "volto-slate@npm:6.4.0"
-  dependencies:
-    "@eeacms/volto-object-widget": "*"
-    classnames: 2.2.6
-    image-extensions: 1.1.0
-    is-url: 1.2.4
-    jsdom: ^16.6.0
-    react-intersection-observer: ^8.32.0
-    react-visibility-sensor: 5.1.1
-    slate: ^0.71.0
-    slate-history: ^0.66.0
-    slate-hyperscript: ^0.67.0
-    slate-react: ^0.71.0
-    weak-key: ^1.0.2
-  peerDependencies:
-    "@plone/volto": ">=12.1.2"
-  checksum: 1f7785a088da215cadad6c90cb09ae336894d2ee09dfc71f288ed0e6e7c5f69cb5e63c7db991b4acdeef49e292f1e12817a6b1a46f106db6e927afd06e783b1d
-  languageName: node
-  linkType: hard
-
-"volto-slate@npm:5.3.3":
-  version: 5.3.3
-  resolution: "volto-slate@npm:5.3.3"
-  dependencies:
-    "@eeacms/volto-object-widget": "*"
-    classnames: 2.2.6
-    image-extensions: 1.1.0
-    is-url: 1.2.4
-    jsdom: ^16.6.0
-    react-intersection-observer: ^8.32.0
-    react-visibility-sensor: 5.1.1
-    slate: ^0.71.0
-    slate-history: ^0.66.0
-    slate-hyperscript: ^0.67.0
-    slate-react: ^0.71.0
-    weak-key: ^1.0.2
-  peerDependencies:
-    "@plone/volto": ">=12.1.2"
-  checksum: 3f571ac15f8a3c05627fe5eb7cd211d10eb4f24da7aa32568f39409756ef10c2ae316b28e895d62d08050003311fc0df658fde54ba888d6baea6f7c9c6eabe6c
-  languageName: node
-  linkType: hard
-
 "w3c-hr-time@npm:^1.0.2":
   version: 1.0.2
   resolution: "w3c-hr-time@npm:1.0.2"
@@ -22998,15 +22879,6 @@ __metadata:
   dependencies:
     defaults: ^1.0.3
   checksum: 814e9d1ddcc9798f7377ffa448a5a3892232b9275ebb30a41b529607691c0491de47cba426e917a4d08ded3ee7e9ba2f3fe32e62ee3cd9c7d3bafb7754bd553c
-  languageName: node
-  linkType: hard
-
-"weak-key@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "weak-key@npm:1.0.2"
-  dependencies:
-    core-js: ^2.4.0
-  checksum: 3c27dcd5448308a4e7a54282d7b15e7b43b8c2b6a515461a15098ef320cbd2cfc63fb4469e54ed3d4e4bd877dd59d71ec6695158f2c67901bba8842ecdcd016d
   languageName: node
   linkType: hard
 
