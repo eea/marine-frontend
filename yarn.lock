@@ -2084,7 +2084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@*, @eeacms/volto-searchlib@0.4.2, @eeacms/volto-searchlib@workspace:src/addons/volto-searchlib":
+"@eeacms/volto-searchlib@*, @eeacms/volto-searchlib@workspace:src/addons/volto-searchlib":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-searchlib@workspace:src/addons/volto-searchlib"
   dependencies:
@@ -2130,6 +2130,50 @@ __metadata:
     use-deep-compare-effect: 1.8.1
   languageName: unknown
   linkType: soft
+
+"@eeacms/volto-searchlib@npm:0.4.3":
+  version: 0.4.3
+  resolution: "@eeacms/volto-searchlib@npm:0.4.3"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+    "@elastic/react-search-ui": ^1.9.0
+    "@elastic/react-search-ui-views": ^1.9.0
+    "@elastic/search-ui": ^1.9.0
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: ^1.6.0
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: d816b36d2902614d771e14d6ef8d3191e9cd305ca1a62557dc79175a2123cef0fb33040874b0acb0a550720723e02559b693cd352647aa230e08c197f57a823d
+  languageName: node
+  linkType: hard
 
 "@eeacms/volto-sentry-rancher-config@npm:3.0.1":
   version: 3.0.1
@@ -2199,14 +2243,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:*, @eeacms/volto-tableau@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-tableau@npm:2.0.0"
+"@eeacms/volto-tableau@*, @eeacms/volto-tableau@2.0.0, @eeacms/volto-tableau@workspace:src/addons/volto-tableau":
+  version: 0.0.0-use.local
+  resolution: "@eeacms/volto-tableau@workspace:src/addons/volto-tableau"
   dependencies:
+    "@cypress/code-coverage": ^3.9.5
     "@eeacms/volto-resize-helper": ^0.2.4
-  checksum: ceceb6c0658f0136a4b3998f895c0d0c40c2b91afa97d214a3ea3143f57e6e22cd14aabf8924afdd42c08702efae877c553c06a88068acc881c927fcc6df9327
-  languageName: node
-  linkType: hard
+    "@plone/scripts": "*"
+    babel-plugin-transform-class-properties: ^6.24.1
+    md5: ^2.3.0
+  languageName: unknown
+  linkType: soft
 
 "@eeacms/volto-tabs-block@npm:*, @eeacms/volto-tabs-block@npm:3.0.1":
   version: 3.0.1
@@ -3273,6 +3320,27 @@ __metadata:
     "@sentry/node": 7.15.0
     "@sentry/webpack-plugin": 1.19.1
   checksum: 99e5493e46fdc93d69dcdacfdbd7a4ca746952edca805ff095a5fd6789a41820510e4e73d0a4d218f9fbb9b65f80641ac4f2a0c65753a20f193f88e92a04ee1d
+  languageName: node
+  linkType: hard
+
+"@plone/scripts@npm:*":
+  version: 2.2.1
+  resolution: "@plone/scripts@npm:2.2.1"
+  dependencies:
+    babel-plugin-react-intl: 5.1.17
+    babel-preset-razzle: 4.2.17
+    chalk: 4
+    commander: 8.2.0
+    fs-extra: 10.1.0
+    git-url-parse: ^11.6.0
+    mrs-developer: "*"
+    pofile: 1.0.10
+    simple-git: 3.5.0
+  bin:
+    addon: addon/index.js
+    changelogupdater: changelogupdater.cjs
+    i18n: i18n.cjs
+  checksum: f630c724137a07457203a73d954e46bddd4dea8cd16bb96e0358f6b99270dfcda5aca5352a93b07565c5a86dd5752b980d899fcc9a9ec233a40c50f1b46b04a8
   languageName: node
   linkType: hard
 
@@ -15006,7 +15074,7 @@ __metadata:
     "@eeacms/volto-embed": 5.0.0
     "@eeacms/volto-marine-theme": 0.1.14
     "@eeacms/volto-measurescatalog": 0.1.1
-    "@eeacms/volto-searchlib": 0.4.2
+    "@eeacms/volto-searchlib": 0.4.3
     "@eeacms/volto-slate-dataentity": 2.0.0
     "@eeacms/volto-slots": "*"
     "@eeacms/volto-tableau": 2.0.0
