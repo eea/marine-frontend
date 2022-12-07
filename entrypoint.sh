@@ -48,8 +48,6 @@ test -n "$REBUILD" && apply_rebuild
 # Should we monkey patch?
 test -n "$API_PATH" && apply_path
 
-# Sentry
-gosu node ./create-sentry-release.sh
 
 echo "Starting Volto"
 

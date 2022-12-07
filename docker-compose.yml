@@ -15,7 +15,7 @@ services:
   #     RAZZLE_INTERNAL_API_PATH: "http://backend:${BACKEND:-8080}/Plone"
 
   backend:
-    image: eeacms/plonesaas
+    image: eeacms/marine-backend
     build: ./backend
     ports:
       - '${BACKEND_PORT:-8080}:8080'
