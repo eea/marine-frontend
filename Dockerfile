@@ -13,7 +13,7 @@ RUN runDeps="openssl ca-certificates patch gosu git make tmux locales-all" \
     && cp jsconfig.json.prod jsconfig.json \
     && mkdir -p /opt/frontend/src/addons \
     && rm -rf /opt/frontend/src/addons/* \
-    && find /app/ -not -user node -exec chown node {} \+ \
+    && find /opt/frontend/ -not -user node -exec chown node {} \+ \
     && corepack enable
 
 USER node
