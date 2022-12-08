@@ -20,13 +20,19 @@ function apply_rebuild {
 
 function apply_path {
     mainjs=./build/server.js
-    bundlejs=./build/public/static/js/*.js
+    bundlejs=./build/public/static/js/*
+    bundlecss=./build/public/static/css/*
+    bundlejson=./build/*.json
     test -f $mainjs
 
     echo "Check that we have API_PATH and API vars"
     test -n "$API_PATH"
 
     echo "Changing built files inplace"
+    gosu node sed -i "s#VOLTO_PUBLIC_PATH#${PUBLIC_PATH}#g" $mainjs
+    gosu node sed -i "s#VOLTO_PUBLIC_PATH#${PUBLIC_PATH}#g" $bundlejs
+    gosu node sed -i "s#VOLTO_PUBLIC_PATH#${PUBLIC_PATH}#g" $bundlecss
+    gosu node sed -i "s#VOLTO_PUBLIC_PATH#${PUBLIC_PATH}#g" $bundlejson
     gosu node sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $mainjs
     gosu node sed -i "s#VOLTO_API_PATH#${API_PATH}#g" $bundlejs
     gosu node sed -i "s#VOLTO_INTERNAL_API_PATH#${INTERNAL_API_PATH}#g" $mainjs
@@ -42,8 +48,6 @@ test -n "$REBUILD" && apply_rebuild
 # Should we monkey patch?
 test -n "$API_PATH" && apply_path
 
-# Sentry
-gosu node ./create-sentry-release.sh
 
 echo "Starting Volto"
 
