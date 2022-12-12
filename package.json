@@ -50,13 +50,13 @@
   },
   "addons": [
     "@eeacms/volto-searchlib",
-    "@eeacms/volto-marine-theme",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-slots",
     "@eeacms/volto-embed",
     "@eeacms/volto-tableau",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-datablocks",
+    "@eeacms/volto-marine-theme",
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
