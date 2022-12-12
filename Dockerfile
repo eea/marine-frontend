@@ -21,13 +21,9 @@ USER node
 WORKDIR /opt/frontend/
 
 RUN cd /opt/frontend \
-    && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
-    && PUBLIC_PATH=https://water.europa.eu/marine/ RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
-    && rm -rf /home/node/.cache \
-    && rm -rf /home/node/.yarn \
-    && rm -rf /home/node/.npm \
-    && rm -rf /app/.yarn/cache
-
+    && PUBLIC_PATH=VOLTO_PUBLIC_PATH RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn \
+    && PUBLIC_PATH=VOLTO_PUBLIC_PATH RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH yarn build \
+    && rm -rf /home/node/.cache
 USER root
 
 EXPOSE 3000 3001
