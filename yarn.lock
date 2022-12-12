@@ -1686,7 +1686,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/search@npm:*, @eeacms/search@npm:0.2.31":
+"@eeacms/search@npm:0.2.31":
   version: 0.2.31
   resolution: "@eeacms/search@npm:0.2.31"
   dependencies:
@@ -1985,17 +1985,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-measurescatalog@npm:0.1.1":
-  version: 0.1.1
-  resolution: "@eeacms/volto-measurescatalog@npm:0.1.1"
+"@eeacms/volto-measurescatalog@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-measurescatalog@npm:0.1.2"
   dependencies:
-    "@eeacms/search": "*"
     "@eeacms/volto-searchlib": "*"
     "@nivo/bar": ^0.79.1
     "@nivo/core": ^0.79.0
     "@nivo/pie": ^0.79.1
     "@nivo/tooltip": ^0.79.0
-  checksum: ed4c6132bcf5d5f2cce9b6b2c588bac740ede55522782f692a099f96f56d88e5219a89398d0e6e9c2fe85106ca4e4c565a749f6ac614103d242950ba7a00e4b7
+  checksum: 5bd4868f3cc67ec2f0d0ac32d29a6786db0b444b96128c982840602841993f6f46f395be77bf23a8a2e8752be6b6eab8b0f5db294ad8450d4fd35a4196a367c5
   languageName: node
   linkType: hard
 
@@ -14714,7 +14713,7 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 10.1.1
     "@eeacms/volto-embed": 5.0.0
     "@eeacms/volto-marine-theme": 0.1.15
-    "@eeacms/volto-measurescatalog": 0.1.1
+    "@eeacms/volto-measurescatalog": 0.1.2
     "@eeacms/volto-searchlib": 0.4.6
     "@eeacms/volto-slate-dataentity": 2.0.0
     "@eeacms/volto-slots": 0.1.1
