@@ -1773,23 +1773,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:*":
+"@eeacms/volto-block-style@npm:*, @eeacms/volto-block-style@npm:4.1.2":
   version: 4.1.2
   resolution: "@eeacms/volto-block-style@npm:4.1.2"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     react-color: ~2.18.1
   checksum: 7229356bd22009bf290cf87f80bd8b9fc0630d1b72de9d90fe951f5eaba7d67399418540df3df3b0a9264beef8db5356aba26eac1a74eadc838809a7bff5e47f
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-block-style@npm:4.1.1":
-  version: 4.1.1
-  resolution: "@eeacms/volto-block-style@npm:4.1.1"
-  dependencies:
-    "@eeacms/volto-resize-helper": "*"
-    react-color: ~2.18.1
-  checksum: 8aaef3c4eaa3ff431daa907cd520703736c9f75ed8790b44f29da790ffdb7b581a4d79b3ec10133de4312535dc2d90302f2bfe8533f3ad57e59ce6071f4c9bd4
   languageName: node
   linkType: hard
 
@@ -1800,12 +1790,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-columns-block@npm:5.0.1":
-  version: 5.0.1
-  resolution: "@eeacms/volto-columns-block@npm:5.0.1"
+"@eeacms/volto-columns-block@npm:5.1.0":
+  version: 5.1.0
+  resolution: "@eeacms/volto-columns-block@npm:5.1.0"
   dependencies:
     react-color: ~2.19.3
-  checksum: ccc3b24a5a09e3060516364076d26c7a7277d0f5d6c846ccea011e5cd78ccf0a4887d2caa286b1415be2cfd2631f8280df1fc0134ea2bfebac44d04b30667077
+  checksum: 51d482a0d0e8d7417ec9016d1c5d23cd01d742e3b5cd223fa9a1f854d3e4e8944253afd13e6c3c8fe559e8fafc474e9e3a15e802e496f6aa5a983686cbadf5dc
   languageName: node
   linkType: hard
 
@@ -1878,23 +1868,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:10.1.1":
-  version: 10.1.1
-  resolution: "@eeacms/volto-eea-kitkat@npm:10.1.1"
+"@eeacms/volto-eea-kitkat@npm:10.2.0":
+  version: 10.2.0
+  resolution: "@eeacms/volto-eea-kitkat@npm:10.2.0"
   dependencies:
     "@eeacms/volto-accordion-block": 6.0.0
     "@eeacms/volto-banner": 3.0.1
     "@eeacms/volto-block-divider": 5.0.0
     "@eeacms/volto-block-image-cards": 1.0.1
-    "@eeacms/volto-block-style": 4.1.1
+    "@eeacms/volto-block-style": 4.1.2
     "@eeacms/volto-call-to-action-block": 2.0.0
-    "@eeacms/volto-columns-block": 5.0.1
+    "@eeacms/volto-columns-block": 5.1.0
     "@eeacms/volto-corsproxy": 3.0.1
     "@eeacms/volto-depiction": 1.0.1
     "@eeacms/volto-description-block": 1.0.1
     "@eeacms/volto-group-block": 5.0.1
     "@eeacms/volto-hero-block": 2.0.0
-    "@eeacms/volto-listing-block": 2.1.0
+    "@eeacms/volto-listing-block": 2.2.0
     "@eeacms/volto-matomo": 3.0.1
     "@eeacms/volto-metadata-block": 5.0.1
     "@eeacms/volto-object-widget": 5.0.1
@@ -1917,7 +1907,7 @@ __metadata:
     "@eeacms/volto-widgets-view": 4.0.1
     "@kitconcept/volto-blocks-grid": 5.1.1
     "@plone-collective/volto-sentry": 0.3.0
-  checksum: 11bbc47c7c7664bd00d7cf1505a0debdd554350bb65e0cf5270dde220bdbe861787ffb46091f5ea5f5febb6505ff5e8eff377bc8beb34ee12ebdfd31cbf73f92
+  checksum: e571ca3aea8f6ad518a013bffdb6910a84fac13432ca301d1640072e144f97cf45dc3a1ac7da2c3a18a7fc6ca0fd890909c618c7bd0be4f189702ab69f859b3f
   languageName: node
   linkType: hard
 
@@ -1948,14 +1938,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@eeacms/volto-listing-block@npm:2.1.0"
+"@eeacms/volto-listing-block@npm:2.2.0":
+  version: 2.2.0
+  resolution: "@eeacms/volto-listing-block@npm:2.2.0"
   dependencies:
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 572cdf7a28e26f71b2447c20714590eba2924e26b010f908f97cf774b2c43b485db0dbbb25e5b52a55a6b7188ae777abcecf78687291cd00a5efb7f137a9b529
+  checksum: 2a09aea3334a3ebc073168fea8ae5196c94f78e23253e92267c586dbd276ba54ed5d2d108c5e779e61d43f65c8ae35ba84b5c1a9071afced8418f512152a715e
   languageName: node
   linkType: hard
 
@@ -14754,7 +14744,7 @@ __metadata:
     "@eeacms/search": 0.2.31
     "@eeacms/volto-banner": 3.0.1
     "@eeacms/volto-datablocks": 4.0.0
-    "@eeacms/volto-eea-kitkat": 10.1.1
+    "@eeacms/volto-eea-kitkat": 10.2.0
     "@eeacms/volto-embed": 5.0.0
     "@eeacms/volto-marine-theme": 0.1.15
     "@eeacms/volto-measurescatalog": 0.1.2
