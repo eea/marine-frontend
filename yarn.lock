@@ -1824,9 +1824,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@eeacms/volto-datablocks@npm:4.0.0"
+"@eeacms/volto-datablocks@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@eeacms/volto-datablocks@npm:4.0.2"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-group-block": "*"
@@ -1837,8 +1837,8 @@ __metadata:
     object-hash: 2.2.0
     react-countup: 6.1.1
     react-visibility-sensor: 5.1.1
-    sanitize-html: ^2.3.3
-  checksum: 60ccd868d76a8485046e03196314ff0cc96c98636b3ebc2c4c4ff4a9b362c6d433bc6c8ca53756665df672d3b1e62863d2ad701322c340be9ff5d7da8d30878a
+    sanitize-html: 2.7.3
+  checksum: 1a00bea67b289ef7f75ed2d031a86ccafba25191b237af96c6109260107e181fc10377dd309cee7dadf60329becf8982af488f9478af6111dc9a3ee346bdd5ba
   languageName: node
   linkType: hard
 
@@ -14699,7 +14699,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": "*"
     "@eeacms/search": 0.2.31
     "@eeacms/volto-banner": 3.0.1
-    "@eeacms/volto-datablocks": 4.0.0
+    "@eeacms/volto-datablocks": 4.0.2
     "@eeacms/volto-eea-kitkat": 10.2.0
     "@eeacms/volto-embed": 5.0.0
     "@eeacms/volto-marine-theme": 0.1.16
@@ -19662,7 +19662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanitize-html@npm:^2.3.3":
+"sanitize-html@npm:2.7.3, sanitize-html@npm:^2.3.3":
   version: 2.7.3
   resolution: "sanitize-html@npm:2.7.3"
   dependencies:
