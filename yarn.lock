@@ -2055,9 +2055,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:0.4.19":
-  version: 0.4.19
-  resolution: "@eeacms/volto-searchlib@npm:0.4.19"
+"@eeacms/volto-searchlib@npm:0.4.20":
+  version: 0.4.20
+  resolution: "@eeacms/volto-searchlib@npm:0.4.20"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2095,7 +2095,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e2e224eb6ba019337f627f358f7c1052d320b087dfa204e8bcd31dd3ee1f44f1ddbc3470735fd6e7481c369986a3146f1cc3c0ca3d4272e6df10a430bd046ee9
+  checksum: c6d789840528fe3134b8a8e0c11960ca5ba211ccb2f7ca8bc1a0bc0a171abfcb99778f37d80a29c07a83c057bf34ff24ae8ed1bcb45e9a01b6b3228f40fad039
   languageName: node
   linkType: hard
 
@@ -14770,7 +14770,7 @@ __metadata:
     "@eeacms/volto-embed": 5.0.1
     "@eeacms/volto-marine-theme": 0.1.19
     "@eeacms/volto-measurescatalog": 0.1.3
-    "@eeacms/volto-searchlib": 0.4.19
+    "@eeacms/volto-searchlib": 0.4.20
     "@eeacms/volto-slate-dataentity": 2.0.0
     "@eeacms/volto-slots": 0.1.1
     "@eeacms/volto-tableau": 3.0.6
