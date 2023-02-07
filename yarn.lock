@@ -1933,9 +1933,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-theme@npm:0.1.18":
-  version: 0.1.18
-  resolution: "@eeacms/volto-marine-theme@npm:0.1.18"
+"@eeacms/volto-marine-theme@npm:0.1.19":
+  version: 0.1.19
+  resolution: "@eeacms/volto-marine-theme@npm:0.1.19"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-slots": "*"
@@ -1946,7 +1946,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: c31f907817801a9d17e88a4a4580ea4e40957bb3a46b28acb394b6999bf5449ce0f2973d58062979820e52a9d3e5ff0dbd61140047f0ddbb7290b85b673a4254
+  checksum: d7d2479e86083dd8798bbb10f14f7a0e39b2ea45feff7fb7461f1af329ae0104935df1c5de527da7939c8e2c6404503bb83257d7599b95fa6d980a4469889991
   languageName: node
   linkType: hard
 
@@ -14768,7 +14768,7 @@ __metadata:
     "@eeacms/volto-datablocks": 4.0.2
     "@eeacms/volto-eea-kitkat": 10.6.1
     "@eeacms/volto-embed": 5.0.1
-    "@eeacms/volto-marine-theme": 0.1.18
+    "@eeacms/volto-marine-theme": 0.1.19
     "@eeacms/volto-measurescatalog": 0.1.3
     "@eeacms/volto-searchlib": 0.4.19
     "@eeacms/volto-slate-dataentity": 2.0.0
