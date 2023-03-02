@@ -2144,12 +2144,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slate-dataentity@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-slate-dataentity@npm:2.0.0"
+"@eeacms/volto-slate-dataentity@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@eeacms/volto-slate-dataentity@npm:2.0.1"
   dependencies:
     "@eeacms/volto-datablocks": "*"
-  checksum: 8886e4f2a13aa97bf2cfc9d64ac6059db4e95b6222811e865d266c25f843232f03f8ba7326a365db5741b0e89f8b2e80d770fcd1f29666a588cc01f21cfa2d7e
+  checksum: b83aed1c20a60771b4c9db62d055267662ab3acaf0d4b4b64e0695321731780ffb5fce001387817e52775d2616bb68b708f37c98e7bc1d704f783543f638ac7f
   languageName: node
   linkType: hard
 
@@ -14840,7 +14840,7 @@ __metadata:
     "@eeacms/volto-marine-theme": 0.1.19
     "@eeacms/volto-measurescatalog": 0.1.3
     "@eeacms/volto-searchlib": 0.4.27
-    "@eeacms/volto-slate-dataentity": 2.0.0
+    "@eeacms/volto-slate-dataentity": 2.0.1
     "@eeacms/volto-slots": 0.1.1
     "@eeacms/volto-tableau": 3.0.6
     "@eeacms/volto-widget-dataprovenance": 0.2.1
