@@ -63,7 +63,7 @@
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-banner": "3.1.0",
     "@eeacms/volto-datablocks": "4.0.4",
-    "@eeacms/volto-eea-kitkat": "15.2.0",
+    "@eeacms/volto-eea-kitkat": "15.2.1",
     "@eeacms/volto-embed": "5.0.2",
     "@eeacms/volto-marine-theme": "0.1.20",
     "@eeacms/volto-measurescatalog": "0.1.3",
