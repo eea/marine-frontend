@@ -2326,6 +2326,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-widget-geolocation@npm:5.1.1":
+  version: 5.1.1
+  resolution: "@eeacms/volto-widget-geolocation@npm:5.1.1"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: 5e4670de2d8de78c4672f4f98e0015ce0512d2f62c9871f14ac92eec78c90a9b1c5b17511ad6a476be3d9a771ceadd3477f0145eab1580383fdc9a7aae7492b1
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-widget-temporal-coverage@npm:5.1.0":
   version: 5.1.0
   resolution: "@eeacms/volto-widget-temporal-coverage@npm:5.1.0"
@@ -14895,7 +14905,7 @@ __metadata:
     "@eeacms/volto-slots": 0.1.1
     "@eeacms/volto-tableau": 3.0.8
     "@eeacms/volto-widget-dataprovenance": 0.3.2
-    "@eeacms/volto-widget-geolocation": 5.1.0
+    "@eeacms/volto-widget-geolocation": 5.1.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.5.0
     eslint-plugin-prettier: 3.1.3
