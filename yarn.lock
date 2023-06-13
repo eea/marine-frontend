@@ -2316,10 +2316,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-widget-dataprovenance@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@eeacms/volto-widget-dataprovenance@npm:0.3.2"
-  checksum: 1c8f37731b8e95ce1f6ce44a4135521f96df4afc8092d2e39c608027a9e4b522486d1040222f5e84a1d97d7c307c9a839da613124ce5c5ef292efc3f6644f532
+"@eeacms/volto-widget-dataprovenance@npm:0.3.3":
+  version: 0.3.3
+  resolution: "@eeacms/volto-widget-dataprovenance@npm:0.3.3"
+  checksum: a0be6fc8681b853fead4adf10517333a86a27ce5a77102b916ca55100e71d1254921ba1f5d83fd3625039838b44dd3e5592cbc27134e5c120a8de0003cd1318f
   languageName: node
   linkType: hard
 
@@ -14911,7 +14911,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.1
     "@eeacms/volto-tableau": 4.0.0
-    "@eeacms/volto-widget-dataprovenance": 0.3.2
+    "@eeacms/volto-widget-dataprovenance": 0.3.3
     "@eeacms/volto-widget-geolocation": 5.1.1
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.5.0
