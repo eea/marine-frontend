@@ -49,7 +49,6 @@
     "classnames": "2.2.6"
   },
   "addons": [
-    "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-slots",
     "@eeacms/volto-embed",
@@ -58,6 +57,7 @@
     "@eeacms/volto-datablocks",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
+    "@eeacms/volto-searchlib",
     "@eeacms/volto-marine-theme",
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
