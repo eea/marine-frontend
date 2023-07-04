@@ -46,7 +46,8 @@
   ],
   "resolutions": {
     "d3-array": "2.12.1",
-    "classnames": "2.2.6"
+    "classnames": "2.2.6",
+    "react-countup/countup.js": "2.5.0"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
