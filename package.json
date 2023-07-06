@@ -78,7 +78,7 @@
     "@eeacms/volto-tableau": "3.0.8",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
     "@eeacms/volto-widget-geolocation": "5.1.1",
-    "@plone/volto": "16.5.0",
+    "@plone/volto": "16.21.2",
     "react-compound-slider": "3.3.1",
     "react-motion": "0.5.2",
     "react-select": "*"
