@@ -19,6 +19,12 @@
             "@eeacms/volto-measurescatalog": [
                 "addons/volto-measurescatalog/src"
             ],
+            "@eeacms/volto-listing-block": [
+                "addons/volto-listing-block/src"
+            ],
+            "@eeacms/volto-tabs-block": [
+                "addons/volto-tabs-block/src"
+            ],
             "@eeacms/volto-tableau": [
                 "addons/volto-tableau/src"
             ]
