@@ -2222,10 +2222,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-slots@npm:*, @eeacms/volto-slots@npm:0.1.1":
+"@eeacms/volto-slots@npm:*":
   version: 0.1.1
   resolution: "@eeacms/volto-slots@npm:0.1.1"
   checksum: bc328b973b2b3c2f760efdedaee6db71e290ea5c06685f77f857c934c624bf45f0e140e5ed43eaaf79761138d8a713988a7a030988c9bf9a4ad4499891f1f7bb
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-slots@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@eeacms/volto-slots@npm:0.1.2"
+  checksum: a92a8ade0e626b0fa80138e5c4959673834d33b47351a0829bc68840467fe395c9c7e402c8d5f73e3bcc114b6cf493d6b8c5bdc579f73e39a2bd1c725c2628e3
   languageName: node
   linkType: hard
 
@@ -14946,7 +14953,7 @@ __metadata:
     "@eeacms/volto-measurescatalog": 0.1.3
     "@eeacms/volto-searchlib": 0.5.7
     "@eeacms/volto-slate-dataentity": 2.1.0
-    "@eeacms/volto-slots": 0.1.1
+    "@eeacms/volto-slots": 0.1.2
     "@eeacms/volto-tableau": 4.1.0
     "@eeacms/volto-widget-dataprovenance": 0.3.3
     "@eeacms/volto-widget-geolocation": 5.1.1
