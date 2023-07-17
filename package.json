@@ -2,7 +2,7 @@
   "name": "marine-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "scripts": {
     "start": "razzle start",
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
