@@ -47,7 +47,8 @@
   "resolutions": {
     "d3-array": "2.12.1",
     "classnames": "2.2.6",
-    "react-countup/countup.js": "2.5.0"
+    "react-countup/countup.js": "2.5.0",
+    "@eeacms/volto-listing-block": "github:eea/volto-marine-theme#develop"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
@@ -78,10 +79,7 @@
     "@eeacms/volto-tableau": "3.0.8",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
     "@eeacms/volto-widget-geolocation": "5.1.1",
-    "@plone/volto": "16.21.2",
-    "react-compound-slider": "3.3.1",
-    "react-motion": "0.5.2",
-    "react-select": "*"
+    "@plone/volto": "16.20.6"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.2",
