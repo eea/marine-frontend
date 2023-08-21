@@ -1896,7 +1896,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:^18.0.2":
+"@eeacms/volto-eea-kitkat@npm:18.0.2":
   version: 18.0.2
   resolution: "@eeacms/volto-eea-kitkat@npm:18.0.2"
   dependencies:
@@ -15015,7 +15015,7 @@ __metadata:
     "@eeacms/volto-banner": 3.1.2
     "@eeacms/volto-datablocks": 6.1.0
     "@eeacms/volto-eea-design-system": 1.16.0
-    "@eeacms/volto-eea-kitkat": ^18.0.2
+    "@eeacms/volto-eea-kitkat": 18.0.2
     "@eeacms/volto-eea-website-theme": 1.18.1
     "@eeacms/volto-embed": 6.0.0
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.16"
