@@ -62,7 +62,6 @@
     "@eeacms/volto-marine-theme",
     "@eeacms/volto-slots",
     "@eeacms/volto-measurescatalog:installMeasuresCatalogue",
-    "@eeacms/volto-elastic-csv-widget"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
