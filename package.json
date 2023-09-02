@@ -61,7 +61,7 @@
     "@eeacms/volto-searchlib",
     "@eeacms/volto-marine-theme",
     "@eeacms/volto-slots",
-    "@eeacms/volto-measurescatalog:installMeasuresCatalogue",
+    "@eeacms/volto-measurescatalog:installMeasuresCatalogue"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
