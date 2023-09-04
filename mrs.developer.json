@@ -6,5 +6,13 @@
     "branch": "eea-design",
     "develop": true,
     "path": "src"
+  },
+  "volto-elastic-csv-widget": {
+    "url": "git@github.com:eea/volto-elastic-csv-widget.git",
+    "https": "https://github.com/eea/volto-elastic-csv-widget.git",
+    "package": "@eeacms/volto-elastic-csv-widget",
+    "branch": "develop",
+    "develop": true,
+    "path": "src"
   }
 }

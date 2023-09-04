@@ -1,6 +1,12 @@
 {
     "compilerOptions": {
         "paths": {
+<<<<<<< Updated upstream
+=======
+            "@eeacms/volto-elastic-csv-widget": [
+                "addons/volto-elastic-csv-widget/src"
+            ],
+>>>>>>> Stashed changes
             "@eeacms/volto-marine-theme": [
                 "addons/volto-marine-theme/src"
             ]
