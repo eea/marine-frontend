@@ -2094,12 +2094,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-elastic-csv-widget@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@eeacms/volto-elastic-csv-widget@npm:1.0.2"
+"@eeacms/volto-elastic-csv-widget@npm:1.0.3":
+  version: 1.0.3
+  resolution: "@eeacms/volto-elastic-csv-widget@npm:1.0.3"
   dependencies:
     "@eeacms/volto-datablocks": 6.1.0
-  checksum: 90923e53bff21e22e3832658d9882a6a4030994aa22075c8f551198b74388929b092085bb73674f870295090eead1b11f3d657c7f5e296ec5c16123dd8ffaf09
+  checksum: 10c39d5d7b76896641bfc1db5d9e7baefae4929d49d015585bbf88cb2761a902e2daead49ffa5acc159d76972885948fb976fcf86e4b1a45cb15847993bdff40
   languageName: node
   linkType: hard
 
@@ -17353,7 +17353,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.17.0
     "@eeacms/volto-eea-kitkat": 18.1.2
     "@eeacms/volto-eea-website-theme": 1.20.0
-    "@eeacms/volto-elastic-csv-widget": 1.0.2
+    "@eeacms/volto-elastic-csv-widget": 1.0.3
     "@eeacms/volto-embed": 6.0.0
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.29"
     "@eeacms/volto-measurescatalog": 0.1.3
