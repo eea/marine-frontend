@@ -1992,6 +1992,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-datablocks@npm:6.1.1":
+  version: 6.1.1
+  resolution: "@eeacms/volto-datablocks@npm:6.1.1"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.7.3
+  checksum: b8df64eeae668f3eeaa2e8530d6a010464ffcacb217d05653248c4a38102768a141f693034a1213768388f4c45a85608ece5a38a15b27765a4fba3a150f2d553
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-description-block@npm:1.1.3":
   version: 1.1.3
   resolution: "@eeacms/volto-description-block@npm:1.1.3"
@@ -2159,15 +2177,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:4.2.2":
-  version: 4.2.2
-  resolution: "@eeacms/volto-listing-block@npm:4.2.2"
+"@eeacms/volto-listing-block@npm:5.0.1":
+  version: 5.0.1
+  resolution: "@eeacms/volto-listing-block@npm:5.0.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 09d4411e9d786a1f65822eb18335b7d4a824616a5ae7db1a9a8708d04e0a5c5f7a9dacf9ac7b3e0f5089cdfe08303d9a50f39770d7eea2a99c2d1d4b07e0c9bd
+  checksum: 699746b2b871fb3132bcb2ca8f6d96dc573a8ef58d2685fc1e3fe70452510392a0d52d8dcc27f87dea5d74a835929f1b123ac78e2cfe3ddd81c1e73b6e3b4832
   languageName: node
   linkType: hard
 
@@ -17349,7 +17367,7 @@ __metadata:
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
     "@eeacms/volto-banner": 3.1.2
-    "@eeacms/volto-datablocks": 6.1.0
+    "@eeacms/volto-datablocks": 6.1.1
     "@eeacms/volto-eea-design-system": 1.17.0
     "@eeacms/volto-eea-kitkat": 18.1.2
     "@eeacms/volto-eea-website-theme": 1.20.0
