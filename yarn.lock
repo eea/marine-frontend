@@ -1740,6 +1740,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-banner@npm:3.1.4":
+  version: 3.1.4
+  resolution: "@eeacms/volto-banner@npm:3.1.4"
+  checksum: 3f68d9ca04423775e6ddaad6c6bbdcb84c38efe16fd382ad180b7c0b3c9247fb121f5bc26a93a6145a7a119eeebe96759c5f75af84e7ec4acfbb72df618cae19
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-divider@npm:6.1.2":
   version: 6.1.2
   resolution: "@eeacms/volto-block-divider@npm:6.1.2"
@@ -14991,7 +14998,7 @@ __metadata:
   resolution: "marine-frontend@workspace:."
   dependencies:
     "@babel/plugin-transform-react-jsx": "*"
-    "@eeacms/volto-banner": 3.1.3
+    "@eeacms/volto-banner": 3.1.4
     "@eeacms/volto-datablocks": 6.1.1
     "@eeacms/volto-eea-kitkat": 18.1.3
     "@eeacms/volto-embed": 6.0.0
