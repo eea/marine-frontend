@@ -82,7 +82,7 @@
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "3.0.8",
     "@eeacms/volto-widget-dataprovenance": "0.3.3",
-    "@eeacms/volto-widget-geolocation": "5.1.1",
+    "@eeacms/volto-widget-geolocation": "5.1.4",
     "@plone/volto": "16.22.0"
   },
   "devDependencies": {
