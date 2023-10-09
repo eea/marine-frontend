@@ -1,12 +1,4 @@
 {
-  "volto-marine-theme": {
-    "url": "git@github.com:eea/volto-marine-theme.git",
-    "https": "https://github.com/eea/volto-marine-theme.git",
-    "package": "@eeacms/volto-marine-theme",
-    "branch": "eea-design",
-    "develop": true,
-    "path": "src"
-  },
   "volto-elastic-csv-widget": {
     "url": "git@github.com:eea/volto-elastic-csv-widget.git",
     "https": "https://github.com/eea/volto-elastic-csv-widget.git",

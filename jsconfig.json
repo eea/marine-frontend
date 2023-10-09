@@ -3,9 +3,6 @@
         "paths": {
             "@eeacms/volto-elastic-csv-widget": [
                 "addons/volto-elastic-csv-widget/src"
-            ],
-            "@eeacms/volto-marine-theme": [
-                "addons/volto-marine-theme/src"
             ]
         },
         "baseUrl": "src"
