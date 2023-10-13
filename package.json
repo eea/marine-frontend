@@ -73,7 +73,7 @@
     "@eeacms/volto-slate-dataentity": "3.0.0",
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "github:eea/volto-tableau#3.0.8",
-    "@eeacms/volto-widget-dataprovenance": "0.4.1",
+    "@eeacms/volto-widget-dataprovenance": "0.4.2",
     "@eeacms/volto-widget-geolocation": "5.1.4",
     "@plone/volto": "16.5.0",
     "react-compound-slider": "3.3.1",
