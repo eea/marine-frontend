@@ -2004,15 +2004,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@eeacms/volto-listing-block@npm:6.0.0"
+"@eeacms/volto-listing-block@npm:6.0.1":
+  version: 6.0.1
+  resolution: "@eeacms/volto-listing-block@npm:6.0.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 9b98443168057f95b19887d88dc2dca07c8136780fa13402556bb5aa8cd52546799155d81085b7d62c30ba181778a5211b7fea3679734be95fff7f8c92f17fbe
+  checksum: 3354a4c68a8fffc0d9a92f47740a77011e0a669b939a8242e9d4073dd6ef5c622556c37ee63cef7ac30c25b55c5cc5477fc035051e338c400dc1e3eca73f9e1a
   languageName: node
   linkType: hard
 
@@ -2288,6 +2288,13 @@ __metadata:
   version: 0.4.1
   resolution: "@eeacms/volto-widget-dataprovenance@npm:0.4.1"
   checksum: a8d72a9d1aa7ebad308d6fa30b5e689a1506b92be8ea2b309b86b8d527adcc0a111eabe20f0e3dde7c7a0cacb674df04407260815d056bb62498c025005ba22a
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-dataprovenance@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@eeacms/volto-widget-dataprovenance@npm:0.4.2"
+  checksum: 8d3ba0bdec5e6388bb1c913a4d4315085597d72431a1ea64e6df143304e8876af7b2310e9495050fd959f02b23a7f0a2635d2f6bf7776cc16820501c5092844c
   languageName: node
   linkType: hard
 
@@ -16202,7 +16209,7 @@ __metadata:
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.2
     "@eeacms/volto-tableau": 5.0.1
-    "@eeacms/volto-widget-dataprovenance": 0.4.1
+    "@eeacms/volto-widget-dataprovenance": 0.4.2
     "@eeacms/volto-widget-geolocation": 5.1.4
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.22.0
