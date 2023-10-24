@@ -11,7 +11,7 @@
     "url": "git@github.com:eea/volto-marine-theme.git",
     "https": "https://github.com/eea/volto-marine-theme.git",
     "package": "@eeacms/volto-marine-theme",
-    "branch": "develop",
+    "branch": "eea-design",
     "develop": true,
     "path": "src"
   }
