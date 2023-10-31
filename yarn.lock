@@ -2037,15 +2037,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:6.0.1":
-  version: 6.0.1
-  resolution: "@eeacms/volto-listing-block@npm:6.0.1"
+"@eeacms/volto-listing-block@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@eeacms/volto-listing-block@npm:6.0.2"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 3354a4c68a8fffc0d9a92f47740a77011e0a669b939a8242e9d4073dd6ef5c622556c37ee63cef7ac30c25b55c5cc5477fc035051e338c400dc1e3eca73f9e1a
+  checksum: ccd9fd6d822bc88dbc800f26bd193543bfdd06e9ffabf7980030a3b1e8285dd7850422900d3dfc91e34f85929a5f86a42a6c313d84dbde090156425c407c8e87
   languageName: node
   linkType: hard
 
@@ -2395,6 +2395,16 @@ __metadata:
     "@eeacms/volto-corsproxy": "*"
     i18n-iso-countries: 6.2.1
   checksum: f37cf32533ca0cdf6cb4ffbb6e672abb5b76e610424961a162faa653ad493d4d49beedbda642d45e230536ac57bd2a394e1b8d362a20c4c695d588353a7e0cae
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-widget-geolocation@npm:5.1.6":
+  version: 5.1.6
+  resolution: "@eeacms/volto-widget-geolocation@npm:5.1.6"
+  dependencies:
+    "@eeacms/volto-corsproxy": "*"
+    i18n-iso-countries: 6.2.1
+  checksum: 0d557fe6557bd309494e6fedbcae6e0be10e75bba5ef1a48b3fec6b16bf77fa1d33538823abd44a38d56dcbe7d7995d9fc13b46c13ac10c56abfe8f5e8245217
   languageName: node
   linkType: hard
 
@@ -16300,7 +16310,7 @@ __metadata:
     "@eeacms/volto-slots": 0.1.2
     "@eeacms/volto-tableau": 6.0.0
     "@eeacms/volto-widget-dataprovenance": 0.4.2
-    "@eeacms/volto-widget-geolocation": 5.1.5
+    "@eeacms/volto-widget-geolocation": 5.1.6
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.22.0
     eslint-plugin-prettier: 3.1.3
