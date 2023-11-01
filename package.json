@@ -56,6 +56,7 @@
     "@eeacms/volto-tableau",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-datablocks",
+    "@eeacms/volto-tabs-block",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-searchlib",
@@ -81,6 +82,7 @@
     "@eeacms/volto-slate-dataentity": "2.1.0",
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "6.0.0",
+    "@eeacms/volto-tabs-block": "7.0.0",
     "@eeacms/volto-widget-dataprovenance": "0.4.3",
     "@eeacms/volto-widget-geolocation": "5.1.6",
     "@plone/volto": "16.22.0"
