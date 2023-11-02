@@ -72,7 +72,7 @@
     "@eeacms/volto-datablocks": "6.1.4",
     "@eeacms/volto-eea-design-system": "1.20.0",
     "@eeacms/volto-eea-kitkat": "github:eea/volto-eea-kitkat#develop",
-    "@eeacms/volto-eea-website-theme": "1.22.1",
+    "@eeacms/volto-eea-website-theme": "1.23.0",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "6.0.1",
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.31",
