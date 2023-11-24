@@ -49,7 +49,7 @@
     "classnames": "2.2.6",
     "react-countup/countup.js": "2.5.0",
     "@eeacms/volto-tabs-block": "github:eea/volto-tabs-block#7.0.0",
-    "@eeacms/volto-listing-block": "6.1.0"
+    "@eeacms/volto-listing-block": "6.2.0"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
