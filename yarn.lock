@@ -2055,21 +2055,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@eeacms/volto-listing-block@npm:6.1.0"
+"@eeacms/volto-listing-block@npm:6.2.0":
+  version: 6.2.0
+  resolution: "@eeacms/volto-listing-block@npm:6.2.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: d0e687753d5d4c0610a7f58dcbac4f37e6961a2f5ad17e78b88ac2f5f9a248522f5d08d5dfa5fbca5b6449d25fd3631432865edfd779d37332b7f1c8e5056c70
+  checksum: b725deda1aa3e8a0ec82d4037bfc7a9fa88fe5849294f9765c44d1f28083d9871e6de0c8446942b4004d5fe71d374e12d8bd180657db118b0bff2d8f0a0eaf89
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.32":
+"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.34":
   version: 0.1.20
-  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=228c73848e1884e1240e6a1b7159e68e1c9fdab7"
+  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=b046fb1ccf427acdf3576fe4a176ca482cfd1ec1"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2085,7 +2085,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 1ac6fffad98054813d372462eb0daeadd0f604b87fb3bdbeb353bcb4f3a248959a4ba6145c6385d64c2e40d39ff91a1ca6c9234c46bef405c42e7d7f75b65966
+  checksum: 473a2feb6180af12c61f89317e5831248fcbdffb939bf64fed4adee0a76e591c49d208e2c7d4b8dc7f311d65d54130ebbbe1cc20a0c6c732f591ab51667e0418
   languageName: node
   linkType: hard
 
@@ -2147,9 +2147,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:8.1.0":
-  version: 8.1.0
-  resolution: "@eeacms/volto-plotlycharts@npm:8.1.0"
+"@eeacms/volto-plotlycharts@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-plotlycharts@npm:8.1.1"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2160,7 +2160,7 @@ __metadata:
     react-inspector: 6.0.2
     react-json-editor-ajrm: 2.5.14
     react-plotly.js: 2.6.0
-  checksum: 08fd243cc9318d497bb10d6d62a891f7f9d87bd629bc291af688f223c924ef5635afb22efa94bb1e5c8096a14617a7052afb9f5848221ddfeb9409d7f8ef34f6
+  checksum: 909ca87c6aaace2fb1c1819afa1f1671b74a61fa41adeaef936834c01cac760958100ead0138b51dc48a36e5f46e40897a0693bea92fb8981f9d53486acd3c7a
   languageName: node
   linkType: hard
 
@@ -16313,9 +16313,9 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.24.0
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.0
-    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.32"
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.34"
     "@eeacms/volto-measurescatalog": 0.1.3
-    "@eeacms/volto-plotlycharts": 8.1.0
+    "@eeacms/volto-plotlycharts": 8.1.1
     "@eeacms/volto-searchlib": 0.6.7
     "@eeacms/volto-slate-dataentity": 2.1.0
     "@eeacms/volto-slots": 0.1.2
