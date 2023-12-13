@@ -2002,15 +2002,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.24.3":
-  version: 1.24.3
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.24.3"
+"@eeacms/volto-eea-website-theme@npm:1.25.0":
+  version: 1.25.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.25.0"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 5d5efc9c8356662d5eeb435d7150ae48c35804cb990491b6b7fba5519552d3279c4e81ba646329a04606fd779d9528c989b34667585d1c180cedb0b8c022de4d
+  checksum: 2f54fe5f40d4a846849f2168fc6bb1d981aad17bda6d8a146a5e6abe61bb63a6ea233584d9fea459b943ff5eda9721f4e355a6cf69e7792a616b5192633b8817
   languageName: node
   linkType: hard
 
@@ -2091,9 +2091,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.45":
+"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.47":
   version: 0.1.20
-  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=c8a60cb4b253b7cda1bc559170c5c9a1f4af6547"
+  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=4de2ccaf6b295095ad5cd77195b92fab4b8c29f4"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2108,7 +2108,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 121a738c263a5615a2233f3cd5f4729fddd3b92d237d919399b93ded938995fbc43be958c528ef5a84739b75f5ea549a2022ba364dbd85105997f6652f6407e4
+  checksum: 0925aefecb985fe1968db7f65b4d794118f81ee0691f4f2a99782d92a3b21da60d559d498a0f8ced7ba27e66f1d643495a3c73d96feedb3a71a713311fdde0ae
   languageName: node
   linkType: hard
 
@@ -16320,10 +16320,10 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.22.4
     "@eeacms/volto-eea-kitkat": 21.1.0
     "@eeacms/volto-eea-map": 3.1.0
-    "@eeacms/volto-eea-website-theme": 1.24.3
+    "@eeacms/volto-eea-website-theme": 1.25.0
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.4
-    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.45"
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.47"
     "@eeacms/volto-measurescatalog": 0.1.3
     "@eeacms/volto-plotlycharts": 8.2.0
     "@eeacms/volto-searchlib": 0.6.7
