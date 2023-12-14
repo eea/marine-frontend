@@ -48,7 +48,6 @@
     "d3-array": "2.12.1",
     "classnames": "2.2.6",
     "react-countup/countup.js": "2.5.0",
-    "@eeacms/volto-tabs-block": "github:eea/volto-tabs-block#7.0.0",
     "@eeacms/volto-listing-block": "7.0.0"
   },
   "addons": [
@@ -76,7 +75,7 @@
     "@eeacms/volto-eea-website-theme": "1.26.0",
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.0.5",
-    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.48",
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.49",
     "@eeacms/volto-plotlycharts": "8.2.0",
     "@eeacms/volto-searchlib": "0.6.7",
     "@eeacms/volto-slate-dataentity": "2.1.0",

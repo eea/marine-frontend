@@ -2091,9 +2091,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.48":
+"@eeacms/volto-marine-theme@github:eea/volto-marine-theme#0.1.20.eea-design.49":
   version: 0.1.20
-  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=54adcc28bb2c6678b3ecd473d96f5a8aec3b8632"
+  resolution: "@eeacms/volto-marine-theme@https://github.com/eea/volto-marine-theme.git#commit=8012bb2c9de0e03526352840aba3f23a274fa2f0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2108,7 +2108,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: b859f84c8d52037b792832c78691b82d9416181433041b424e4aa2b01df7aeedc52d8b61cad6a51097fd1031987f158916710c776e5ef8a102dd2ca7b8c5a204
+  checksum: ef39fd05a77b634b055f83fab36edfca3edbd2193ed964a3a9318ecf8077b648897f9f9f3e38f117c8ecf088350b5f110bf8b0138007dc7a80cdaae593ae595d
   languageName: node
   linkType: hard
 
@@ -2314,16 +2314,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tabs-block@github:eea/volto-tabs-block#7.0.0":
-  version: 7.0.0
-  resolution: "@eeacms/volto-tabs-block@https://github.com/eea/volto-tabs-block.git#commit=a48175fa3bc76650a76f993f0a3f4a3b43d14a9a"
+"@eeacms/volto-tabs-block@npm:*, @eeacms/volto-tabs-block@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@eeacms/volto-tabs-block@npm:7.0.5"
   dependencies:
     "@eeacms/volto-anchors": "*"
     "@eeacms/volto-block-style": "*"
     react-responsive-tabs: 4.4.3
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 5ef3709bbaf2b800d592d08469568a3153dc6f81722ad81e88854ee4f88d618e188b7c8ffe962eb30576c5dd754bc1673cedf14310aa720bd8c755d13d68d1dd
+  checksum: 5d5bc8337e137ff8cd32f5393978a785e96a4bac345a7027b45a8d7e43c4b999c9d6686ab87506f68ebbf5f9725e85d404c0b2ffedb7283733dd8016d8c0ee04
   languageName: node
   linkType: hard
 
@@ -16070,7 +16070,7 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 1.26.0
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.5
-    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.48"
+    "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.49"
     "@eeacms/volto-plotlycharts": 8.2.0
     "@eeacms/volto-searchlib": 0.6.7
     "@eeacms/volto-slate-dataentity": 2.1.0
