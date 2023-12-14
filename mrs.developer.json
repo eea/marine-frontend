@@ -4,7 +4,7 @@
     "https": "https://github.com/eea/volto-elastic-csv-widget.git",
     "package": "@eeacms/volto-elastic-csv-widget",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-searchlib": {
@@ -12,7 +12,7 @@
     "https": "https://github.com/eea/volto-searchlib.git",
     "package": "@eeacms/volto-searchlib",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-eea-website-theme": {
@@ -20,7 +20,7 @@
     "https": "https://github.com/eea/volto-eea-website-theme.git",
     "package": "@eeacms/volto-eea-website-theme",
     "branch": "develop",
-    "develop": true,
+    "develop": false,
     "path": "src"
   },
   "volto-marine-theme": {
@@ -28,7 +28,7 @@
     "https": "https://github.com/eea/volto-marine-theme.git",
     "package": "@eeacms/volto-marine-theme",
     "branch": "eea-design",
-    "develop": true,
+    "develop": false,
     "path": "src"
   }
 }

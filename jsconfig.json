@@ -1,19 +1,6 @@
 {
     "compilerOptions": {
-        "paths": {
-            "@eeacms/volto-elastic-csv-widget": [
-                "addons/volto-elastic-csv-widget/src"
-            ],
-            "@eeacms/volto-searchlib": [
-                "addons/volto-searchlib/src"
-            ],
-            "@eeacms/volto-eea-website-theme": [
-                "addons/volto-eea-website-theme/src"
-            ],
-            "@eeacms/volto-marine-theme": [
-                "addons/volto-marine-theme/src"
-            ]
-        },
+        "paths": {},
         "baseUrl": "src"
     }
 }
