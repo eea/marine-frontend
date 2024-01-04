@@ -2002,15 +2002,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.26.1":
-  version: 1.26.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.26.1"
+"@eeacms/volto-eea-website-theme@npm:1.26.2":
+  version: 1.26.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.26.2"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 80498e0fe150fc3401bb5740e862c3598ff1a26f1a335d18b9aeda3cacf986599d0599280cb28248ba1f8fddfadd2abbd68af65a56cef6af85c0afc08c6857dc
+  checksum: e45a61bcf986b198a29c327da24a670bccd6ed3c85f372ab8a2aa86f74251091cacd5fa2ee6fbfb30b23e96b5253f99ed7eaed71cf6103efc1a56c1db7a88d8d
   languageName: node
   linkType: hard
 
@@ -2079,15 +2079,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:7.0.0":
-  version: 7.0.0
-  resolution: "@eeacms/volto-listing-block@npm:7.0.0"
+"@eeacms/volto-listing-block@npm:7.0.1":
+  version: 7.0.1
+  resolution: "@eeacms/volto-listing-block@npm:7.0.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: 0.29.0
     slick-carousel: 1.8.1
-  checksum: 2d271c8bd5aa861eda8bf5f6dbe21bd9f5662bc793094e5637f68235b5ee323157f5724f8abcb5098c370046190e6b49070a9a2e97498c35139bec84f815d166
+  checksum: 552caa5e3aa4e58d6d59884da7c740334304dbff33cc56c5dc40595758654b3a7ee072af3ffa391875402b36a5b742c895fca513d1668266f5a429df16e64b1d
   languageName: node
   linkType: hard
 
@@ -16067,7 +16067,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.22.4
     "@eeacms/volto-eea-kitkat": 21.1.0
     "@eeacms/volto-eea-map": 3.2.1
-    "@eeacms/volto-eea-website-theme": 1.26.1
+    "@eeacms/volto-eea-website-theme": 1.26.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.0.5
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.49"
