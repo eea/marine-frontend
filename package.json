@@ -78,7 +78,7 @@
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.49",
     "@eeacms/volto-plotlycharts": "8.2.0",
     "@eeacms/volto-searchlib": "0.7.0",
-    "@eeacms/volto-slate-dataentity": "2.1.0",
+    "@eeacms/volto-slate-dataentity": "3.0.1",
     "@eeacms/volto-slots": "0.1.2",
     "@eeacms/volto-tableau": "7.2.0",
     "@eeacms/volto-widget-dataprovenance": "0.4.3",
