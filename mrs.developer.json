@@ -30,5 +30,13 @@
     "branch": "eea-design",
     "develop": false,
     "path": "src"
+  },
+  "volto-prefixPath": {
+    "url": "git@github.com:eea/volto-prefixPath.git",
+    "https": "https://github.com/eea/volto-prefixPath.git",
+    "package": "@eeacms/volto-prefixpath",
+    "branch": "develop",
+    "develop": false,
+    "path": "src"
   }
 }
