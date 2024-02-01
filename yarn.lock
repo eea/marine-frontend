@@ -1789,14 +1789,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-style@npm:6.0.0":
-  version: 6.0.0
-  resolution: "@eeacms/volto-block-style@npm:6.0.0"
+"@eeacms/volto-block-style@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@eeacms/volto-block-style@npm:6.1.0"
   dependencies:
     "@eeacms/volto-resize-helper": "*"
     "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
-  checksum: 064fd759278c6b80864d1b9e76426d8173befd0d82f86d33e24254010e40aa9d31ab197b6079757cf11426cdfdd9afd302298af9b0188058777ae9fc6a166380
+  checksum: 1a0abf8193d0cc873b03c9bedd4e4a64fb37e926a9985868f1a5f7c6139d509598b93170cefdff28da8fb1f8b24e7b8abca6a5bdaa26fef6b303d1ea467dc444
   languageName: node
   linkType: hard
 
@@ -1887,17 +1887,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-kitkat@npm:21.2.2":
-  version: 21.2.2
-  resolution: "@eeacms/volto-eea-kitkat@npm:21.2.2"
+"@eeacms/volto-eea-kitkat@npm:21.2.3":
+  version: 21.2.3
+  resolution: "@eeacms/volto-eea-kitkat@npm:21.2.3"
   dependencies:
     "@eeacms/countup": 2.0.6
     "@eeacms/volto-accordion-block": 10.4.6
     "@eeacms/volto-anchors": 0.5.0
     "@eeacms/volto-banner": 3.1.5
     "@eeacms/volto-block-divider": 6.1.6
-    "@eeacms/volto-block-image-cards": 1.3.6
-    "@eeacms/volto-block-style": 6.0.0
+    "@eeacms/volto-block-image-cards": 1.3.7
+    "@eeacms/volto-block-style": 6.1.0
     "@eeacms/volto-call-to-action-block": 4.3.0
     "@eeacms/volto-columns-block": 7.0.1
     "@eeacms/volto-corsproxy": 3.1.5
@@ -1928,7 +1928,7 @@ __metadata:
     "@eeacms/volto-widget-toggle": 3.1.4
     "@kitconcept/volto-blocks-grid": 7.0.2
     "@plone-collective/volto-sentry": 0.3.1
-  checksum: 00e7d82e0e296ca1e07a82cc8f66923feff4d16e35812dc6b18862541b766916f61b3e6ec5cb30f9ff979db9061f7e91cc0e434c01d41d68469761ad65190796
+  checksum: 5a5286c98c003515b3ed78723c702986ef395959b7b22686807c4401d7982ccfcb86db2c4446a02fc4bc39e370a15436c28eea97bf5888befdb7ca4d985256f2
   languageName: node
   linkType: hard
 
@@ -15007,7 +15007,7 @@ __metadata:
     "@babel/plugin-transform-react-jsx": "*"
     "@eeacms/volto-banner": 3.1.5
     "@eeacms/volto-datablocks": 6.3.2
-    "@eeacms/volto-eea-kitkat": 21.2.2
+    "@eeacms/volto-eea-kitkat": 21.2.3
     "@eeacms/volto-embed": 9.1.0
     "@eeacms/volto-marine-theme": 0.1.22
     "@eeacms/volto-measurescatalog": 0.1.3
