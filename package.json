@@ -64,7 +64,7 @@
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-banner": "3.1.5",
-    "@eeacms/volto-datablocks": "6.3.2",
+    "@eeacms/volto-datablocks": "6.3.3",
     "@eeacms/volto-eea-kitkat": "21.2.3",
     "@eeacms/volto-embed": "9.1.1",
     "@eeacms/volto-marine-theme": "0.1.22",
