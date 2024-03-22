@@ -76,7 +76,7 @@
     "@eeacms/volto-elastic-csv-widget": "1.0.7",
     "@eeacms/volto-embed": "9.1.1",
     "@eeacms/volto-marine-theme": "github:eea/volto-marine-theme#0.1.20.eea-design.49",
-    "@eeacms/volto-plotlycharts": "9.1.0",
+    "@eeacms/volto-plotlycharts": "9.1.1",
     "@eeacms/volto-searchlib": "0.9.1",
     "@eeacms/volto-slate-dataentity": "3.0.1",
     "@eeacms/volto-slots": "0.1.3",
