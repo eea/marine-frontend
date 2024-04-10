@@ -1,6 +1,9 @@
 {
-    "compilerOptions": {
-        "paths": {},
-        "baseUrl": "src"
-    }
+  "compilerOptions": {
+    "paths": {
+      "@eeacms/volto-prefixpath": ["addons/volto-prefixpath/src"],
+      "@eeacms/volto-marine-theme": ["addons/volto-marine-theme/src"]
+    },
+    "baseUrl": "src"
+  }
 }
