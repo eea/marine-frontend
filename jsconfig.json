@@ -2,7 +2,7 @@
   "compilerOptions": {
     "paths": {
       "@eeacms/volto-prefixpath": ["addons/volto-prefixpath/src"],
-      "@eeacms/volto-marine-theme": ["addons/volto-marine-theme/src"]
+      "@eeacms/volto-marine-policy": ["addons/volto-marine-policy/src"]
     },
     "baseUrl": "src"
   }

@@ -23,11 +23,11 @@
     "develop": false,
     "path": "src"
   },
-  "volto-marine-theme": {
-    "url": "git@github.com:eea/volto-marine-theme.git",
-    "https": "https://github.com/eea/volto-marine-theme.git",
-    "package": "@eeacms/volto-marine-theme",
-    "branch": "eea-design",
+  "volto-marine-policy": {
+    "url": "git@github.com:eea/volto-marine-policy.git",
+    "https": "https://github.com/eea/volto-marine-policy.git",
+    "package": "@eeacms/volto-marine-policy",
+    "branch": "develop",
     "develop": false,
     "path": "src"
   },
