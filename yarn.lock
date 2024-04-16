@@ -2032,15 +2032,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@npm:1.33.1":
-  version: 1.33.1
-  resolution: "@eeacms/volto-eea-website-theme@npm:1.33.1"
+"@eeacms/volto-eea-website-theme@npm:1.33.2":
+  version: 1.33.2
+  resolution: "@eeacms/volto-eea-website-theme@npm:1.33.2"
   dependencies:
     "@eeacms/volto-block-style": "*"
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: 9686a89efe9201a71187f3b293fdc4229f879faffdfd14e828d1a2a068ddd30de8fe42ac63ae0042c48b32604c1c975be68b01fe7aefed90ed3f05138a28c5dd
+  checksum: e9c17a0ce4f2cbf5c5cc59706c16e30228dda7b587d5ca26e6befd23ef261eeafa6bb95854358017ecc7463144da58c0ed5fd1cfc1a6731cd6cc6eb6b94a53a3
   languageName: node
   linkType: hard
 
@@ -2187,12 +2187,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@npm:0.1.14":
-  version: 0.1.14
-  resolution: "@eeacms/volto-prefixpath@npm:0.1.14"
+"@eeacms/volto-prefixpath@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@eeacms/volto-prefixpath@npm:0.2.0"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: caa90a6fc5f23f8f1aca80e13f10585b9e90fd5d3386e3d14e0ea86d407b1b4597b9ee57bb7e5c1bb91a1e9302b04481110aff28f5903d11e012e280e692f0ff
+  checksum: e0ca778ef736fcfd497f1dd8022b8f16c1c8c52b3b192d8118af52d96031101907f0d6104311f5d9eadd71a20abe3401516dae4af557700885c905982aca66be
   languageName: node
   linkType: hard
 
@@ -16165,12 +16165,12 @@ __metadata:
     "@eeacms/volto-eea-design-system": 1.23.5
     "@eeacms/volto-eea-kitkat": 23.1.0
     "@eeacms/volto-eea-map": 3.3.1
-    "@eeacms/volto-eea-website-theme": 1.33.1
+    "@eeacms/volto-eea-website-theme": 1.33.2
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-marine-policy": 1.1.0
     "@eeacms/volto-plotlycharts": 9.2.0
-    "@eeacms/volto-prefixpath": 0.1.14
+    "@eeacms/volto-prefixpath": 0.2.0
     "@eeacms/volto-searchlib": 0.9.2
     "@eeacms/volto-slate-dataentity": 3.0.1
     "@eeacms/volto-slots": 0.1.3
