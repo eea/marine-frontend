@@ -2109,15 +2109,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@eeacms/volto-listing-block@npm:7.1.0"
+"@eeacms/volto-listing-block@npm:8.0.0":
+  version: 8.0.0
+  resolution: "@eeacms/volto-listing-block@npm:8.0.0"
   dependencies:
     "@eeacms/volto-widget-theme-picker": ^1.0.1
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: ac2693386773d8b727087694d4dfde222db733a44046253e1841b954cc4191e31444d9a9f030a1727668cf79e370696bcadeb68876af93aa12660bc64dd24681
+  checksum: 9ec00ff74a8bcff3dc9b36a8931f7fbcca64cfeee5d1267a37f48d99b6d14ef9a8d628dd51a87fbf0c26d3ccc66af10d6b0bfd97baa3039027b4bce51a2cd105
   languageName: node
   linkType: hard
 
@@ -2178,9 +2178,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:9.2.0":
-  version: 9.2.0
-  resolution: "@eeacms/volto-plotlycharts@npm:9.2.0"
+"@eeacms/volto-plotlycharts@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-plotlycharts@npm:10.0.0"
   dependencies:
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-matomo": "*"
@@ -2190,7 +2190,7 @@ __metadata:
     react-chart-editor: 0.46.1
     react-colorscales: "github:eea/react-colorscales#1.0.2"
     react-plotly.js: 2.6.0
-  checksum: f61579f731c8ac3126196ef1d4b2681118cae8b390f15e62e02988f597f5deb2c8050221eac14f2a93601a02832f164c744326af3e8fe505d4a7fb8caf5f95b6
+  checksum: 0ab672469f75cd0681f73856da7f1ac67a9e401ba2c743880b3a066b2f27f504392410f23fa7bed78a0b2715bc50c9a417d14a4711abeffdc68ee5cace325a16
   languageName: node
   linkType: hard
 
@@ -16244,7 +16244,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 1.0.7
     "@eeacms/volto-embed": 9.1.1
     "@eeacms/volto-marine-policy": 1.1.1
-    "@eeacms/volto-plotlycharts": 9.2.0
+    "@eeacms/volto-plotlycharts": 10.0.0
     "@eeacms/volto-prefixpath": 0.2.0
     "@eeacms/volto-searchlib": 0.9.3
     "@eeacms/volto-slate-dataentity": 3.0.1
