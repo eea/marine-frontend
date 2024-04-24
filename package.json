@@ -48,7 +48,7 @@
     "d3-array": "2.12.1",
     "classnames": "2.2.6",
     "react-countup/countup.js": "2.5.0",
-    "@eeacms/volto-listing-block": "8.0.0"
+    "@eeacms/volto-listing-block": "8.0.1"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
