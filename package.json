@@ -75,7 +75,7 @@
     "@eeacms/volto-eea-website-theme": "^1.33.2",
     "@eeacms/volto-elastic-csv-widget": "^1.0.7",
     "@eeacms/volto-embed": "^9.1.1",
-    "@eeacms/volto-marine-policy": "1.1.2",
+    "@eeacms/volto-marine-policy": "1.1.4",
     "@eeacms/volto-plotlycharts": "^9.2.0",
     "@eeacms/volto-prefixpath": "0.2.0",
     "@eeacms/volto-searchlib": "^0.9.3",
