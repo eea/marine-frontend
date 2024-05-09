@@ -125,7 +125,7 @@
     "@eeacms/volto-searchlib": "^0.9.3",
     "@eeacms/volto-slate-dataentity": "^3.0.1",
     "@eeacms/volto-tableau": "^7.2.1",
-    "@plone/volto": "16.30.3"
+    "@plone/volto": "16.31.5"
   },
   "devDependencies": {
     "@plone/scripts": "^2.1.2",
