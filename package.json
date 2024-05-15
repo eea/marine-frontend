@@ -62,7 +62,7 @@
     "@eeacms/volto-columns-block": "<8.0.0",
     "@eeacms/volto-controlpanel": "<1.0.0",
     "@eeacms/volto-corsproxy": "<4.0.0",
-    "@eeacms/volto-datablocks": "7.0.4",
+    "@eeacms/volto-datablocks": "7.0.5",
     "@eeacms/volto-description-block": "<2.0.0",
     "@eeacms/volto-group-block": "<7.0.0",
     "@eeacms/volto-hero-block": "<7.0.0",
