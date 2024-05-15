@@ -119,7 +119,7 @@
     "@eeacms/volto-elastic-csv-widget": "^1.0.7",
     "@eeacms/volto-embed": "^9.1.1",
     "@eeacms/volto-globalsearch": "^1.1.0",
-    "@eeacms/volto-marine-policy": "1.1.7",
+    "@eeacms/volto-marine-policy": "1.1.8",
     "@eeacms/volto-openlayers-map": "^0.3.2",
     "@eeacms/volto-plotlycharts": "^9.2.0",
     "@eeacms/volto-prefixpath": "0.2.1",

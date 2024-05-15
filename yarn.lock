@@ -2051,16 +2051,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@eeacms/volto-marine-policy@npm:1.1.7"
+"@eeacms/volto-marine-policy@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@eeacms/volto-marine-policy@npm:1.1.8"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-eea-website-theme": "*"
-    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-eea-website-theme": ^1.33.2
+    "@eeacms/volto-embed": ^9.1.1
     "@eeacms/volto-globalsearch": ^1.0.20
     "@eeacms/volto-searchlib": ^0.6.3
-    "@eeacms/volto-slots": "*"
     "@eeacms/volto-tabs-block": "*"
     axios: 0.25.0
     jquery: 3.6.0
@@ -2068,7 +2067,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: af679bc032dbce1002cb390f1ef07d95864e3203b9efbc9b80c49bef9f5c2cb96b93f5edefb53619035f1cf91b55aba0afb5cbcef9d0e5c7594e994a2457cccd
+  checksum: 8476e0ff5713b578066ada166ae15541e9137470573bca084f1c1022947a99e8214f49eeff66b7829bd2d3cd95766e291935e81c53c1e45b18ba49e2b327964b
   languageName: node
   linkType: hard
 
@@ -2333,13 +2332,6 @@ __metadata:
   dependencies:
     "@eeacms/volto-slate-footnote": "*"
   checksum: b897302cf68bd26ec7e3f1dbf6d07d90972cf1553aacece530c3d2c800ce5bb427f6cd6d4bd88f262dd335b212145f47b98a8fc49c8ff722254c0019693b5f69
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-slots@npm:*":
-  version: 0.1.3
-  resolution: "@eeacms/volto-slots@npm:0.1.3"
-  checksum: df54671e9f667326294f699653e4e774e08a8b1ddb3e86cb79f7489871cf42473fdb3c92fb42cf8fea84ead503232184819125287b4ce20055a8a1f5f41e410d
   languageName: node
   linkType: hard
 
@@ -16182,7 +16174,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": ^9.1.1
     "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-marine-policy": 1.1.7
+    "@eeacms/volto-marine-policy": 1.1.8
     "@eeacms/volto-openlayers-map": ^0.3.2
     "@eeacms/volto-plotlycharts": ^9.2.0
     "@eeacms/volto-prefixpath": 0.2.1
