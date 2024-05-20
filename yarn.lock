@@ -1858,9 +1858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:7.0.4":
-  version: 7.0.4
-  resolution: "@eeacms/volto-datablocks@npm:7.0.4"
+"@eeacms/volto-datablocks@npm:7.0.6":
+  version: 7.0.6
+  resolution: "@eeacms/volto-datablocks@npm:7.0.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
@@ -1873,7 +1873,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  checksum: 29dd6a39ac76a87aaf5cb583e7d5e5a264dfbf1952b259d365c768d20813b8e6401119095da8581f664188028f2094e555d873a8b4c2176159d1488f91a6db29
+  checksum: 99cc3ecb96c96e08cd2c38c9fe36e4e085af129ca076afca9615b1cec44a28613e1191fca45499a03617bf4ab026b4a0d7cc1cadd1ee524e43398a327f29ca3d
   languageName: node
   linkType: hard
 
@@ -2051,9 +2051,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:1.1.8":
-  version: 1.1.8
-  resolution: "@eeacms/volto-marine-policy@npm:1.1.8"
+"@eeacms/volto-marine-policy@npm:1.1.9":
+  version: 1.1.9
+  resolution: "@eeacms/volto-marine-policy@npm:1.1.9"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": ^1.33.2
@@ -2067,7 +2067,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 8476e0ff5713b578066ada166ae15541e9137470573bca084f1c1022947a99e8214f49eeff66b7829bd2d3cd95766e291935e81c53c1e45b18ba49e2b327964b
+  checksum: 56123a21470d30c2aabbad0a8398918b1007ab6ca0e108e2bb8c60ab79fe62321e513d7cfc2abe44338e4c559fbec828c0d0ab14974220371039b867616bab85
   languageName: node
   linkType: hard
 
@@ -16174,7 +16174,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": ^9.1.1
     "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-marine-policy": 1.1.8
+    "@eeacms/volto-marine-policy": 1.1.9
     "@eeacms/volto-openlayers-map": ^0.3.2
     "@eeacms/volto-plotlycharts": ^9.2.0
     "@eeacms/volto-prefixpath": 0.2.1
