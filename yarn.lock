@@ -1732,7 +1732,7 @@ __metadata:
   checksum: ec3292464d12c9a25be133671a21953b83f2ca41787e166f5ef8af49e36e76d8e5ccd2282f5ab6023649ba4e04c1502728e2d15f35f9b6157c0d7d417b988010
   languageName: node
   linkType: hard
-
+  
 "@eeacms/countup@npm:^2.0.6":
   version: 2.0.6
   resolution: "@eeacms/countup@npm:2.0.6"
@@ -1782,7 +1782,7 @@ __metadata:
   version: 6.2.0
   resolution: "@eeacms/volto-block-divider@npm:6.2.0"
   dependencies:
-    "@eeacms/volto-widget-theme-picker": ^1.0.1
+    "@eeacms/volto-widget-theme-picker": "*"
     react-color: ~2.18.1
   checksum: 1f96fd7d411e3722772c40f91edef397c9d5624259366fe8b4d459f75d9ade5fd47ade1259fbc94966af460e09d82b73fe8e5a8a071ec211cfc2aced11913bb1
   languageName: node
@@ -1792,6 +1792,7 @@ __metadata:
   version: 1.3.8
   resolution: "@eeacms/volto-block-image-cards@npm:1.3.8"
   dependencies:
+    "@eeacms/volto-block-style": "*"
     "@eeacms/volto-object-widget": "*"
     react-lazy-load-image-component: ^1.4.0
     react-resize-detector: 6.7.6
@@ -1951,6 +1952,7 @@ __metadata:
   version: 3.3.1
   resolution: "@eeacms/volto-eea-map@npm:3.3.1"
   dependencies:
+    "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-object-widget": "*"
     "@plone/scripts": "*"
@@ -2043,7 +2045,7 @@ __metadata:
   version: 7.1.0
   resolution: "@eeacms/volto-listing-block@npm:7.1.0"
   dependencies:
-    "@eeacms/volto-widget-theme-picker": ^1.0.1
+    "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
@@ -3083,15 +3085,6 @@ __metadata:
   version: 3.4.0
   resolution: "@juggle/resize-observer@npm:3.4.0"
   checksum: 2505028c05cc2e17639fcad06218b1c4b60f932a4ebb4b41ab546ef8c157031ae377e3f560903801f6d01706dbefd4943b6c4704bf19ed86dfa1c62f1473a570
-  languageName: node
-  linkType: hard
-
-"@kitconcept/volto-blocks-grid@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@kitconcept/volto-blocks-grid@npm:7.0.2"
-  peerDependencies:
-    "@plone/volto": ">=16.0.0"
-  checksum: e375acef67861b780748ac12e1786b9dc1bfd10e603c089678ed6bf318c380ef5f48d921525b12b9cde89f97daea4f7933de9dfc7d8661b517287c39f9d5b1c2
   languageName: node
   linkType: hard
 
@@ -5316,6 +5309,13 @@ __metadata:
   dependencies:
     dequal: ^2.0.3
   checksum: 305bd73c76756117b59aba121d08f413c7ff5e80fa1b98e217a3443fcddb9a232ee790e24e432b59ae7625aebcf4c47cb01c2cac872994f0b426f5bdfcd96ba9
+  languageName: node
+  linkType: hard
+
+"arity-n@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "arity-n@npm:1.0.4"
+  checksum: 3d76e16907f7b8a9452690c1efc301d0fbecea457365797eccfbade9b8d1653175b2c38343201bf26fdcbf0bcbb31eab6d912e7c008c6d19042301dc0be80a73
   languageName: node
   linkType: hard
 
@@ -10971,6 +10971,15 @@ __metadata:
     utils-merge: 1.0.1
     vary: ~1.1.2
   checksum: 3c4b9b076879442f6b968fe53d85d9f1eeacbb4f4c41e5f16cc36d77ce39a2b0d81b3f250514982110d815b2f7173f5561367f9110fcc541f9371948e8c8b037
+  languageName: node
+  linkType: hard
+
+"ext@npm:^1.1.2":
+  version: 1.7.0
+  resolution: "ext@npm:1.7.0"
+  dependencies:
+    type: ^2.7.2
+  checksum: ef481f9ef45434d8c867cfd09d0393b60945b7c8a1798bedc4514cb35aac342ccb8d8ecb66a513e6a2b4ec1e294a338e3124c49b29736f8e7c735721af352c31
   languageName: node
   linkType: hard
 
@@ -16920,6 +16929,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.6":
+  version: 3.3.6
+  resolution: "nanoid@npm:3.3.6"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 7d0eda657002738aa5206107bd0580aead6c95c460ef1bdd0b1a87a9c7ae6277ac2e9b945306aaa5b32c6dcb7feaf462d0f552e7f8b5718abfc6ead5c94a71b3
+  languageName: node
+  linkType: hard
+
 "nanomatch@npm:^1.2.9":
   version: 1.2.13
   resolution: "nanomatch@npm:1.2.13"
@@ -18972,6 +18990,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.2.7":
+  version: 8.4.26
+  resolution: "postcss@npm:8.4.26"
+  dependencies:
+    nanoid: ^3.3.6
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 1cf08ee10d58cbe98f94bf12ac49a5e5ed1588507d333d2642aacc24369ca987274e1f60ff4cbf0081f70d2ab18a5cd3a4a273f188d835b8e7f3ba381b184e57
+  languageName: node
+  linkType: hard
+
 "prelude-ls@npm:~1.1.2":
   version: 1.1.2
   resolution: "prelude-ls@npm:1.1.2"
@@ -20786,6 +20815,22 @@ __metadata:
     react: ^0.14.0 || ^15.0.1 || ^16.0.0
     react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0
   checksum: af03d42cc940795d417b00a4eccb11709c1120f2702121d41cab0bf956ccfde7711aa9361e791ea3bc744662c4d911077c59ab114358ff57f27a9c4625308142
+  languageName: node
+  linkType: hard
+
+"react-slick@npm:^0.30.1":
+  version: 0.30.2
+  resolution: "react-slick@npm:0.30.2"
+  dependencies:
+    classnames: ^2.2.5
+    enquire.js: ^2.1.6
+    json2mq: ^0.2.0
+    lodash.debounce: ^4.0.8
+    resize-observer-polyfill: ^1.5.0
+  peerDependencies:
+    react: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 7d415c745ca7d9d19947a6ce62ab866757310fbaf0941b14479cf2779f8db8951b037ab6a357a2d013518dd50fd41080dac7e7949cb201b4c6431f13c6e8975f
   languageName: node
   linkType: hard
 
