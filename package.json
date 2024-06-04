@@ -117,7 +117,7 @@
     "@eeacms/volto-eea-slate-glossary": "^0.1.4",
     "@eeacms/volto-eea-website-theme": "^1.33.2",
     "@eeacms/volto-elastic-csv-widget": "^1.0.7",
-    "@eeacms/volto-embed": "^9.1.1",
+    "@eeacms/volto-embed": "github:eea/volto-embed#9.1.4",
     "@eeacms/volto-globalsearch": "^1.1.0",
     "@eeacms/volto-marine-policy": "1.1.13",
     "@eeacms/volto-openlayers-map": "^0.3.2",
