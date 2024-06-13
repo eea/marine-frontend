@@ -1858,13 +1858,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:<7.0.0":
-  version: 6.4.1
-  resolution: "@eeacms/volto-datablocks@npm:6.4.1"
+"@eeacms/volto-datablocks@npm:<7.1.0":
+  version: 7.0.6
+  resolution: "@eeacms/volto-datablocks@npm:7.0.6"
   dependencies:
     "@eeacms/countup": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-listing-block": "*"
     "@eeacms/volto-matomo": "*"
     d3: 7.1.1
     date-fns: 2.28.0
@@ -1872,7 +1873,7 @@ __metadata:
     object-hash: 2.2.0
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
-  checksum: ce95a02b7b317daa20650549e0288bacdab025f7b1e34cfe710dfe55a6b537b2e3afefed7a23e4c832b3da49d716f11b8c899fd52df8a4774d9fb60b76ff2c7d
+  checksum: 99cc3ecb96c96e08cd2c38c9fe36e4e085af129ca076afca9615b1cec44a28613e1191fca45499a03617bf4ab026b4a0d7cc1cadd1ee524e43398a327f29ca3d
   languageName: node
   linkType: hard
 
@@ -2049,15 +2050,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-listing-block@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@eeacms/volto-listing-block@npm:7.1.0"
+"@eeacms/volto-listing-block@npm:8.1.1":
+  version: 8.1.1
+  resolution: "@eeacms/volto-listing-block@npm:8.1.1"
   dependencies:
     "@eeacms/volto-widget-theme-picker": "*"
     react-resize-detector: 7.1.2
     react-slick: ^0.30.1
     slick-carousel: 1.8.1
-  checksum: ac2693386773d8b727087694d4dfde222db733a44046253e1841b954cc4191e31444d9a9f030a1727668cf79e370696bcadeb68876af93aa12660bc64dd24681
+  checksum: 67d2bcba08093acc3980a08f0766dd7f723402eeb339194b3a05423c2aa81dc8bcd4a48a2830672c2bed8767b5b7013413ef8a2329aae51a68f5424d2d3e04d1
   languageName: node
   linkType: hard
 
@@ -16133,7 +16134,7 @@ __metadata:
     "@eeacms/volto-block-toc": ^5.0.1
     "@eeacms/volto-datablocks": ^6.4.1
     "@eeacms/volto-eea-design-system": ^1.23.6
-    "@eeacms/volto-eea-kitkat": 25.1.0
+    "@eeacms/volto-eea-kitkat": 25.1.1
     "@eeacms/volto-eea-map": ^3.3.1
     "@eeacms/volto-eea-slate-glossary": ^0.1.4
     "@eeacms/volto-eea-website-theme": ^1.33.2
