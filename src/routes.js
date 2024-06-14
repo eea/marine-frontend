@@ -3,7 +3,7 @@
  * @module routes
  */
 
-import { App, NotFound } from '@plone/volto/components';
+import { NotFound } from '@plone/volto/components';
 import { defaultRoutes, multilingualRoutes } from '@plone/volto/routes';
 import config from '@plone/volto/registry';
 
@@ -27,7 +27,7 @@ import config from '@plone/volto/registry';
 const routes = [
   {
     path: config.settings.prefixPath || '/',
-    component: App,
+    component: config.getComponent('App').component,
     routes: [
       // redirect to external links if path is in blacklist
       ...(config.settings?.externalRoutes || []).map((route) => ({
