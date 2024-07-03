@@ -79,11 +79,7 @@ pipeline {
          }
 
 
-    }
-   }
-
-
-   stage('Bundlewatch') {
+     stage('Bundlewatch') {
       when {
         branch 'develop'
       }
@@ -103,7 +99,8 @@ pipeline {
         }
       }
     }
-
+   }
+   }
 
     stage('Pull Request') {
       when {
