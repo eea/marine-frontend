@@ -2062,9 +2062,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:1.1.16":
-  version: 1.1.16
-  resolution: "@eeacms/volto-marine-policy@npm:1.1.16"
+"@eeacms/volto-marine-policy@npm:1.1.17":
+  version: 1.1.17
+  resolution: "@eeacms/volto-marine-policy@npm:1.1.17"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": ^1.33.2
@@ -2078,7 +2078,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 01aea6d5b40f22ef1731c12ac1732546634d655e83d3eacd830912470b742dc7e3bb3176dec53f26e039b117760892ff4bdd98039b6d6f0756f4825482ffaefa
+  checksum: f09b66cb84a30bd98ab4d695ba689d002e800867cf407e92b566d79cfb03296b7102e1e3173250e911e4aa6664e73c989de27c64d1eaa68f02d86b5cd2e164e8
   languageName: node
   linkType: hard
 
@@ -16180,7 +16180,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": ^1.0.7
     "@eeacms/volto-embed": "github:eea/volto-embed#9.1.4"
     "@eeacms/volto-globalsearch": ^1.1.0
-    "@eeacms/volto-marine-policy": 1.1.16
+    "@eeacms/volto-marine-policy": 1.1.17
     "@eeacms/volto-plotlycharts": ^9.2.0
     "@eeacms/volto-prefixpath": 0.2.1
     "@eeacms/volto-searchlib": ^0.9.3
