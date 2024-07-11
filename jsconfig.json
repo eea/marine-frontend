@@ -19,7 +19,8 @@
       "@root/*": ["."],
       "@eeacms/volto-prefixpath": ["addons/volto-prefixpath/src"],
       "@eeacms/volto-marine-policy": ["addons/volto-marine-policy/src"],
-      "@eeacms/volto-elastic-csv-widget": ["addons/volto-elastic-csv-widget/src"]
+      "@eeacms/volto-elastic-csv-widget": ["addons/volto-elastic-csv-widget/src"],
+      "@eeacms/volto-datablocks": ["addons/volto-datablocks/src"]
     },
     "include": ["src"],
     "exclude": ["node_modules", "build", "public", "coverage", "src/**/*.test.{js,jsx,ts,tsx}", "src/**/*.spec.{js,jsx,ts,tsx}", "src/**/*.stories.{js,jsx,ts,tsx}"],
