@@ -3790,9 +3790,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@github:eea/volto-marine-policy#volto-17":
-  version: 1.1.15
-  resolution: "@eeacms/volto-marine-policy@https://github.com/eea/volto-marine-policy.git#commit=7586b7cccecb59044cefbb6d9ce3ea602505f208"
+"@eeacms/volto-marine-policy@github:eea/volto-marine-policy#2.0.0-alpha.01":
+  version: 1.1.18
+  resolution: "@eeacms/volto-marine-policy@https://github.com/eea/volto-marine-policy.git#commit=7428e73c6fbaad9099f5959760d77be0b1f39429"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": ^1.33.2
@@ -3806,7 +3806,7 @@ __metadata:
     react-lazy-load-image-component: ^1.4.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 1e63457bcaa6241c01dfd3f4840d7ee17a5b95e0e7018a50b9dd0853423109f8fd800cc64b311bcfcc0bebb3b87d43298f7a1b1e49170e301ff632946d34783a
+  checksum: 616ed5333525e03320cdb66b58a603cd26817d0b9428cbef0efd0c0180739c37c2f27c7ccf9f185600d6c183d97a770bd5791c63a77ec7adbf1be1131ab05e64
   languageName: node
   linkType: hard
 
@@ -3900,12 +3900,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#volto-17":
-  version: 0.2.0
-  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=49ed502554bcacd45bf2c125b19719b29187e613"
+"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#1.0.0-alpha.06":
+  version: 0.2.1
+  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=7df614fde972a460670f4fb5eac8b944ace392a2"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 1165ad84639538e1f2210b2b0256f3606f5dde95061e53558b71a8aa9873da52acbda94186514233f08b4c0885cb3c43905a0d583677f7a5792be41e44454e51
+  checksum: 43efb42bfd494356e5f4c194c13c4da84c30cda0c1a1c8e8803dbdd470ddcdd26d005887ed102aa953c7d97540f559c8f4fd790f176ff3f2e066d08b4cd60755
   languageName: node
   linkType: hard
 
@@ -3917,6 +3917,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@plone/scripts": "*"
     babel-plugin-transform-class-properties: ^6.24.1
+    cypress: 13.1.0
     cypress-fail-fast: ^5.0.1
     dotenv: ^16.3.2
     husky: ^8.0.3
@@ -20746,10 +20747,10 @@ __metadata:
     "@eeacms/volto-embed": 10.0.0
     "@eeacms/volto-embed-static-content": 0.2.0
     "@eeacms/volto-globalsearch": 2.0.0
-    "@eeacms/volto-marine-policy": "github:eea/volto-marine-policy#volto-17"
+    "@eeacms/volto-marine-policy": "github:eea/volto-marine-policy#2.0.0-alpha.01"
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 10.0.2
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#volto-17"
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.0-alpha.06"
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 1.0.0
     "@eeacms/volto-slate-dataentity": ^3.0.1
