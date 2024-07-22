@@ -3880,7 +3880,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@^1.0.0, @eeacms/volto-prefixpath@workspace:src/addons/volto-prefixpath":
+"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#1.0.1-alpha.01":
+  version: 1.0.0
+  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=c3d46ff328a4b5b5dbe34594580544f4a8b00b73"
+  dependencies:
+    "@eeacms/volto-eea-design-system": "*"
+  checksum: 7f6e68c55babd5ca9e265aa24ebb8772f6be00d8300b7f41ec0685e5f7cf40df0ed90e79eae254a5a05dbb3944608a2b3adb4d511356f0944a3a46b52f9d5e6a
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-prefixpath@workspace:src/addons/volto-prefixpath":
   version: 0.0.0-use.local
   resolution: "@eeacms/volto-prefixpath@workspace:src/addons/volto-prefixpath"
   dependencies:
@@ -20721,7 +20730,7 @@ __metadata:
     "@eeacms/volto-marine-policy": ^2.0.0
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": 10.0.2
-    "@eeacms/volto-prefixpath": ^1.0.0
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#1.0.1-alpha.01"
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 1.0.0
     "@eeacms/volto-slate-dataentity": ^3.0.1
