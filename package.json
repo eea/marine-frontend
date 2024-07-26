@@ -120,7 +120,7 @@
     "@eeacms/volto-elastic-csv-widget": "^1.0.7",
     "@eeacms/volto-embed": "<10.0.1",
     "@eeacms/volto-globalsearch": "^1.1.0",
-    "@eeacms/volto-marine-policy": "2.0.0",
+    "@eeacms/volto-marine-policy": "2.0.1",
     "@eeacms/volto-plotlycharts": "^9.2.0",
     "@eeacms/volto-prefixpath": "1.0.0",
     "@eeacms/volto-searchlib": "^0.9.3",
