@@ -143,7 +143,7 @@
     "@eeacms/volto-embed": "10.0.0",
     "@eeacms/volto-embed-static-content": "0.2.0",
     "@eeacms/volto-globalsearch": "2.0.0",
-    "@eeacms/volto-marine-policy": "^2.0.0",
+    "@eeacms/volto-marine-policy": "^2.0.1",
     "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "10.0.2",
     "@eeacms/volto-prefixpath": "1.0.0",
