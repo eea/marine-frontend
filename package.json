@@ -69,7 +69,7 @@
     "@eeacms/volto-hero-block": "<7.0.0",
     "@eeacms/volto-listing-block": "<8.0.0",
     "@eeacms/volto-matomo": "4.2.1",
-    "@eeacms/volto-metadata-block": "7.0.1",
+    "@eeacms/volto-metadata-block": "7.0.2",
     "@eeacms/volto-nextcloud-video-block": "0.4.8",
     "@eeacms/volto-object-widget": "6.0.0",
     "@eeacms/volto-quote-block": "1.2.3",
