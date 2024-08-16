@@ -91,6 +91,7 @@
     "@eeacms/volto-widget-theme-picker": "1.1.5",
     "@eeacms/volto-widget-toggle": "3.1.4",
     "@plone-collective/volto-sentry": "^0.3.1",
+    "@eeacms/volto-embed": "<10.0.1",
     "@eeacms/countup": "^2.0.6"
   },
   "addons": [
@@ -118,7 +119,7 @@
     "@eeacms/volto-eea-slate-glossary": "^0.1.4",
     "@eeacms/volto-eea-website-theme": "^1.33.2",
     "@eeacms/volto-elastic-csv-widget": "^1.0.7",
-    "@eeacms/volto-embed": "<10.0.1",
+    "@eeacms/volto-embed": "^9.1.1",
     "@eeacms/volto-globalsearch": "^1.1.0",
     "@eeacms/volto-marine-policy": "2.0.1",
     "@eeacms/volto-plotlycharts": "^9.2.0",
