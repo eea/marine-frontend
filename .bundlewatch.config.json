@@ -17,12 +17,8 @@
         "maxSize": "125kB"
       },
       {
-        "path": "build/public/static/js/react-sortable-tree*.js",
-        "maxSize": "100kB"
-      },
-      {
         "path": "build/public/static/js/react-sortable*.js",
-        "maxSize": "70kB"
+        "maxSize": "100kB"
       },
       {
         "path": "build/public/static/js/react-plotly*.js",
