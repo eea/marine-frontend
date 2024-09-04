@@ -33,7 +33,7 @@
         "maxSize": "135kB"
       },
       {
-        "path": "build/public/static/js/301.66aea816.chunk.js",
+        "path": "build/public/static/js/30*.chunk.js",
         "maxSize": "1.1MB"
       }
     ]
