@@ -93,6 +93,8 @@
     "@plone-collective/volto-sentry": "^0.3.1",
     "@eeacms/volto-embed": "<10.0.1",
     "@eeacms/countup": "^2.0.6",
+    "@elastic/react-search-ui": "1.20.2",
+    "@elastic/react-search-ui-views": "1.20.2",
     "@elastic/search-ui": "1.21.2"
   },
   "addons": [
