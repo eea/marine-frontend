@@ -33,6 +33,10 @@
         "maxSize": "135kB"
       },
       {
+        "path": "build/public/static/js/jsoneditor*.js",
+        "maxSize": "270kB"
+      },
+      {
         "path": "build/public/static/js/30*.chunk.js",
         "maxSize": "1.1MB"
       }
