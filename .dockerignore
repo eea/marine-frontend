@@ -13,6 +13,7 @@ omelette
 *.log
 .dockerignore
 .editorconfig
+Dockerfile
 .eslintignore
 .eslintrc.js
 .gitignore
