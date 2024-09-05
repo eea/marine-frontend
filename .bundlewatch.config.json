@@ -22,7 +22,7 @@
       },
       {
         "path": "build/public/static/js/react-plotly*.js",
-        "maxSize": "1.1MB"
+        "maxSize": "1.3MB"
       },
       {
         "path": "build/public/static/js/client*.js",
@@ -37,8 +37,12 @@
         "maxSize": "270kB"
       },
       {
-        "path": "build/public/static/js/30*.chunk.js",
-        "maxSize": "1.1MB"
+        "path": "build/public/static/js/sanitize-html*.js",
+        "maxSize": "85kB"
+      },
+      {
+        "path": "build/public/static/js/404.chunk.js",
+        "maxSize": "1.3MB"
       }
     ]
 }
