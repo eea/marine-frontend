@@ -41,7 +41,7 @@
         "maxSize": "85kB"
       },
       {
-        "path": "build/public/static/js/404.chunk.js",
+        "path": "build/public/static/js/404*.js",
         "maxSize": "1.3MB"
       }
     ]
