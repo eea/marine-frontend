@@ -149,7 +149,6 @@ pipeline {
       when {
         anyOf {
           buildingTag()
-          branch 'volto-17'
         }
       }
       steps{
