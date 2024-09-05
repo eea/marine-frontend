@@ -47,14 +47,7 @@
   ],
   "theme": "@eeacms/volto-marine-policy",
   "resolutions": {
-    "d3-array": "^2.12.1",
-    "react-error-overlay": "6.0.9",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "classnames": "2.2.6",
-    "@plone-collective/volto-authomatic": "2.0.1",
-    "@elastic/react-search-ui": "1.20.2",
-    "@elastic/react-search-ui-views": "1.20.2",
-    "@elastic/search-ui": "1.21.2"
+    
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
