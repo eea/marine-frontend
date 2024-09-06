@@ -65,3 +65,11 @@ omelette: ## Creates the omelette folder that contains a link to the installed v
 .PHONY: patches
 patches:
 	/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true
+
+.PHONY: build
+build:                  ## Build frontend
+	NODE_OPTIONS="--max-old-space-size=8192" yarn build
+
+.PHONY: bundlewatch
+bundlewatch:
+	yarn bundlewatch --config .bundlewatch.config.json
