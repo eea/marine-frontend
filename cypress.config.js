@@ -18,6 +18,7 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // e2e testing node events setup code
+      config.env.RAZZLE_PREFIX_PATH = "/marine";
 
       return config;
     },
