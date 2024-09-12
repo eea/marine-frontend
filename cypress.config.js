@@ -18,13 +18,13 @@ module.exports = defineConfig({
   e2e: {
     setupNodeEvents(on, config) {
       // e2e testing node events setup code
-      config.env.RAZZLE_PREFIX_PATH = "/marine";
+      config.env.CYPRESS_PREFIX_PATH = "/marine";
 
       return config;
     },
     baseUrl: 'http://localhost:3000',
   },
   "env": {
-    "RAZZLE_PREFIX_PATH": "/marine",
+    "CYPRESS_PREFIX_PATH": "/marine",
   },
 });
