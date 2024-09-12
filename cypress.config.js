@@ -23,4 +23,7 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://localhost:3000',
   },
+  "env": {
+    "RAZZLE_PREFIX_PATH": "/marine",
+  },
 });
