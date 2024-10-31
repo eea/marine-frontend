@@ -2,7 +2,7 @@
   "name": "marine-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "3.7.0",
+  "version": "3.8.0",
   "scripts": {
     "start": "razzle start",
     "analyze": "webpack-bundle-analyzer -p $PORT -h 0.0.0.0 ./build/public/stats.json",
@@ -91,7 +91,7 @@
     "@eeacms/volto-marine-policy": "2.0.1",
     "@eeacms/volto-openlayers-map": "0.3.2",
     "@eeacms/volto-plotlycharts": "10.0.10",
-    "@eeacms/volto-prefixpath": "1.0.1",
+    "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "2.0.3",
     "@eeacms/volto-slate-dataentity": "4.0.0",
