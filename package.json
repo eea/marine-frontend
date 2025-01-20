@@ -73,7 +73,7 @@
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
-    "@eeacms/volto-block-data-figure": "8.2.0",
+    "@eeacms/volto-block-data-figure": "8.2.1",
     "@eeacms/volto-block-toc": "6.2.0",
     "@eeacms/volto-citation": "1.1.0",
     "@eeacms/volto-datablocks": "7.2.6",
