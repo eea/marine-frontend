@@ -70,7 +70,7 @@
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-elastic-csv-widget",
     "@eeacms/volto-prefixpath",
-    "@eeacms/volto-context-navigation",
+    "@eeacms/volto-context-navigation"
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
