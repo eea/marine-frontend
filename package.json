@@ -69,13 +69,15 @@
     "@eeacms/volto-marine-policy",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-elastic-csv-widget",
-    "@eeacms/volto-prefixpath"
+    "@eeacms/volto-prefixpath",
+    "@eeacms/volto-context-navigation",
   ],
   "dependencies": {
     "@babel/plugin-transform-react-jsx": "*",
     "@eeacms/volto-block-data-figure": "8.2.1",
     "@eeacms/volto-block-toc": "6.2.0",
     "@eeacms/volto-citation": "1.1.0",
+    "@eeacms/volto-context-navigation": "0.1.2",
     "@eeacms/volto-datablocks": "7.2.9",
     "@eeacms/volto-datahub": "2.0.1",
     "@eeacms/volto-editing-progress": "1.0.0",
