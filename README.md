@@ -3,7 +3,7 @@
 [![Release](https://img.shields.io/github/v/release/eea/marine-frontend?sort=semver)](https://github.com/eea/marine-frontend/releases)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2Fmaster&subject=master)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/master/lastBuild/display/redirect)
 [![Pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2Fdevelop&subject=develop)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/develop/lastBuild/display/redirect)
-[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2F0.3.0&build=last&subject=release%20.3.0.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/3.9.0/lastBuild/display/redirect/)
+[![Release pipeline](https://ci.eionet.europa.eu/buildStatus/icon?job=volto%2Fmarine-frontend%2F0.3.0&build=last&subject=release%20.3.0.0%20pipeline)](https://ci.eionet.europa.eu/view/Github/job/volto/job/marine-frontend/job/3.10.0/lastBuild/display/redirect/)
 
 ## Documentation
 
