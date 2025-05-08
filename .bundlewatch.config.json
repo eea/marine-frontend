@@ -5,10 +5,6 @@
         "maxSize": "50kB"
       },
       {
-        "path": "build/public/static/js/ChartEditor*.js",
-        "maxSize": "650kB"
-      },
-      {
         "path": "build/public/static/js/d3*.js",
         "maxSize": "103kB"
       },
@@ -39,10 +35,6 @@
       {
         "path": "build/public/static/js/sanitize-html*.js",
         "maxSize": "85kB"
-      },
-      {
-        "path": "build/public/static/js/404*.js",
-        "maxSize": "1.3MB"
       },
       {
         "path": "build/public/static/js/rehype-prism-plus*.js",
