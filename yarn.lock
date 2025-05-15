@@ -2539,16 +2539,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@eeacms/volto-globalsearch@npm:2.1.0"
-  dependencies:
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-searchlib": "*"
-  checksum: ed2371d4b43d9e0399154c40aeb53f765b7553eb7fbdfbef8a7c8ac3caae963f195facf8cc4256e12b30513407beeb9324e8a7291a30338f9e3bb1a8e71484ba
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-globalsearch@npm:2.1.2":
   version: 2.1.2
   resolution: "@eeacms/volto-globalsearch@npm:2.1.2"
@@ -2607,14 +2597,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:2.0.13":
-  version: 2.0.13
-  resolution: "@eeacms/volto-marine-policy@npm:2.0.13"
+"@eeacms/volto-marine-policy@npm:2.0.14":
+  version: 2.0.14
+  resolution: "@eeacms/volto-marine-policy@npm:2.0.14"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-embed": "*"
-    "@eeacms/volto-globalsearch": 2.1.0
+    "@eeacms/volto-globalsearch": 2.1.2
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-tabs-block": "*"
@@ -2626,7 +2616,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 8c43bda8509478afcbfbcef7dc3a4d0eeef0f407c2755b494eeb61cc1536925cfbde2dd87a1f461f71d629cbc9be49216a883d52a2a794d875c527fc84992022
+  checksum: adb19e01535b582ef38d30589f18957598a30750c0ed27f65d7502e297517282ef4c0bb00cc86070ada41185f5b06b0e32643c4b8aff0457d3522cdd69b517b8
   languageName: node
   linkType: hard
 
@@ -19428,7 +19418,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-marine-policy": 2.0.13
+    "@eeacms/volto-marine-policy": 2.0.14
     "@eeacms/volto-openlayers-map": 0.3.2
     "@eeacms/volto-plotlycharts": ~11.0.2
     "@eeacms/volto-prefixpath": 1.0.3
