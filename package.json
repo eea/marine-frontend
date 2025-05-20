@@ -82,7 +82,7 @@
     "@eeacms/volto-datahub": "2.0.1",
     "@eeacms/volto-editing-progress": "1.0.0",
     "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#1.36.6-print.01",
-    "@eeacms/volto-eea-kitkat": "27.0.2",
+    "@eeacms/volto-eea-kitkat": "27.1.0",
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-slate-glossary": "1.0.0",
     "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#57532f2f4b67df56fbbff3843a7909fbf88e86a9",
