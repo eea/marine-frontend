@@ -2371,7 +2371,7 @@ __metadata:
     react-slick: ^0.30.1
     remixicon: 4.6.0
     slick-carousel: ^1.8.1
-  checksum: 0a0a775a5396de18a69626cded18365d1309c2f216699969117a54f8f04bae649fc5fd07899237d2502f75db9a5a575ab386fa7e652733511b6628e23cb72af1
+  checksum: 04c87a1745b11918f7faafa2e876396e63d861fe4f74620edf8d6389f451bc07dcbeb542ef451268d3310deed01ed9db006b40b517267355f577fd54c268bfb4
   languageName: node
   linkType: hard
 
@@ -2473,7 +2473,7 @@ __metadata:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
-  checksum: ca5d74a277d19af083be9f3fd7a8cd414f66d49e065a5efc9c0fbcb35e535937368c3bfcaa3ad16e8e70530516255a1ad094554352d44e2409310cd0f496ca36
+  checksum: b351f6cb0d10441f8389dbd88861bdd29f272d64461aff9ec185c72bfca80fb52550e3375d6b92d066f076a9a817987b892427277bc8fc3aba2620b56f806b74
   languageName: node
   linkType: hard
 
@@ -2490,13 +2490,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-elastic-csv-widget@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@eeacms/volto-elastic-csv-widget@npm:1.0.7"
+"@eeacms/volto-elastic-csv-widget@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@eeacms/volto-elastic-csv-widget@npm:2.0.0"
   dependencies:
     "@eeacms/volto-datablocks": 6.1.0
     razzle-plugin-scss: ^4.2.18
-  checksum: 4d783b455f144df24b2f5d5a69ab37cb9928efa477997f8f48fe5c0d15a00197b361acd540ddab92182c89956687896e98736f0fc0c62557d17d68c95de934a5
+  checksum: fb282ac237560f1af27ec85f956641ff275202a37aa695edf84706824343afc8f93f4d9c00d8fbccb564709f7075e829e5342e05dbe57c9440ad7b103c579d0c
   languageName: node
   linkType: hard
 
@@ -19414,7 +19414,7 @@ __metadata:
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-slate-glossary": 1.0.0
     "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#57532f2f4b67df56fbbff3843a7909fbf88e86a9"
-    "@eeacms/volto-elastic-csv-widget": 1.0.7
+    "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
@@ -23665,7 +23665,7 @@ __metadata:
   peerDependencies:
     react: ">=0.14"
     react-dom: ">=0.14"
-  checksum: f5e0c4532df134e0a080438ea7b57c4d5246e3bd9fbef366ce1be1ce5ec3a377a86fc91616e8514192e5e49aab78a7596556277262bc9fd0f5f1989ac94256fe
+  checksum: b5caeccd0afc9b7b55884e7fa2c59299a1f9d74f8255c2e2802288fd2665dbd176adb0cbf2df59fd6b23ee607faaf4714a2cc8cdb8160ba5089015dfe90eca64
   languageName: node
   linkType: hard
 

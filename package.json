@@ -86,7 +86,7 @@
     "@eeacms/volto-eea-map": "5.0.8",
     "@eeacms/volto-eea-slate-glossary": "1.0.0",
     "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#57532f2f4b67df56fbbff3843a7909fbf88e86a9",
-    "@eeacms/volto-elastic-csv-widget": "1.0.7",
+    "@eeacms/volto-elastic-csv-widget": "2.0.0",
     "@eeacms/volto-embed": "10.1.3",
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-globalsearch": "2.1.2",
