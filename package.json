@@ -91,7 +91,7 @@
     "@eeacms/volto-embed-static-content": "0.5.1",
     "@eeacms/volto-globalsearch": "2.1.2",
     "@eeacms/volto-marine-policy": "2.0.15",
-    "@eeacms/volto-openlayers-map": "1.0.0",
+    "@eeacms/volto-openlayers-map": "1.0.1",
     "@eeacms/volto-plotlycharts": "~11.0.2",
     "@eeacms/volto-prefixpath": "1.0.3",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
