@@ -2360,21 +2360,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-design-system@github:eea/volto-eea-design-system#1.36.6-print.01":
-  version: 1.36.6
-  resolution: "@eeacms/volto-eea-design-system@https://github.com/eea/volto-eea-design-system.git#commit=170d42a1116362b1fbaec170d4c0ac8a70391595"
-  dependencies:
-    "@eeacms/countup": "*"
-    "@eeacms/volto-corsproxy": "*"
-    "@fontsource/roboto": 4.5.8
-    react-lazy-load-image-component: 1.5.6
-    react-slick: ^0.30.1
-    remixicon: 4.6.0
-    slick-carousel: ^1.8.1
-  checksum: 0a0a775a5396de18a69626cded18365d1309c2f216699969117a54f8f04bae649fc5fd07899237d2502f75db9a5a575ab386fa7e652733511b6628e23cb72af1
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-eea-design-system@npm:*":
   version: 1.33.1
   resolution: "@eeacms/volto-eea-design-system@npm:1.33.1"
@@ -2387,6 +2372,21 @@ __metadata:
     remixicon: 3.6.0
     slick-carousel: ^1.8.1
   checksum: 16b5e7f56b8fcb391ace7d71079489be15195164feafa0db37c1cfd0e404f4ed3cb107dd56f19324e3909250e6790e19efd01175d49efd2889a60170bed854cc
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-design-system@npm:1.37.2":
+  version: 1.37.2
+  resolution: "@eeacms/volto-eea-design-system@npm:1.37.2"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-corsproxy": "*"
+    "@fontsource/roboto": 4.5.8
+    react-lazy-load-image-component: 1.5.6
+    react-slick: ^0.30.1
+    remixicon: 4.6.0
+    slick-carousel: ^1.8.1
+  checksum: 3c6c6547a96cdce723d3e92a206c0e38f6871233911bcf55defda1f3187ddd34af26cfd1ee083d3ecea7d92b76105b067555a5e64fa6be03d5da2c0454824b9d
   languageName: node
   linkType: hard
 
@@ -19418,7 +19418,7 @@ __metadata:
     "@eeacms/volto-datablocks": 7.3.1
     "@eeacms/volto-datahub": 2.0.1
     "@eeacms/volto-editing-progress": 1.0.0
-    "@eeacms/volto-eea-design-system": "github:eea/volto-eea-design-system#1.36.6-print.01"
+    "@eeacms/volto-eea-design-system": 1.37.2
     "@eeacms/volto-eea-kitkat": 27.1.1
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-slate-glossary": 1.0.0
