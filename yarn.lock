@@ -2464,19 +2464,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-website-theme@github:eea/volto-eea-website-theme#57532f2f4b67df56fbbff3843a7909fbf88e86a9":
-  version: 3.6.1
-  resolution: "@eeacms/volto-eea-website-theme@https://github.com/eea/volto-eea-website-theme.git#commit=57532f2f4b67df56fbbff3843a7909fbf88e86a9"
-  dependencies:
-    "@eeacms/volto-block-style": "*"
-    "@eeacms/volto-block-toc": "*"
-    "@eeacms/volto-eea-design-system": "*"
-    "@eeacms/volto-group-block": "*"
-    volto-subsites: "*"
-  checksum: ca5d74a277d19af083be9f3fd7a8cd414f66d49e065a5efc9c0fbcb35e535937368c3bfcaa3ad16e8e70530516255a1ad094554352d44e2409310cd0f496ca36
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-eea-website-theme@npm:*":
   version: 3.5.4
   resolution: "@eeacms/volto-eea-website-theme@npm:3.5.4"
@@ -2487,6 +2474,20 @@ __metadata:
     "@eeacms/volto-group-block": "*"
     volto-subsites: "*"
   checksum: b4d37bf1d5628e0ba39d35641afab8b707f9f605580c7523c99ddc78f525086ddabbe88a45ee3c45ebdfae904758a5e308c08ea64881f57ac1d15efa75efea70
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-eea-website-theme@npm:3.8.0":
+  version: 3.8.0
+  resolution: "@eeacms/volto-eea-website-theme@npm:3.8.0"
+  dependencies:
+    "@eeacms/volto-anchors": "*"
+    "@eeacms/volto-block-style": "*"
+    "@eeacms/volto-block-toc": "*"
+    "@eeacms/volto-eea-design-system": "*"
+    "@eeacms/volto-group-block": "*"
+    volto-subsites: "*"
+  checksum: 0a340cd9558553a85a2d0d9e4363204ed7a688511d891c64ca07fc1e2b033c20ab226b2a5ff9e9cf07a15aa0d05358f296798defcf0714af046fed2b3d3620ba
   languageName: node
   linkType: hard
 
@@ -2597,15 +2598,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:2.0.15":
-  version: 2.0.15
-  resolution: "@eeacms/volto-marine-policy@npm:2.0.15"
+"@eeacms/volto-marine-policy@npm:2.0.16":
+  version: 2.0.16
+  resolution: "@eeacms/volto-marine-policy@npm:2.0.16"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-embed": "*"
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-openlayers-map": 0.3.2
+    "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-searchlib": 2.0.16
     "@eeacms/volto-tabs-block": "*"
     axios: 0.30.0
@@ -2616,7 +2617,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: add7b3f9eee4cac40b2b4dc8aa3926bf542b19a1d36c2f784bf41e43cb4ca6642826e597015895d576b834f91b16eb9ed8b89bce9d1795c6d2d8d2c020b02f64
+  checksum: 82f004e7aa1a517e247822631ef1bc4715b1ba7c476d39c1e6dadc5dc3b66b22657c114474be3362f0ee79d0f1166469c9ce805199ee53ddbd10a18b6920cc39
   languageName: node
   linkType: hard
 
@@ -2653,15 +2654,6 @@ __metadata:
   dependencies:
     "@eeacms/volto-resize-helper": "*"
   checksum: a6c6e03d339de51e79e83731332e340678afd8e08303da5bce954d80cd6f04c2945ee70efaf6a7bb811327a1388c1a46f5f35013a13c1ea02c73fd4eb8b32879
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-openlayers-map@npm:0.3.2":
-  version: 0.3.2
-  resolution: "@eeacms/volto-openlayers-map@npm:0.3.2"
-  dependencies:
-    ol: 6.6.x
-  checksum: 801eff2466aee3451f0c47abb1eb4ea5b2df2978f9e2e532851d32bb8ea2e5b945742e9fe59e402af1284301ebcfe861bbf83b5a57b61a3ebea3a7fd5556aca9
   languageName: node
   linkType: hard
 
@@ -19422,12 +19414,12 @@ __metadata:
     "@eeacms/volto-eea-kitkat": 27.1.2
     "@eeacms/volto-eea-map": 5.0.8
     "@eeacms/volto-eea-slate-glossary": 1.0.0
-    "@eeacms/volto-eea-website-theme": "github:eea/volto-eea-website-theme#57532f2f4b67df56fbbff3843a7909fbf88e86a9"
+    "@eeacms/volto-eea-website-theme": 3.8.0
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-marine-policy": 2.0.15
+    "@eeacms/volto-marine-policy": 2.0.16
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ~11.0.2
     "@eeacms/volto-prefixpath": 1.0.3
