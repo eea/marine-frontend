@@ -66,6 +66,7 @@
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-eea-map",
+    "@plone-collective/volto-authomatic",
     "@eeacms/volto-marine-policy",
     "@eeacms/volto-plotlycharts",
     "@eeacms/volto-elastic-csv-widget",
