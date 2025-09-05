@@ -2586,9 +2586,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:2.0.26":
-  version: 2.0.26
-  resolution: "@eeacms/volto-marine-policy@npm:2.0.26"
+"@eeacms/volto-marine-policy@npm:2.0.27":
+  version: 2.0.27
+  resolution: "@eeacms/volto-marine-policy@npm:2.0.27"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2608,7 +2608,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: f62fdcac668131a0154cda149a7ac48716f98effcf8b16ba21d16d82358bf725f59b77037b184fc8fe6a2159ffb580e16af7bbe5087b82901c2ceececa387449
+  checksum: c23ed2511390857a6b256957d2f3e51ddeb77921b740fd7f7e9aa769881b7b0670f3d054c48dd19a94f95f957757a2e48a16cb1083c226355cdbbe864e9da8b2
   languageName: node
   linkType: hard
 
@@ -2682,12 +2682,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@npm:1.0.3":
-  version: 1.0.3
-  resolution: "@eeacms/volto-prefixpath@npm:1.0.3"
+"@eeacms/volto-prefixpath@npm:1.0.4":
+  version: 1.0.4
+  resolution: "@eeacms/volto-prefixpath@npm:1.0.4"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 74a43649f0b94598fd25fbbe3ce2a45d9de49e978174c09ab9396620e4b451cae4eb7b7e306eaa758f94ffe3a7300da79c5b6166c583690c878bebcaf3f1362c
+  checksum: a3c1317e9e23bb3384ba242fc9071edb2e70a34df198a8f170c81f800f27037427c21bf1021c833811d3337898c7e966fb65ef0d221c06c341a5d109e707f35a
   languageName: node
   linkType: hard
 
@@ -19427,10 +19427,10 @@ __metadata:
     "@eeacms/volto-embed": 10.1.3
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-marine-policy": 2.0.26
+    "@eeacms/volto-marine-policy": 2.0.27
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": ~11.0.2
-    "@eeacms/volto-prefixpath": 1.0.3
+    "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-redmine-helpdesk": 1.0.0
     "@eeacms/volto-searchlib": 2.1.10
     "@eeacms/volto-slate-dataentity": 4.0.2
