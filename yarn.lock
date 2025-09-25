@@ -2208,13 +2208,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-toc@npm:8.1.1":
-  version: 8.1.1
-  resolution: "@eeacms/volto-block-toc@npm:8.1.1"
+"@eeacms/volto-block-toc@npm:8.2.0":
+  version: 8.2.0
+  resolution: "@eeacms/volto-block-toc@npm:8.2.0"
   dependencies:
     github-slugger: 1.4.0
     smoothscroll-polyfill: ^0.4.4
-  checksum: 9cee3a8c62cd1e6a5cd00fed83ed8d24635b65b55402f63134f4ab9c1d6d3d922d2dda6caf5298dd7c5f42159c296c50227f5a59e371b1f1ed8d46df91b085d7
+  checksum: 4923cf8aa3dfcb8a8e2980cb41ceb19fef89af4cdc14a54195528f6db339b3a16ef986fcc3420c4311438d11039800926c4d7b7daab98a2aaed702087914c449
   languageName: node
   linkType: hard
 
@@ -19413,7 +19413,7 @@ __metadata:
     "@babel/plugin-proposal-throw-expressions": "*"
     "@babel/plugin-transform-react-jsx": "*"
     "@eeacms/volto-block-data-figure": 8.2.1
-    "@eeacms/volto-block-toc": 8.1.1
+    "@eeacms/volto-block-toc": 8.2.0
     "@eeacms/volto-citation": 1.1.0
     "@eeacms/volto-context-navigation": 0.1.2
     "@eeacms/volto-datablocks": 7.3.3
