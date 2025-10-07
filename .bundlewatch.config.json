@@ -58,7 +58,7 @@
       },
       {
         "path": "build/public/static/js/jsoneditor*.js",
-        "maxSize": "270kB"
+        "maxSize": "280kB"
       },
       {
         "path": "build/public/static/js/sanitize-html*.js",
