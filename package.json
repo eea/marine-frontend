@@ -63,7 +63,7 @@
     "@eeacms/volto-tableau",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-datablocks",
-    "eeacms/volto-chatbot",
+    "@eeacms/volto-chatbot",
     "@eeacms/volto-eea-design-system",
     "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-searchlib",
