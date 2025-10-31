@@ -97,7 +97,7 @@
     "@eeacms/volto-marine-policy": "2.0.34",
     "@eeacms/volto-object-widget": "8.0.0",
     "@eeacms/volto-openlayers-map": "1.0.1",
-    "@eeacms/volto-plotlycharts": "13.3.0",
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#laszlo-hotfix-refs-293803",
     "@eeacms/volto-prefixpath": "1.0.4",
     "@eeacms/volto-quote-block": "3.0.0",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
