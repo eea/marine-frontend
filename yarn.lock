@@ -2509,9 +2509,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:2.0.34":
-  version: 2.0.34
-  resolution: "@eeacms/volto-marine-policy@npm:2.0.34"
+"@eeacms/volto-marine-policy@npm:2.0.35":
+  version: 2.0.35
+  resolution: "@eeacms/volto-marine-policy@npm:2.0.35"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2531,7 +2531,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: e037e391fcbdf0aa9344a6804d113bd436a3e6edaac19cbd1ff1a55aba8a908c2c24db5936d155bbaf600491528dea1c6848490ee46f20eba1fd8c4ab5ec94bc
+  checksum: 2cc1e73eff9d68cb99ba8614115c8bc11fbfda565775545080caf92bac22e22de4d8bc9620f683afa3fb47f4e2a832020367ede0020157a39b344f24364242e8
   languageName: node
   linkType: hard
 
@@ -2578,9 +2578,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:13.3.0":
-  version: 13.3.0
-  resolution: "@eeacms/volto-plotlycharts@npm:13.3.0"
+"@eeacms/volto-plotlycharts@github:eea/volto-plotlycharts#laszlo-hotfix-refs-293803":
+  version: 13.3.1
+  resolution: "@eeacms/volto-plotlycharts@https://github.com/eea/volto-plotlycharts.git#commit=bc5830e81374a2e6c2e6ae02e05047fd84e5dcf6"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -2593,7 +2593,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: 0a92191641e2e17f2e7cff8aebf14d2a639792a81fe0ca44a6e989713001b1534b4f74872c05317c6895c9c7157ac9d5aafe5d9c7b66497bbf7e2e119bdbbb4b
+  checksum: 51743370cf7b3c5168d11eca38c7bf2b2bba3921761e29c1e6c8c609335f689ce7944eec8cae55c532a0dcc240128763753e097cc5ce7e3b0f15943541392229
   languageName: node
   linkType: hard
 
@@ -19667,10 +19667,10 @@ __metadata:
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-marine-policy": 2.0.34
+    "@eeacms/volto-marine-policy": 2.0.35
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
-    "@eeacms/volto-plotlycharts": 13.3.0
+    "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#laszlo-hotfix-refs-293803"
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-quote-block": 3.0.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
