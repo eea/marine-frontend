@@ -2517,9 +2517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:2.0.35":
-  version: 2.0.35
-  resolution: "@eeacms/volto-marine-policy@npm:2.0.35"
+"@eeacms/volto-marine-policy@npm:2.0.36":
+  version: 2.0.36
+  resolution: "@eeacms/volto-marine-policy@npm:2.0.36"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
@@ -2539,7 +2539,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 2cc1e73eff9d68cb99ba8614115c8bc11fbfda565775545080caf92bac22e22de4d8bc9620f683afa3fb47f4e2a832020367ede0020157a39b344f24364242e8
+  checksum: ac8bfd9c843d922d26f0ccb98e86ba2262427493f811c199274508c4f0b315b92b4fddf26a8a9221b5d409162c6a1a813c5ba0dc1e4585b247b33e783dcb0b75
   languageName: node
   linkType: hard
 
@@ -19687,7 +19687,7 @@ __metadata:
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
     "@eeacms/volto-globalsearch": 2.1.2
-    "@eeacms/volto-marine-policy": 2.0.35
+    "@eeacms/volto-marine-policy": 2.0.36
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": "github:eea/volto-plotlycharts#laszlo-hotfix-refs-293803"
