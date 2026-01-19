@@ -2172,6 +2172,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-chatbot@npm:*":
+  version: 1.0.5
+  resolution: "@eeacms/volto-chatbot@npm:1.0.5"
+  dependencies:
+    "@eeacms/volto-matomo": "*"
+    "@microsoft/fetch-event-source": 2.0.1
+    "@plone-collective/volto-sentry": "*"
+    fast-json-patch: 3.1.1
+    highlight.js: 11.10.0
+    luxon: 3.5.0
+    marked: 13.0.3
+    node-fetch: 2.7.0
+    react-markdown: 8.0.7
+    react-textarea-autosize: ^8.5.3
+    rehype-prism-plus: 1.6.0
+    remark-gfm: 3.0.1
+    uuid: 10.0.0
+  checksum: be98dcc4eaa446319c378a73ae39b0f29b9531d45775703b24f8210add0eb1d47183601eb88c3e88a238b2a691823347dad30ed599b49c6ebf60ad735aa47342
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-chatbot@npm:1.0.1":
   version: 1.0.1
   resolution: "@eeacms/volto-chatbot@npm:1.0.1"
@@ -2741,6 +2762,52 @@ __metadata:
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
   checksum: abeb43f15e02c3f7174a2024e6d93a3763b7b31ebfb1b6115fd27a40dba099f301c3bbe661fbd0c29a03174fd4476a65b133f2f752168765006e0061c7e43730
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-searchlib@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-searchlib@npm:3.0.0"
+  dependencies:
+    "@eeacms/volto-chatbot": "*"
+    "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-matomo": "*"
+    "@elastic/react-search-ui": 1.20.2
+    "@elastic/react-search-ui-views": 1.20.2
+    "@elastic/search-ui": 1.20.2
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: 2.0.3
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: 70b194db227fef6fd5b3499f0661e85c205c15a8aba1b9cf9cc34fe9df41967039bad0c0ab336294cd97f616f8e1abeb5a9de904712367230c3ff5b2a661d3c3
   languageName: node
   linkType: hard
 
@@ -19763,7 +19830,7 @@ __metadata:
     "@eeacms/volto-prefixpath": 1.0.4
     "@eeacms/volto-quote-block": 3.0.0
     "@eeacms/volto-redmine-helpdesk": 1.0.0
-    "@eeacms/volto-searchlib": 2.1.10
+    "@eeacms/volto-searchlib": 3.0.0
     "@eeacms/volto-slate-dataentity": 4.0.2
     "@eeacms/volto-tableau": 8.1.5
     "@eeacms/volto-visualization-utils": 1.0.4
