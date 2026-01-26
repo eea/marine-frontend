@@ -2563,6 +2563,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-globalsearch@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-globalsearch@npm:3.0.0"
+  dependencies:
+    "@eeacms/volto-listing-block": "*"
+    "@eeacms/volto-searchlib": "*"
+  checksum: 54c8e2da3ed4b232d2debfac4effc3e819fde85cab26ba6ffaeb095b6bd66583c2556b216378b0e5900dc016a199fe8dbd68ad4c80a71fb7b7bd41d940c084df
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-group-block@npm:*":
   version: 7.1.1
   resolution: "@eeacms/volto-group-block@npm:7.1.1"
@@ -19822,7 +19832,7 @@ __metadata:
     "@eeacms/volto-elastic-csv-widget": 2.0.0
     "@eeacms/volto-embed": 10.1.4
     "@eeacms/volto-embed-static-content": 0.5.1
-    "@eeacms/volto-globalsearch": 2.1.2
+    "@eeacms/volto-globalsearch": 3.0.0
     "@eeacms/volto-marine-policy": 2.0.40
     "@eeacms/volto-object-widget": 8.0.0
     "@eeacms/volto-openlayers-map": 1.0.1
