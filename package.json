@@ -55,7 +55,9 @@
     "@plone-collective/volto-authomatic": "2.0.1",
     "@elastic/react-search-ui": "1.20.2",
     "@elastic/react-search-ui-views": "1.20.2",
-    "@elastic/search-ui": "1.21.2"
+    "@elastic/search-ui": "1.21.2",
+    "@eeacms/volto-chatbot": "^0.6.1",
+    "@eeacms/volto-searchlib": "^2.1.10"
   },
   "addons": [
     "@eeacms/volto-eea-kitkat",
@@ -102,7 +104,7 @@
     "@eeacms/volto-prefixpath": "1.0.4",
     "@eeacms/volto-quote-block": "3.0.0",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
-    "@eeacms/volto-searchlib": "3.0.3",
+    "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-slate-dataentity": "4.0.2",
     "@eeacms/volto-tableau": "8.1.5",
     "@eeacms/volto-visualization-utils": "1.0.4",
