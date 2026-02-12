@@ -102,7 +102,7 @@
     "@eeacms/volto-openlayers-map": "1.0.1",
     "@eeacms/volto-plotlycharts": "13.3.7",
     "@eeacms/volto-prefixpath": "1.0.4",
-    "@eeacms/volto-quote-block": "3.0.0",
+    "@eeacms/volto-quote-block": "3.0.1",
     "@eeacms/volto-redmine-helpdesk": "1.0.0",
     "@eeacms/volto-searchlib": "^2.1.10",
     "@eeacms/volto-slate-dataentity": "4.0.2",
