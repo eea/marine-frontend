@@ -2253,7 +2253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:*, @eeacms/volto-datablocks@npm:7.3.4":
+"@eeacms/volto-datablocks@npm:*":
   version: 7.3.4
   resolution: "@eeacms/volto-datablocks@npm:7.3.4"
   dependencies:
@@ -2287,6 +2287,25 @@ __metadata:
     react-visibility-sensor: 5.1.1
     sanitize-html: 2.7.3
   checksum: 626192e32eb9c39a48c012059dd5a98de65c319609a72b0424991f538e5484d353f33827fe77ad633e3637205749ee843e97390248bd3b9cc4b43696051ee298
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-datablocks@npm:7.3.5":
+  version: 7.3.5
+  resolution: "@eeacms/volto-datablocks@npm:7.3.5"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-group-block": "*"
+    "@eeacms/volto-listing-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.12.1
+  checksum: e564143863937d3751dff1e3c8623a5ff1f668f93a924aed646c55a9c16aa1174f8b1acee32562ad0eedea2240d11476d1d58f9796e36bd1eb52e6c1ea8587ca
   languageName: node
   linkType: hard
 
@@ -19745,7 +19764,7 @@ __metadata:
     "@eeacms/volto-chatbot": ^0.6.4
     "@eeacms/volto-citation": 1.1.0
     "@eeacms/volto-context-navigation": 0.1.4
-    "@eeacms/volto-datablocks": 7.3.4
+    "@eeacms/volto-datablocks": 7.3.5
     "@eeacms/volto-datahub": 2.0.5
     "@eeacms/volto-editing-progress": 2.0.0
     "@eeacms/volto-eea-chatbot": ^1.0.11
