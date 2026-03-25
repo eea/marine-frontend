@@ -2737,6 +2737,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-quote-block@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@eeacms/volto-quote-block@npm:4.0.0"
+  dependencies:
+    "@eeacms/volto-object-widget": "*"
+  checksum: cef45c54401f156cb6b47a627ba70f3e42f6ded86d778ce8371ff74e2c8f26b6dc0b52ce8a98117309cdcc55048a5a1a7c9fdcbc9f562ba0026a36df7f9af50f
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-redmine-helpdesk@npm:2.0.0":
   version: 2.0.0
   resolution: "@eeacms/volto-redmine-helpdesk@npm:2.0.0"
@@ -19802,7 +19811,7 @@ __metadata:
     "@eeacms/volto-openlayers-map": 1.0.1
     "@eeacms/volto-plotlycharts": 13.3.7
     "@eeacms/volto-prefixpath": 1.0.4
-    "@eeacms/volto-quote-block": 3.0.1
+    "@eeacms/volto-quote-block": 4.0.0
     "@eeacms/volto-redmine-helpdesk": 2.0.0
     "@eeacms/volto-searchlib": ^2.1.10
     "@eeacms/volto-slate-dataentity": 4.0.2
