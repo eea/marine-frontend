@@ -84,7 +84,7 @@
     "@eeacms/volto-block-data-figure": "9.0.1",
     "@eeacms/volto-block-toc": "9.0.1",
     "@eeacms/volto-chatbot": "^0.6.4",
-    "@eeacms/volto-citation": "2.0.0",
+    "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-context-navigation": "0.1.4",
     "@eeacms/volto-datablocks": "8.0.1",
     "@eeacms/volto-datahub": "3.0.0",
