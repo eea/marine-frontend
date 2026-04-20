@@ -2309,24 +2309,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datablocks@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@eeacms/volto-datablocks@npm:6.1.0"
-  dependencies:
-    "@eeacms/countup": "*"
-    "@eeacms/volto-embed": "*"
-    "@eeacms/volto-group-block": "*"
-    "@eeacms/volto-matomo": "*"
-    d3: 7.1.1
-    date-fns: 2.28.0
-    humanize-plus: ^1.8.2
-    object-hash: 2.2.0
-    react-visibility-sensor: 5.1.1
-    sanitize-html: 2.7.3
-  checksum: 626192e32eb9c39a48c012059dd5a98de65c319609a72b0424991f538e5484d353f33827fe77ad633e3637205749ee843e97390248bd3b9cc4b43696051ee298
-  languageName: node
-  linkType: hard
-
 "@eeacms/volto-datablocks@npm:8.0.2":
   version: 8.0.2
   resolution: "@eeacms/volto-datablocks@npm:8.0.2"
@@ -2548,13 +2530,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-elastic-csv-widget@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@eeacms/volto-elastic-csv-widget@npm:2.0.0"
+"@eeacms/volto-elastic-csv-widget@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@eeacms/volto-elastic-csv-widget@npm:3.0.0"
   dependencies:
-    "@eeacms/volto-datablocks": 6.1.0
+    "@eeacms/volto-datablocks": 8.0.2
     razzle-plugin-scss: ^4.2.18
-  checksum: fb282ac237560f1af27ec85f956641ff275202a37aa695edf84706824343afc8f93f4d9c00d8fbccb564709f7075e829e5342e05dbe57c9440ad7b103c579d0c
+  checksum: 415b11151a1d71d04f1d6776b8e76d746bbf4b41e62de559978f1281a12590921440fc8fb37b4f899d39ee9aecbca726b4f4f21ecd7a43d77dfdb99845966fbf
   languageName: node
   linkType: hard
 
@@ -16526,7 +16508,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlparser2@npm:^6.0.0, htmlparser2@npm:^6.1.0":
+"htmlparser2@npm:^6.1.0":
   version: 6.1.0
   resolution: "htmlparser2@npm:6.1.0"
   dependencies:
@@ -19923,7 +19905,7 @@ __metadata:
     "@eeacms/volto-eea-map": 6.0.1
     "@eeacms/volto-eea-slate-glossary": 1.0.0
     "@eeacms/volto-eea-website-theme": 4.1.1
-    "@eeacms/volto-elastic-csv-widget": 2.0.0
+    "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 11.0.1
     "@eeacms/volto-embed-static-content": 1.0.2
     "@eeacms/volto-globalsearch": 4.0.1
@@ -27517,20 +27499,6 @@ __metadata:
     parse-srcset: ^1.0.2
     postcss: ^8.3.11
   checksum: fb96ea7170d51b5af2607f5cfd84464c78fc6f47e339407f55783e781c6a0288a8d40bbf97ea6a8758924ba9b2d33dcc4846bb94caacacd90d7f2de10ed8541a
-  languageName: node
-  linkType: hard
-
-"sanitize-html@npm:2.7.3":
-  version: 2.7.3
-  resolution: "sanitize-html@npm:2.7.3"
-  dependencies:
-    deepmerge: ^4.2.2
-    escape-string-regexp: ^4.0.0
-    htmlparser2: ^6.0.0
-    is-plain-object: ^5.0.0
-    parse-srcset: ^1.0.2
-    postcss: ^8.3.11
-  checksum: 2399d1fdbbc3a263fb413c1fe1971b3dc2b51abc6cc5cb49490624539d1c57a8fe31e2b21408c118e2a957f4e673e3169b1f9a5807654408f17b130a9d78aed7
   languageName: node
   linkType: hard
 
