@@ -3674,7 +3674,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:4.0.2":
+"@eeacms/volto-searchlib@npm:*":
   version: 4.0.2
   resolution: "@eeacms/volto-searchlib@npm:4.0.2"
   dependencies:
@@ -3717,6 +3717,52 @@ __metadata:
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
   checksum: 680a7fbf2c64ef815f478973fbedf0aaed03ff23d83017e2bc235e2c3d3aa3729fc896d4e7a0c5e36b12b771e133341f0deef21f368b5b88dd597645a34035a3
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-searchlib@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@eeacms/volto-searchlib@npm:4.0.3"
+  dependencies:
+    "@eeacms/volto-design-tokens": "*"
+    "@eeacms/volto-eea-chatbot": "*"
+    "@eeacms/volto-matomo": "*"
+    "@elastic/react-search-ui": 1.21.2
+    "@elastic/react-search-ui-views": 1.21.2
+    "@elastic/search-ui": 1.21.2
+    "@visx/group": ^1.7.0
+    "@visx/responsive": ^1.10.1
+    "@visx/scale": ^1.11.1
+    "@visx/shape": ^1.12.0
+    "@visx/tooltip": ^1.7.2
+    classnames: ^2.2.6
+    csv-stringify: ^5.6.5
+    d3-array: ^2.12.1
+    d3-scale: ^3.3.0
+    deep-equal: ^2.0.5
+    downshift: ^3.4.8
+    elasticsearch: 16.7.3
+    fast-deep-equal: ^3.1.3
+    http-proxy-middleware: ^2.0.1
+    jotai: 2.0.3
+    lodash: 4.17.21
+    lodash.clonedeep: ^4.5.0
+    lodash.isfunction: ^3.0.9
+    lodash.uniq: ^4.5.0
+    luxon: ^1.22.0
+    node-fetch: ^2.6.1
+    re-resizable: ^6.9.0
+    react-compound-slider: ^3.4.0
+    react-masonry-component: 6.3.0
+    react-motion: ^0.5.2
+    react-speech-recognition: ^3.8.2
+    react-toastify: 5.4.1
+    redux: 4.1.0
+    semantic-ui-react: 2.0.3
+    superagent: 3.8.2
+    svg-loader: 0.0.2
+    use-deep-compare-effect: 1.8.1
+  checksum: 756ada1a64eec91a54e5d65db17a66b670229454727d50ad0ae9e90762af9f70eaf3eaa47c78abec986b344f6530b4bdda9f74c0c3198228fb352a19012a8700
   languageName: node
   linkType: hard
 
@@ -24051,7 +24097,7 @@ __metadata:
     "@eeacms/volto-prefixpath": 2.0.1
     "@eeacms/volto-quote-block": 4.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.1
-    "@eeacms/volto-searchlib": 4.0.2
+    "@eeacms/volto-searchlib": 4.0.3
     "@eeacms/volto-slate-dataentity": 5.0.0
     "@eeacms/volto-tableau": 9.0.1
     "@eeacms/volto-visualization-utils": 2.0.0
