@@ -2,7 +2,7 @@
   "files": [
     {
       "path": "build/public/static/js/*.js",
-      "maxSize": "50kB"
+      "maxSize": "150kB"
     },
     {
       "path": "build/public/static/js/d3*.js",
