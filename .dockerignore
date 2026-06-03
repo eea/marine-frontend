@@ -1,5 +1,6 @@
 # Folders
 .git
+**/.git
 .yarn/cache
 .storybook
 build
@@ -17,6 +18,7 @@ Dockerfile
 .eslintignore
 .eslintrc.js
 .gitignore
+src/addons
 .gitmodules
 .prettierignore
 bootstrap
