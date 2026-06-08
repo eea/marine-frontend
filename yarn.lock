@@ -3245,6 +3245,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-datablocks@npm:8.0.3":
+  version: 8.0.3
+  resolution: "@eeacms/volto-datablocks@npm:8.0.3"
+  dependencies:
+    "@eeacms/countup": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-listing-block": "*"
+    "@eeacms/volto-matomo": "*"
+    d3: 7.1.1
+    date-fns: 2.28.0
+    humanize-plus: ^1.8.2
+    object-hash: 2.2.0
+    react-visibility-sensor: 5.1.1
+    sanitize-html: 2.12.1
+  checksum: 7eefe69a12523492d44b2b0cdafcbabe63503b8625e154f635ce5df190c512c44d9c33d7260f057ed2f3a92bc3cc47d24dcb7454a79feb02a30eebfbd3969e00
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-datahub@npm:3.0.2":
   version: 3.0.2
   resolution: "@eeacms/volto-datahub@npm:3.0.2"
@@ -24209,7 +24227,7 @@ __metadata:
     "@eeacms/volto-chatbot": 2.0.3
     "@eeacms/volto-citation": 2.0.1
     "@eeacms/volto-context-navigation": 1.0.0
-    "@eeacms/volto-datablocks": 8.0.2
+    "@eeacms/volto-datablocks": 8.0.3
     "@eeacms/volto-datahub": 3.0.2
     "@eeacms/volto-editing-progress": 3.0.1
     "@eeacms/volto-eea-chatbot": 2.0.4
