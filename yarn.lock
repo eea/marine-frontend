@@ -4823,12 +4823,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#2.0.5-beta.1":
+"@eeacms/volto-prefixpath@github:eea/volto-prefixpath#2.0.5-beta.2":
   version: 2.0.5-beta.1
-  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=c3ec669c01cd9f96d00e640c8922f50ad641ac16"
+  resolution: "@eeacms/volto-prefixpath@https://github.com/eea/volto-prefixpath.git#commit=5f5587c7e9400344c71ae1a787a7ecc88c6cb81b"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
-  checksum: 8d6380cca124591479f7be8596c6959b3477e4c03995684b0ef9c5fe7b3672363d98cfad58ccc0abf1f8da2973356b1f0786908348e608c7e7d14973f53861a4
+  checksum: c2e7a96a3b405992a56eff119601c877153206ee97762c65c3e659de7b6789c5eb80dbe8887975b06a13afa825c64954f63d2698695374a5e1d4d3df7233b31d
   languageName: node
   linkType: hard
 
@@ -26138,7 +26138,7 @@ __metadata:
     "@eeacms/volto-object-widget": 9.1.1
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.5
-    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#2.0.5-beta.1"
+    "@eeacms/volto-prefixpath": "github:eea/volto-prefixpath#2.0.5-beta.2"
     "@eeacms/volto-quote-block": 4.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
     "@eeacms/volto-searchlib": 4.1.1
