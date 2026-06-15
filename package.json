@@ -61,7 +61,7 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-embed",
-    "eeacms/volto-embed-content",
+    "@eeacms/volto-embed-content",
     "@eeacms/volto-tableau",
     "@eeacms/volto-slate-dataentity",
     "@eeacms/volto-datablocks",
