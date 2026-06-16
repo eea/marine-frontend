@@ -3060,7 +3060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-block-data-figure@npm:9.0.2":
+"@eeacms/volto-block-data-figure@npm:*, @eeacms/volto-block-data-figure@npm:9.0.2":
   version: 9.0.2
   resolution: "@eeacms/volto-block-data-figure@npm:9.0.2"
   dependencies:
@@ -3421,7 +3421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-eea-map@npm:6.0.1":
+"@eeacms/volto-eea-map@npm:*, @eeacms/volto-eea-map@npm:6.0.1":
   version: 6.0.1
   resolution: "@eeacms/volto-eea-map@npm:6.0.1"
   dependencies:
@@ -3484,7 +3484,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-embed-static-content@npm:1.0.4":
+"@eeacms/volto-embed-content@npm:1.0.2":
+  version: 1.0.2
+  resolution: "@eeacms/volto-embed-content@npm:1.0.2"
+  dependencies:
+    "@eeacms/volto-block-data-figure": "*"
+    "@eeacms/volto-eea-map": "*"
+    "@eeacms/volto-embed": "*"
+    "@eeacms/volto-embed-static-content": "*"
+    "@eeacms/volto-plotlycharts": "*"
+    "@eeacms/volto-tableau": "*"
+  checksum: 51a9d1658d6dd7ba45f0431729171b4dd32e2cb3d2bef8af4f4349b231c9b8f2b2ddce611b492f97edf8a6b81410eddc7fbf49002e07040cb5a0419c8dd77e1b
+  languageName: node
+  linkType: hard
+
+"@eeacms/volto-embed-static-content@npm:*, @eeacms/volto-embed-static-content@npm:1.0.4":
   version: 1.0.4
   resolution: "@eeacms/volto-embed-static-content@npm:1.0.4"
   dependencies:
@@ -3670,9 +3684,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-plotlycharts@npm:14.0.5":
-  version: 14.0.5
-  resolution: "@eeacms/volto-plotlycharts@npm:14.0.5"
+"@eeacms/volto-plotlycharts@npm:*, @eeacms/volto-plotlycharts@npm:14.0.6":
+  version: 14.0.6
+  resolution: "@eeacms/volto-plotlycharts@npm:14.0.6"
   dependencies:
     "@eeacms/react-chart-editor": 0.47.8
     "@eeacms/volto-datablocks": "*"
@@ -3685,7 +3699,7 @@ __metadata:
     plotly.js: ^2.35.3
     react-plotly.js: 2.6.0
     remixicon: 4.6.0
-  checksum: a9e1e5ae17a4b32db90a0a1e382f16e26bd9303e59b190e1f759afa524ce2b85563dea0dd131790b9cee6bbd4c2f9a50bc30f2250912f9fc998d6bfaa511c781
+  checksum: 50808ef6575e33318c6b1abf399b2e822eeccccb1360ee0caa31c732704d202b83c434f11bc0f1bf15cb0cd3ba4d8055ca376538b6df9a5b9529665430ee1575
   languageName: node
   linkType: hard
 
@@ -3883,7 +3897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-tableau@npm:9.0.4":
+"@eeacms/volto-tableau@npm:*, @eeacms/volto-tableau@npm:9.0.4":
   version: 9.0.4
   resolution: "@eeacms/volto-tableau@npm:9.0.4"
   dependencies:
@@ -24238,12 +24252,13 @@ __metadata:
     "@eeacms/volto-eea-website-theme": 4.3.8
     "@eeacms/volto-elastic-csv-widget": 3.0.0
     "@eeacms/volto-embed": 11.0.4
+    "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-globalsearch": 4.0.1
     "@eeacms/volto-marine-policy": 3.0.3
     "@eeacms/volto-object-widget": 9.1.1
     "@eeacms/volto-openlayers-map": 2.0.1
-    "@eeacms/volto-plotlycharts": 14.0.5
+    "@eeacms/volto-plotlycharts": 14.0.6
     "@eeacms/volto-prefixpath": 2.0.5
     "@eeacms/volto-quote-block": 4.0.1
     "@eeacms/volto-redmine-helpdesk": 2.0.2
