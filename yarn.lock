@@ -3587,9 +3587,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@eeacms/volto-marine-policy@npm:3.0.3"
+"@eeacms/volto-marine-policy@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@eeacms/volto-marine-policy@npm:3.0.4"
   dependencies:
     "@eeacms/volto-block-style": 9.0.1
     "@eeacms/volto-eea-design-system": "*"
@@ -3599,7 +3599,7 @@ __metadata:
     "@eeacms/volto-metadata-block": "*"
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-workflow-progress": "*"
-    axios: 0.30.0
+    axios: 0.32.0
     d3-array: ^2.12.1
     jquery: 3.6.0
     razzle-plugin-scss: ^4.2.18
@@ -3607,7 +3607,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: 592510127173166bc3c0702ab712aaa643138a153d3985515e0cabff1b04f420bdc8bbd8d47fd06b6c2b8d95c969881496f38783104fc5143926911918e62233
+  checksum: 27d4a3cd7a2436adbf758f7e0c2a497c7a7b36998ade28bd914b760d8e6597f0c1322696b07a158c6821949f9490d01acac29fe2b60788b2e0982d4bb85a7749
   languageName: node
   linkType: hard
 
@@ -11569,14 +11569,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:0.30.0":
-  version: 0.30.0
-  resolution: "axios@npm:0.30.0"
+"axios@npm:0.32.0":
+  version: 0.32.0
+  resolution: "axios@npm:0.32.0"
   dependencies:
     follow-redirects: ^1.15.4
-    form-data: ^4.0.0
+    form-data: ^4.0.4
     proxy-from-env: ^1.1.0
-  checksum: 5179e93f4d8a4f8fc6fce3d46b4087aff60d1f2aeb36fad289e506dfd327c3436aafe1a91b371f47ffc2ef1b0a3f7ea278a24f6b1af88216d691b1e6c262b32f
+  checksum: abc473994b41cbbea172395e677b42342177d7bef85022608397606e8c2a47a6a7fd68e4b0b1e8cc5a787fbbc694c5f47302101cbf29edab91391596f75a3411
   languageName: node
   linkType: hard
 
@@ -18949,7 +18949,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"form-data@npm:^4.0.0, form-data@npm:^4.0.4, form-data@npm:~4.0.4":
+"form-data@npm:^4.0.4, form-data@npm:~4.0.4":
   version: 4.0.4
   resolution: "form-data@npm:4.0.4"
   dependencies:
@@ -24251,7 +24251,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-globalsearch": 4.0.1
-    "@eeacms/volto-marine-policy": 3.0.3
+    "@eeacms/volto-marine-policy": 3.0.4
     "@eeacms/volto-object-widget": 9.1.1
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.6
