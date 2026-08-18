@@ -87,7 +87,7 @@
     "@eeacms/volto-block-toc": "9.0.1",
     "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-context-navigation": "1.0.0",
-    "@eeacms/volto-datablocks": "8.0.3",
+    "@eeacms/volto-datablocks": "9.0.0",
     "@eeacms/volto-datahub": "4.0.0",
     "@eeacms/volto-editing-progress": "3.0.1",
     "@eeacms/volto-eea-chatbot": "4.0.0",
