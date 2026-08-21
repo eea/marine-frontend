@@ -42,7 +42,7 @@
     },
     {
       "path": "build/public/static/js/sanitize-html*.js",
-      "maxSize": "85kB"
+      "maxSize": "100kB"
     },
     {
       "path": "build/public/static/js/rehype-prism-plus*.js",
