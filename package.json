@@ -84,7 +84,7 @@
     "@dnd-kit/sortable": "7.0.2",
     "@dnd-kit/utilities": "3.2.2",
     "@eeacms/volto-block-data-figure": "9.0.2",
-    "@eeacms/volto-block-toc": "9.0.1",
+    "@eeacms/volto-block-toc": "9.0.4",
     "@eeacms/volto-citation": "2.0.1",
     "@eeacms/volto-context-navigation": "1.0.0",
     "@eeacms/volto-datablocks": "9.0.4",
