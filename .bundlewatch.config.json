@@ -5,6 +5,10 @@
       "maxSize": "150kB"
     },
     {
+      "path": "build/public/static/js/plotlyBars*.js",
+      "maxSize": "360kB"
+    },
+    {
       "path": "build/public/static/js/d3*.js",
       "maxSize": "103kB"
     },
