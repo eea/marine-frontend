@@ -3707,6 +3707,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-object-widget@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-object-widget@npm:10.0.0"
+  dependencies:
+    jsoneditor: 10.2.0
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 5e55660b362df3aa03e1a5080b68f4b60b74a6f6a8a56c72bf08fde5a0d01a2c36d80c1bc55cb74eaa8165e8e6116ef3313a80d80182197815d312eedc1d3012
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-object-widget@npm:9.1.1, @eeacms/volto-object-widget@npm:^9.1.1":
   version: 9.1.1
   resolution: "@eeacms/volto-object-widget@npm:9.1.1"
@@ -24448,7 +24460,7 @@ __metadata:
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-globalsearch": 4.1.1
     "@eeacms/volto-marine-policy": 3.0.9
-    "@eeacms/volto-object-widget": 9.1.1
+    "@eeacms/volto-object-widget": 10.0.0
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.7
     "@eeacms/volto-prefixpath": 2.0.8
