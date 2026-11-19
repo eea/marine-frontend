@@ -3119,6 +3119,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@eeacms/volto-block-style@npm:10.0.0":
+  version: 10.0.0
+  resolution: "@eeacms/volto-block-style@npm:10.0.0"
+  dependencies:
+    "@eeacms/volto-resize-helper": "*"
+    "@eeacms/volto-widget-theme-picker": "*"
+    react-color: ~2.18.1
+    react-portal: ^4.3.0
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: de89d07c560020aaced71263177f31bcaca09255b12f4bd363abd3e27b7930730cdb897cd17a8acdd95b3f609f28c8e66616bf8e10be35edf04b550b821f730f
+  languageName: node
+  linkType: hard
+
 "@eeacms/volto-block-style@npm:9.0.1":
   version: 9.0.1
   resolution: "@eeacms/volto-block-style@npm:9.0.1"
@@ -3629,11 +3644,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-marine-policy@npm:3.0.9":
-  version: 3.0.9
-  resolution: "@eeacms/volto-marine-policy@npm:3.0.9"
+"@eeacms/volto-marine-policy@npm:3.0.10":
+  version: 3.0.10
+  resolution: "@eeacms/volto-marine-policy@npm:3.0.10"
   dependencies:
-    "@eeacms/volto-block-style": 9.0.1
+    "@eeacms/volto-block-style": 10.0.0
     "@eeacms/volto-eea-design-system": "*"
     "@eeacms/volto-eea-website-theme": "*"
     "@eeacms/volto-embed": "*"
@@ -3651,7 +3666,7 @@ __metadata:
     react-plotly.js: 2.6.0
     react-slick: ^0.24.0
     slick-carousel: ^1.8.1
-  checksum: c6194bf95018153b2433d1da6a11caf934b437ce78943bdf21cd98f59d5cfc83e2c5591ca9abe22bd30bccccbf6b1a47c3783601bb5081593ed78a46d3b0ad30
+  checksum: cc6133342b6cbeab4ab1fc51142c5b933d991e3e64eb62160f08c4e7235e88180291e1d660a2f2267bd8901248ee509dda1fa59c6facb7a7f333642f4c76f93f
   languageName: node
   linkType: hard
 
@@ -24459,7 +24474,7 @@ __metadata:
     "@eeacms/volto-embed-content": 1.0.2
     "@eeacms/volto-embed-static-content": 1.0.4
     "@eeacms/volto-globalsearch": 4.1.1
-    "@eeacms/volto-marine-policy": 3.0.9
+    "@eeacms/volto-marine-policy": 3.0.10
     "@eeacms/volto-object-widget": 10.0.0
     "@eeacms/volto-openlayers-map": 2.0.1
     "@eeacms/volto-plotlycharts": 14.0.7
@@ -30022,7 +30037,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-portal@npm:^4.2.0":
+"react-portal@npm:^4.2.0, react-portal@npm:^4.3.0":
   version: 4.3.0
   resolution: "react-portal@npm:4.3.0"
   dependencies:
