@@ -100,7 +100,7 @@
     "@eeacms/volto-embed": "12.0.0",
     "@eeacms/volto-embed-content": "2.0.0",
     "@eeacms/volto-embed-static-content": "2.0.0",
-    "@eeacms/volto-globalsearch": "4.1.1",
+    "@eeacms/volto-globalsearch": "5.0.0",
     "@eeacms/volto-marine-policy": "3.0.10",
     "@eeacms/volto-object-widget": "10.0.0",
     "@eeacms/volto-openlayers-map": "2.0.1",
